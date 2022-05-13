@@ -1,0 +1,80 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Anatomy/Soto/Breast%20Utilities%202/Genesis%208%20Female/Materials/Iray/Material%20Presets/Skin%20Type/BU2%20Skin%20Type%2002.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-10-18T13:33:12Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Breast_Utilities_2_Detail_N_02.tif",
+			"name" : "Breast_Utilities_2_Detail_N_02.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Characters/Genesis8/Breast%20Utilities%202/Breast_Utilities_2_Detail_N_02.tif",
+					"label" : "Breast_Utilities_2_Detail_N_02.tif"
+				}
+			]
+		},
+		{
+			"id" : "Breast_Utilities_2_Detail_S_02.tif-2",
+			"name" : "Breast_Utilities_2_Detail_S_02.tif",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Characters/Genesis8/Breast%20Utilities%202/Breast_Utilities_2_Detail_S_02.tif",
+					"label" : "Breast_Utilities_2_Detail_S_02.tif"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "/data/Soto/Iray%20Uber%20Detail/Iray%20Uber%20Detail/Iray%20Uber%20Detail.dsf#Iray%20Uber%20Detail",
+				"groups" : [ "Body" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio/element_data/OctaneRender",
+						"PLORDAZS" : "10021201"
+					},
+					{
+						"type" : "studio/element_data/simple_data",
+						"name" : "OctaneRender_item",
+						"settings" : {
+							"ouid" : "{b5fbeeb0-11a6-4bab-8083-dab8016840aa}"
+						}
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Detail%20Normal/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Characters/Genesis8/Breast%20Utilities%202/Breast_Utilities_2_Detail_N_02.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Detail%20Dual%20Lobe%20Specular%20Reflectivity%20Multiply/value",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Characters/Genesis8/Breast Utilities 2/Breast_Utilities_2_Detail_S_02.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Detail%20Glossy%20Reflectivity%20Multiply/value",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Characters/Genesis8/Breast Utilities 2/Breast_Utilities_2_Detail_S_02.tif" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Detail%20Top%20Coat%20Reflectivity%20Multiply/value",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Characters/Genesis8/Breast Utilities 2/Breast_Utilities_2_Detail_S_02.tif" ] ]
+			}
+		]
+	}
+}

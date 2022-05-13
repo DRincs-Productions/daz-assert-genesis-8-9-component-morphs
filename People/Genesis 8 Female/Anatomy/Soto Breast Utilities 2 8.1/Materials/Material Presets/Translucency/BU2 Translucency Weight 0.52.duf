@@ -1,0 +1,55 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Anatomy/Soto/Breast%20Utilities%202/Genesis%208%20Female/Materials/Iray/Material%20Presets/Translucency/BU2%20Translucency%20Weight%200.60.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-10-18T13:46:08Z"
+	},
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "/data/Soto/Iray%20Uber%20Detail/Iray%20Uber%20Detail/Iray%20Uber%20Detail.dsf#Iray%20Uber%20Detail",
+				"groups" : [ "Body" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio/element_data/OctaneRender",
+						"PLORDAZS" : "10021201"
+					},
+					{
+						"type" : "studio/element_data/simple_data",
+						"name" : "OctaneRender_item",
+						"settings" : {
+							"ouid" : "{b5fbeeb0-11a6-4bab-8083-dab8016840aa}"
+						}
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Translucency%20Weight/value",
+				"keys" : [ [ 0, 0.52 ] ]
+			}
+		]
+	}
+}

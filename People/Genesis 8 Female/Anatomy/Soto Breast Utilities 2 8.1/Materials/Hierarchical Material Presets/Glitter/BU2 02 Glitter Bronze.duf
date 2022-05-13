@@ -1,0 +1,541 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Anatomy/Soto/Breast%20Utilities%202/Genesis%208%20Female/Materials/Iray/Hierarchical%20Material%20Presets/Glitter/BU2%2002%20Glitter%20Bronze.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-11-10T23:39:53Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Breast_Utilities_2_O_01.jpg-1",
+			"name" : "Breast_Utilities_2_O_01.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Characters/Genesis8/Breast%20Utilities%202/Breast_Utilities_2_O_01.jpg",
+					"label" : "Breast_Utilities_2_O_01.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8_1Female",
+				"url" : "name://@selection/Genesis8_1Female:",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			},
+			{
+				"id" : "BreastUtilities2_Shell",
+				"url" : "name://@selection/BreastUtilities2_Shell:",
+				"parent" : "#Genesis8_1Female",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Body",
+				"url" : "/data/Soto/Iray%20Uber%20Detail/Iray%20Uber%20Detail/Iray%20Uber%20Detail.dsf#Iray%20Uber%20Detail",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Body" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio/element_data/OctaneRender",
+						"PLORDAZS" : "10021201"
+					},
+					{
+						"type" : "studio/element_data/simple_data",
+						"name" : "OctaneRender_item",
+						"settings" : {
+							"ouid" : "{b5fbeeb0-11a6-4bab-8083-dab8016840aa}"
+						}
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Reflectance Tint",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 1 Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Lobe 2 Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Dual Lobe Specular Ratio",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Backscattering Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Backscattering Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Backscattering Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Backscattering Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Refraction Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Refraction Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Refraction Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Metallic Flakes Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Rotations",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Top Coat Bump",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Emission Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Luminance",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/value",
+				"keys" : [ [ 0, [ 1, 0.7333333, 0.6 ] ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Size/value",
+				"keys" : [ [ 0, 0.0025 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Metallic%20Flakes%20Density/value",
+				"keys" : [ [ 0, 0.25 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/Scattering%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/SSS%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "BreastUtilities2_Shell#materials/Body:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Anatomy/Soto/Breast%20Utilities%202/Genesis%208%20Female/Materials/Iray/Material%20Presets/Transition/BU2%20Transition%2001.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-11-18T02:06:43Z"
+	},
+	"image_library" : [
+		{
+			"id" : "Breast_Utilities_2_O_01.jpg",
+			"name" : "Breast_Utilities_2_O_01.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Characters/Genesis8/Breast%20Utilities%202/Breast_Utilities_2_O_01.jpg",
+					"label" : "Breast_Utilities_2_O_01.jpg"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "/data/Soto/Iray%20Uber%20Detail/Iray%20Uber%20Detail/Iray%20Uber%20Detail.dsf#Iray%20Uber%20Detail",
+				"groups" : [ "Body" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio/element_data/OctaneRender",
+						"PLORDAZS" : "10021201"
+					},
+					{
+						"type" : "studio/element_data/simple_data",
+						"name" : "OctaneRender_item",
+						"settings" : {
+							"ouid" : "{b5fbeeb0-11a6-4bab-8083-dab8016840aa}"
+						}
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Characters/Genesis8/Breast%20Utilities%202/Breast_Utilities_2_O_01.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Body:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

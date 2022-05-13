@@ -1,0 +1,123 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/BendfixRShoulderBendSH1BendBack.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-31T21:36:18Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BendfixRShoulderBendSH1BendBack",
+			"name" : "BendfixRShoulderBendSH1BendBack",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BendfixRShoulderBendSH1BendBack",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Correctives/Aging Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#BendfixRShoulderBendSH1BendBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%201%20Shape%20HD.dsf#Aged%20Body%201%20Shape%20HD?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixRShoulderBendSH1BendBack?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/BendfixRShoulderBendSH1.dsf#BendfixRShoulderBendSH1?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixRShoulderBendSH1BendBack?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "rShldr:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Growing%20Up/rShldrBend_CTRLMD_N_YRotate_n40.dsf#CTRLMD_N_YRotate_n40?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixRShoulderBendSH1BendBack?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "rShldr:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/rShldrBend_CTRLMD_N_ZRotate_70.dsf#CTRLMD_N_ZRotate_70?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 35,
+					"values" : [
+						[ 6660, -0.04049969, 0.04400635, 0.1032295 ],
+						[ 6661, -0.01579857, -0.04499817, 0.02757931 ],
+						[ 8057, -0.06820107, -0.01298523, 0.08668995 ],
+						[ 8059, -0.02939987, 0.007003784, 0.05151939 ],
+						[ 8065, 0.003799438, -0.01600647, 0.005000114 ],
+						[ 8066, -0.09530067, -0.2019958, 0.4311686 ],
+						[ 9167, 0.01049995, -0.02301025, 0.01103973 ],
+						[ 9213, -0.1595001, -0.4819946, 0.5089998 ],
+						[ 9261, 0.0600996, -0.8919983, 0.4851999 ],
+						[ 9262, -0.1131001, -0.9190063, 0.1707001 ],
+						[ 9265, 0.0004005432, -0.03799438, 0.266839 ],
+						[ 9266, -0.02130127, -0.01000977, 0.05201054 ],
+						[ 9269, 0.347599, -0.5709991, 0.5866699 ],
+						[ 9273, -0.1313, -0.2580109, 0.6824389 ],
+						[ 9274, -0.04839993, 0.01100159, 0.1520004 ],
+						[ 9590, -0.1380005, -0.5500031, 0.05424881 ],
+						[ 9592, -0.1098995, -0.3609924, 0.1850996 ],
+						[ 10705, 0.03490067, -0.1880035, 0.1182299 ],
+						[ 10706, 0.03840065, -0.06600952, -0.03938007 ],
+						[ 10707, 0.03120041, -0.07200623, -0.05967045 ],
+						[ 10708, 0.3263988, -0.4989929, 0.2326288 ],
+						[ 10709, 0.1389999, -0.2589874, 0.008698463 ],
+						[ 10711, 0.01520061, -0.1080017, -0.03862 ],
+						[ 10962, 0.06120014, -0.5599823, 0.0138998 ],
+						[ 10963, 0.03510094, -0.1690063, -0.06538868 ],
+						[ 10972, 0.1578999, -0.9550171, 0.2506504 ],
+						[ 10973, 0.3280001, -1.029999, 0.6214905 ],
+						[ 10974, 0.1348991, -0.1130066, 0.4034996 ],
+						[ 10975, -0.007278442, -0.03599548, 0.08069992 ],
+						[ 10976, -0.1025991, -0.2200165, 0.2378998 ],
+						[ 10985, 0.4295006, -0.4459991, 0.79813 ],
+						[ 10986, -0.05529976, -0.0329895, 0.1882 ],
+						[ 11066, 0.00949955, 0.007995605, 0.04759884 ],
+						[ 11068, 0.01029968, -0.00201416, 0.1152 ],
+						[ 11069, -0.0007095337, -0.004989624, 0.01080036 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BendfixRShoulderBendSH1BendBack-1",
+				"url" : "#BendfixRShoulderBendSH1BendBack"
+			}
+		]
+	}
+}

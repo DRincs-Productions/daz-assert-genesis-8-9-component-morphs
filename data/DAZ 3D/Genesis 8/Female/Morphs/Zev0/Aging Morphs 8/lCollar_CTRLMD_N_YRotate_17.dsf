@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/lCollar_CTRLMD_N_YRotate_17.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-31T20:31:59Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_YRotate_17",
+			"name" : "CTRLMD_N_YRotate_17",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCollar",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_YRotate_17",
+				"label" : "CTRLMD_N_YRotate_17",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "lCollar:#CTRLMD_N_YRotate_17?value",
+					"operations" : [
+						{ "op" : "push", "url" : "lCollar:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCollar?rotation/y" },
+						{ "op" : "push", "val" : 0.05882353 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_YRotate_17-1",
+				"url" : "#CTRLMD_N_YRotate_17"
+			}
+		]
+	}
+}

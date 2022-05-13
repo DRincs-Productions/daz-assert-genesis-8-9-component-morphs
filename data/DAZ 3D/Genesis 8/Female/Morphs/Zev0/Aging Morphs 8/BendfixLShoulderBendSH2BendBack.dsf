@@ -1,0 +1,115 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/BendfixLShoulderBendSH2BendBack.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-31T21:36:18Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BendfixLShoulderBendSH2BendBack",
+			"name" : "BendfixLShoulderBendSH2BendBack",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BendfixLShoulderBendSH2BendBack",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Correctives/Aging Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#BendfixLShoulderBendSH2BendBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "lShldr:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Growing%20Up/lShldrBend_CTRLMD_N_YRotate_40.dsf#CTRLMD_N_YRotate_40?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixLShoulderBendSH2BendBack?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "lShldr:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/lShldrBend_CTRLMD_N_ZRotate_n70.dsf#CTRLMD_N_ZRotate_n70?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixLShoulderBendSH2BendBack?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%202%20Shape%20HD.dsf#Aged%20Body%202%20Shape%20HD?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixLShoulderBendSH2BendBack?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/BendfixLShoulderBendSH2.dsf#BendfixLShoulderBendSH2?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 27,
+					"values" : [
+						[ 150, 0.04049969, 0.04400635, 0.1032295 ],
+						[ 1549, 0.02939987, 0.007003784, 0.05151939 ],
+						[ 1556, 0.01450157, -0.05198669, 0.05872917 ],
+						[ 2703, 0.06549931, -0.2689972, 0.1893997 ],
+						[ 2751, -0.05970001, -0.4730072, 0.1589003 ],
+						[ 2752, 0.04590034, -0.4979858, 0.03039932 ],
+						[ 2755, -0.009300232, -0.03300476, 0.06765938 ],
+						[ 2756, 0.0004997253, -0.01501465, 0.01315975 ],
+						[ 2759, -0.1500006, -0.1809845, 0.1449699 ],
+						[ 2763, 0.05250072, -0.1149902, 0.1906996 ],
+						[ 2764, 0.04839993, 0.01100159, 0.1520004 ],
+						[ 3080, 0.0425005, -0.2350006, 0.0001497269 ],
+						[ 3082, 0.1033001, -0.2180023, 0.1052999 ],
+						[ 4222, 0.003900528, -0.02200317, 0.01034069 ],
+						[ 4225, -0.1107006, -0.1560059, 0.06313038 ],
+						[ 4226, -0.004798889, -0.008987427, 0.00041008 ],
+						[ 4483, -0.03079891, -0.1909943, -0.008909225 ],
+						[ 4493, -0.06669998, -0.4250031, 0.07893085 ],
+						[ 4494, -0.1541996, -0.4620056, 0.1956987 ],
+						[ 4495, -0.06499958, -0.08099365, 0.2083988 ],
+						[ 4496, -8.010864e-05, -0.001998901, 0.004499435 ],
+						[ 4497, 0.05340004, -0.09498596, 0.0739994 ],
+						[ 4507, -0.2550001, -0.2299957, 0.2346001 ],
+						[ 4508, 0.05290031, -0.04200745, 0.1626997 ],
+						[ 4593, -0.00949955, 0.007995605, 0.04759884 ],
+						[ 4595, -0.01029968, -0.00201416, 0.1152 ],
+						[ 4596, 0.0007095337, -0.004989624, 0.01080036 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BendfixLShoulderBendSH2BendBack-1",
+				"url" : "#BendfixLShoulderBendSH2BendBack"
+			}
+		]
+	}
+}

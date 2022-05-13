@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/abdomenLower_CTRLMD_N_XRotate_24.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-28T04:57:04Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_XRotate_24",
+			"name" : "CTRLMD_N_XRotate_24",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#abdomenLower",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_XRotate_24",
+				"label" : "CTRLMD_N_XRotate_24",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "abdomenLower:#CTRLMD_N_XRotate_24?value",
+					"operations" : [
+						{ "op" : "push", "url" : "abdomenLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#abdomenLower?rotation/x" },
+						{ "op" : "push", "val" : 0.04166667 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_XRotate_24-1",
+				"url" : "#CTRLMD_N_XRotate_24"
+			}
+		]
+	}
+}

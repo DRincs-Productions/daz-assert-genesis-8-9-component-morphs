@@ -1,0 +1,96 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/Armpit%20Assist.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-31T21:36:18Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "x",
+			"name" : "Armpit Assist",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Armpit Assist",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Correctives/Aging Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#x?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%202%20Shape%20HD.dsf#Aged%20Body%202%20Shape%20HD?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#x?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%201%20Shape%20HD.dsf#Aged%20Body%201%20Shape%20HD?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 19,
+					"values" : [
+						[ 1889, -0.04384804, -0.5297699, -0.1643282 ],
+						[ 2857, 0.007676125, -0.158844, -0.5098724 ],
+						[ 2860, -0.1987963, -0.1181946, -0.5868417 ],
+						[ 4210, -0.2432432, -0.3905487, -0.8240543 ],
+						[ 4211, -0.2869234, -0.6223145, -0.1643705 ],
+						[ 4212, 0.1129227, -0.166626, -0.4179668 ],
+						[ 4459, -0.00772953, -0.1485901, -0.15887 ],
+						[ 4466, -0.1013699, -0.5266571, -0.1840981 ],
+						[ 4476, -0.1796589, -0.4175568, -0.3080245 ],
+						[ 8399, 0.04506779, -0.5484161, -0.1878549 ],
+						[ 9366, 0.009404182, -0.01312256, -0.02086282 ],
+						[ 9367, -0.001683235, -0.1507111, -0.5106133 ],
+						[ 9370, 0.1880703, -0.09329224, -0.6231066 ],
+						[ 10693, 0.2549086, -0.3963165, -0.8515461 ],
+						[ 10694, 0.2843256, -0.615799, -0.1670402 ],
+						[ 10695, -0.09784508, -0.178772, -0.4278608 ],
+						[ 10939, 0.005743027, -0.1447601, -0.1562686 ],
+						[ 10946, 0.08960533, -0.5210724, -0.183105 ],
+						[ 10955, 0.1830463, -0.407196, -0.3220714 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Armpit Assist",
+				"url" : "#x"
+			}
+		]
+	}
+}

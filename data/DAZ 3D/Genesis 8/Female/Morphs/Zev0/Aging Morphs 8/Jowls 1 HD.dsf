@@ -1,0 +1,2745 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Jowls%201%20HD.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-21T22:34:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Jowls 1 HD",
+			"name" : "Jowls 1 HD",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1568627, 0.1686275, 0.3058824 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Jowls 1 HD",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/Real World/Aging Morphs/Mouth",
+			"formulas" : [
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001056263 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01844788 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.005130164 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -1.343185e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.003448486 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003185272 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.03469133 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.3922424 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1093707 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.01029849 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4584198 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1821523 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.03456497 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.3894958 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1096692 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.009856462 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.456955 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1824841 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1090822 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4673309 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1470561 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1279731 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.5895844 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1696525 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.1091928 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4659271 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1469598 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.1279812 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.5878754 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1695223 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.05919766 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4171295 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1314502 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.07768846 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4642792 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1703835 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.004433155 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.06115723 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00917244 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01083493 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01544189 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.014678 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001369238 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.02304077 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00760746 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.132013 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.5673828 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.2636232 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 4.730294e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.005706787 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0003042221 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.00821e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001373291 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.386902e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.001404643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.02288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.007669449 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1322854 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.5678101 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.2634573 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.003328323 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.05755615 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00934124 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.01142502 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01371765 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01459885 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.05887318 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4165955 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1315122 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.07677865 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.4634705 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.1707249 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -2.732135e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.009216309 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.00261116 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -6.442561e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.006652832 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002508163 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 3.936362e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01448059 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01220322 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.009709e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002593994 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0008592606 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.001573086 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.1903839 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0456152 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02574587 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.2300262 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.07251024 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001480579 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.1906433 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.04554033 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0257225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.230072 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.07230806 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 1.530294e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.003570557 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0003523827 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -1.086797e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002716064 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001521111 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.02840567 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02474976 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02039444 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.02543211 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02818298 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.009749293 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02841091 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0243988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02044606 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02532768 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02767944 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.009631395 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0002379583 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.009994507 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.004088163 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 1.239473e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01025391 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002776027 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001711845 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0004119873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0003032684 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -1.907349e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003051758 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 1.978874e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0005645752 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -1.716614e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -8.106232e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0006103516 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0001401901 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 2.384186e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0006866455 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -9.059906e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 7.152557e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0001831055 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.148483e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -3.457069e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0005187988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001974106 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 2.563e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0004119873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 5.149841e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -1.502037e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 1.907349e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 6.079674e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0005187988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0001363754 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 2.002716e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0004730225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -9.536743e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -2.0504e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003204346 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -5.245209e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 1.677898e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0004272461 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001163483 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 1.807941e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0005493164 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -6.008148e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 2.648361e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0002288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0002851486 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 2.056961e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0004730225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001487732 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.04211044 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001937866 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.02646351 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0306468 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001602173 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.03440571 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.04215097 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002227783 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.02644587 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.03077984 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002700806 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.03441 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 7.839516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0008392334 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0005073547 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.772206e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.008468628 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0005903244 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 3.969669e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0007781982 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0002727509 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 4.655123e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0112915 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0006942749 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -6.53863e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0008087158 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0002422333 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -3.528595e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00881958 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0005426407 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001860857 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.006866455 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00449276 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0001761913 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.003982544 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002511978 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003364086 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.006988525 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00461483 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0005377531 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.005218506 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002303123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.03099799 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.07965088 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.06797123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.01412535 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.04576111 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0203352 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.03141403 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.08052063 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.06819344 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01336622 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.04397583 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.02080822 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 6.556511e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001571655 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0002288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.398823e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002624512 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003528595 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -4.029274e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001541138 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0002241135 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 2.610683e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002532959 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0003623962 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.003234863 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.04498291 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.004190445 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0113833 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.03338623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.009244919 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.003252983 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.04530334 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.00423336 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01139951 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.03369141 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.009433746 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 8.397703e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.002792358 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0006904602 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 4.671575e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0007629395 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -2.95639e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.007681131 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01881409 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.005037308 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01361966 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01896667 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01911736 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.0008791685 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002029419 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -6.771088e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.001063824 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.009185791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002919197 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0009435415 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002059937 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.0001029968 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.001093984 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.009155273 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.002923012 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.00782752 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01940918 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.005018234 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : 0.01358819 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01895142 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Jowls%201%20HD?value" },
+						{ "op" : "push", "val" : -0.01916504 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 475,
+					"values" : [
+						[ 585, -0.006530046, 0.006011963, -0.01209068 ],
+						[ 586, 0.03222942, 0.002990723, -0.01830006 ],
+						[ 587, 0.02659011, -0.08900452, 0.0493288 ],
+						[ 588, 0.03557992, -0.2200165, 0.09483719 ],
+						[ 595, -0.04433036, -0.08099365, 0.04581022 ],
+						[ 596, -0.007000208, -0.07598877, -0.02304935 ],
+						[ 597, -0.01064014, -0.09500122, -0.0235033 ],
+						[ 622, 0.001420259, -0.02099609, -0.003389359 ],
+						[ 624, 0.01902986, -0.1180115, 0.01638985 ],
+						[ 625, 0.02893019, -0.2109833, 0.05471039 ],
+						[ 626, 0.02709007, -0.2720032, 0.0949707 ],
+						[ 628, -0.004600048, -0.1660156, 0.03759956 ],
+						[ 629, -0.006790161, -0.1370239, 0.02817059 ],
+						[ 630, 0.002850056, 0.02000427, -0.02042007 ],
+						[ 634, -0.01216996, 0.03100586, -0.01649094 ],
+						[ 635, -0.01149976, 0.02400208, -0.007431984 ],
+						[ 636, 0.00428009, -0.1320038, 0.02103806 ],
+						[ 638, -0.01778984, -0.01400757, -0.05821133 ],
+						[ 639, -0.02401006, -0.01296997, -0.05306911 ],
+						[ 640, -0.02443004, -0.022995, -0.02825832 ],
+						[ 641, 0.003899932, -0.06700134, -0.01638126 ],
+						[ 642, -0.002739906, -0.09101868, -0.007119656 ],
+						[ 683, 0.004700184, -0.07701111, 0.001970291 ],
+						[ 684, 0.01901007, -0.05700684, 0.01148987 ],
+						[ 685, 0.03072977, 0.003005981, 0.009239197 ],
+						[ 686, 0.04558039, 0.04199219, 0.01197052 ],
+						[ 687, 0.03458023, 0.07400513, 0.03493023 ],
+						[ 702, -0.01093006, -0.0599823, 0.07372975 ],
+						[ 721, -0.01808, -0.03100586, -0.02629662 ],
+						[ 722, 0.01034987, 0.05200195, -0.0244503 ],
+						[ 723, -0.01354015, -0.002990723, -0.007590294 ],
+						[ 724, -0.01967013, -0.01498413, -0.01983261 ],
+						[ 725, -0.01483035, -0.05699158, 0.008759499 ],
+						[ 726, 0.006520033, -0.08500671, 0.01555157 ],
+						[ 727, 0.01376963, -0.1629791, 0.03691006 ],
+						[ 728, 0.008650064, -0.2130127, 0.06145763 ],
+						[ 729, 0.00906992, -0.1800232, 0.05772781 ],
+						[ 730, -0.003180027, -0.08100891, 0.02904034 ],
+						[ 731, -0.001899958, -0.06803894, 0.01454163 ],
+						[ 732, -0.01213002, -0.01899719, -0.01959133 ],
+						[ 733, -0.0005702972, -0.02101135, -0.01335049 ],
+						[ 738, -0.003399849, 0.03799438, -0.03612041 ],
+						[ 739, 0.04197979, 0.05999756, 0.01992893 ],
+						[ 740, -0.00462997, 0.03503418, -0.04472065 ],
+						[ 762, -0.002470493, -0.01898193, -0.004968643 ],
+						[ 763, -0.001060128, -0.01399231, -0.01478195 ],
+						[ 766, 0.01131034, -0.04199219, -0.01743126 ],
+						[ 767, -0.009279966, -0.004989624, 0.001278877 ],
+						[ 768, -0.02273011, -0.05397034, -0.001390457 ],
+						[ 769, -0.00804019, -0.05799866, 0.009700775 ],
+						[ 774, -0.03662968, -0.02099609, -0.02227986 ],
+						[ 775, 0.01714015, 0.02500916, -0.01450992 ],
+						[ 777, 0.05883026, -0.7489929, 0.2072706 ],
+						[ 778, 0.07604074, -0.2890015, 0.1442699 ],
+						[ 779, -0.004769802, -0.01400757, 0.03459072 ],
+						[ 780, 0.03681087, -0.3200073, 0.1278887 ],
+						[ 782, 0.0128305, -0.1219635, 0.05159998 ],
+						[ 843, 0.009820938, 0.00302124, 0.006658077 ],
+						[ 846, 0.01383018, 0.02502441, -0.02395128 ],
+						[ 848, 0.0005407333, 0.007003784, -0.04880011 ],
+						[ 849, 0.08079028, -0.2919769, 0.1319399 ],
+						[ 850, 0.06093025, -0.3739624, 0.1340389 ],
+						[ 851, 0.02408004, -0.1519775, 0.05169868 ],
+						[ 852, -0.007420301, -0.01400757, 0.02017212 ],
+						[ 988, -0.01769876, -0.0869751, 0.01671028 ],
+						[ 1649, 0.02669001, -0.005996704, 0.01140976 ],
+						[ 1650, 0.02602983, -0.04000854, 0.03376865 ],
+						[ 1656, -0.01637936, 0.05000305, 0.01532698 ],
+						[ 1657, 0.01094913, -0.4349823, 0.06322002 ],
+						[ 1658, -0.05898976, -0.1370087, 0.07026911 ],
+						[ 1659, 0.08466983, -0.3350372, 0.01120996 ],
+						[ 1660, -0.03400016, -0.02096558, -0.03007841 ],
+						[ 1661, -0.03702974, 0.01200867, 0.03201103 ],
+						[ 1662, -0.03567004, 0.03300476, -0.05711842 ],
+						[ 1663, -0.03171003, -0.007995605, -0.02172995 ],
+						[ 1664, 0.01317, -0.1069794, -0.01104021 ],
+						[ 1665, -0.03593111, 0.003005981, 0.03497056 ],
+						[ 1683, -0.00670898, -0.01100159, -0.02927208 ],
+						[ 1684, -0.006250024, 0.01101685, -0.0007600784 ],
+						[ 1685, 0.0008602142, -0.4439697, 0.1871095 ],
+						[ 1686, 0.1289401, -0.6689758, 0.1844802 ],
+						[ 1687, 0.07081962, -0.7669983, 0.2498298 ],
+						[ 1688, 0.08504963, -0.4299927, 0.1132493 ],
+						[ 1695, -0.03360987, -0.1830292, 0.01834011 ],
+						[ 1697, -0.004190445, -0.01499939, -0.01742935 ],
+						[ 1698, 0.01776993, 0.02398682, 0.01245999 ],
+						[ 1699, -0.02470064, -0.1490021, 0.0167501 ],
+						[ 1700, -0.005860329, -0.1110077, 0.03661013 ],
+						[ 1701, -0.02035022, 0.01501465, -0.01006937 ],
+						[ 1703, 0.02249956, 0.02799988, 0.001851559 ],
+						[ 1704, -0.009459019, 0.01702881, 0.00549984 ],
+						[ 1705, -0.03403997, 0.00201416, 0.002340078 ],
+						[ 2308, -0.02571964, -0.03100586, -0.04280019 ],
+						[ 2309, 0.01340961, -0.04098511, -0.02794003 ],
+						[ 2330, 0.08222008, -0.5630035, 0.1710906 ],
+						[ 2331, 0.08105969, -0.4269714, 0.190238 ],
+						[ 2334, 0.02815974, -0.0110321, -0.00621891 ],
+						[ 2339, 0.01441807, 0.03399658, -0.06914043 ],
+						[ 2340, -0.00615406, 0.005996704, -0.07186985 ],
+						[ 2387, 0.0101099, -0.02301025, 0.02191925 ],
+						[ 2388, -0.01071405, 0.007003784, -0.0605917 ],
+						[ 2389, 0.04982042, -0.2660065, 0.08361006 ],
+						[ 2390, 0.01345062, -0.001998901, 0.005108833 ],
+						[ 2392, 0.08239961, -0.7970123, 0.2290602 ],
+						[ 2393, 0.1415801, -0.4980011, 0.15488 ],
+						[ 2395, 0.01400018, -0.08799744, -0.01253796 ],
+						[ 2396, 0.02013969, -0.4559937, 0.1682906 ],
+						[ 2397, -0.04127979, -0.1459808, 0.09552002 ],
+						[ 2398, -0.01648009, -0.01797485, -0.0006408691 ],
+						[ 2411, -0.001049995, 0.006011963, 0.0002317429 ],
+						[ 2419, 0.005919933, -0.007995605, -0.001667976 ],
+						[ 2421, -0.00718987, -0.01100159, 0.03358841 ],
+						[ 2422, 0.01234984, 0.008987427, 0.02763748 ],
+						[ 2423, 0.01034069, -0.002990723, -0.001939774 ],
+						[ 2426, 0.005870342, -0.01298523, 0.00555706 ],
+						[ 2433, 0.04586005, -0.3079987, 0.09802866 ],
+						[ 2434, 0.06116033, -0.5339966, 0.1650596 ],
+						[ 2440, -0.03203034, -0.1450043, 0.1075606 ],
+						[ 2441, 0.01981974, -0.03399658, -0.002539635 ],
+						[ 2442, 0.1091506, -0.8719788, 0.2369819 ],
+						[ 2443, -0.01738882, 0.01199341, 0.008729935 ],
+						[ 2444, 0.128561, -0.8119812, 0.2205114 ],
+						[ 2445, 0.09191895, -0.6659698, 0.219871 ],
+						[ 2446, 0.0268507, -0.04598999, 0.03203964 ],
+						[ 2447, 0.05449963, -0.1450195, 0.09507847 ],
+						[ 2448, 0.004830122, 0.005996704, -0.002807617 ],
+						[ 2449, 0.01506996, 0.04699707, -0.03076172 ],
+						[ 2450, 0.0006301403, -0.02098083, -0.009979248 ],
+						[ 2451, 0.01187992, -0.02099609, 0.003522873 ],
+						[ 2452, 0.0001702309, -0.04600525, 0.005002022 ],
+						[ 2453, 0.06868982, -0.2259827, 0.1677904 ],
+						[ 2454, 0.05336976, -0.1240387, 0.1127205 ],
+						[ 2455, 0.01014972, -0.06500244, 0.05536938 ],
+						[ 2456, 0.01110959, -0.04898071, -0.03975868 ],
+						[ 2459, 0.04140949, -0.1040039, 0.04668808 ],
+						[ 2460, -0.02497995, 0.01100159, -0.07104778 ],
+						[ 2461, -0.007160187, -0.00100708, -0.05158043 ],
+						[ 2462, 0.003480077, -0.00100708, -0.03348827 ],
+						[ 2463, -0.007390261, -0.1039886, 0.0197506 ],
+						[ 2464, 0.02585983, -0.2399902, 0.07449007 ],
+						[ 2465, -0.009100437, -0.01000977, -0.03781986 ],
+						[ 2466, -0.02160025, -0.07501221, -0.04508924 ],
+						[ 2473, -0.02583981, -0.04298401, 0.006349087 ],
+						[ 2474, -0.03667927, 0.01499939, -0.003709793 ],
+						[ 2475, -0.0239706, -0.02700806, -0.0235703 ],
+						[ 2476, -0.02786827, -0.1440277, 0.02498913 ],
+						[ 2487, -0.01565027, 0.01097107, 0.005680084 ],
+						[ 2488, -0.02828026, 0.02700806, 0.007170081 ],
+						[ 2489, -0.0331707, 0.01998901, -0.007999897 ],
+						[ 2490, -0.04482985, -0.02700806, -0.00865984 ],
+						[ 2491, -0.02666998, 0.07199097, 0.02233994 ],
+						[ 2492, -0.02962971, 0.06698608, 0.01348972 ],
+						[ 2518, -0.04576111, 0.06602478, 0.001933038 ],
+						[ 2519, -0.03653908, 0.02201843, 0.02174997 ],
+						[ 2521, 0.04157066, -0.1469879, -0.03476 ],
+						[ 2523, -0.01377988, 0.02400208, -0.03396082 ],
+						[ 2524, 0.01886964, 0.02198792, -0.05067968 ],
+						[ 2525, -0.01911986, 0.02200317, 0.03161001 ],
+						[ 2527, -0.05100989, -0.06098938, -0.01869917 ],
+						[ 2602, 0.007599831, -0.001998901, -0.005290031 ],
+						[ 2603, 0.001839399, -0.005996704, -0.004019737 ],
+						[ 2604, -0.0008602142, -0.004989624, -0.01463985 ],
+						[ 2605, 0.0002198219, -0.01701355, -0.03228092 ],
+						[ 2606, -0.02666998, -0.01199341, -0.04830027 ],
+						[ 2607, -0.04397869, 0.01498413, -0.02959871 ],
+						[ 2608, -0.03261852, 0.003997803, -0.01102924 ],
+						[ 2721, -0.1235685, -0.05201721, 0.05006699 ],
+						[ 4794, -0.03777981, -0.009994507, -0.03149986 ],
+						[ 4795, -0.008039951, -0.04699707, 0.03113985 ],
+						[ 4796, 0.03219986, -0.2010193, 0.07553959 ],
+						[ 4797, -0.03691959, 0.03300476, -0.01102972 ],
+						[ 4798, -0.01888895, -0.02302551, 0.01538992 ],
+						[ 4799, -0.03305006, 0.004989624, 0.007370949 ],
+						[ 4800, 0.03128862, -0.6160126, 0.17349 ],
+						[ 4801, 0.06786013, -0.5009918, 0.13132 ],
+						[ 4832, -0.05121946, -0.01597595, -0.01899004 ],
+						[ 5301, -0.05708027, 0.007995605, -0.01303005 ],
+						[ 5302, -0.04799938, 0.01000977, -0.02898979 ],
+						[ 5303, 0.0004200935, 0.008987427, -0.005189896 ],
+						[ 5304, -0.03094912, -0.008010864, -0.04532909 ],
+						[ 5306, -0.02044106, 0.005020142, -0.03098917 ],
+						[ 5311, 0.00240016, -0.01496887, -0.02563047 ],
+						[ 5314, 0.003229618, 0.009994507, -0.01274872 ],
+						[ 5316, -0.04661942, -0.007995605, -0.005400181 ],
+						[ 5404, 0.007200003, -0.03599548, 0.02558041 ],
+						[ 5406, -0.01919985, -0.2819824, 0.1514406 ],
+						[ 5407, 0.0375104, -0.5960083, 0.2332301 ],
+						[ 5408, 0.09970975, -0.684021, 0.2031698 ],
+						[ 5409, 0.08170009, -0.4780121, 0.1798306 ],
+						[ 5411, 0.05980015, -0.2969971, 0.1426077 ],
+						[ 5413, 0.05797982, -0.1449585, 0.1060019 ],
+						[ 5415, 0.02125013, 0.001998901, 0.008628845 ],
+						[ 5416, -0.01722956, -0.06600952, 0.08172798 ],
+						[ 5417, 0.0252099, -0.07499695, 0.07261086 ],
+						[ 5418, 0.06829, -0.7740021, 0.2553706 ],
+						[ 5419, 0.02422023, -0.04597473, 0.02680111 ],
+						[ 5420, -0.0195899, 0.009002686, 0.005579948 ],
+						[ 5446, -0.005579472, -0.3159943, 0.05651999 ],
+						[ 5447, -0.007750034, -0.01298523, 0.001650333 ],
+						[ 5450, 0.002360821, -0.1410217, 0.03978968 ],
+						[ 5451, 0.01452827, -0.404007, 0.07566118 ],
+						[ 5453, 0.01726961, -0.322998, 0.03564024 ],
+						[ 5454, 0.002430439, -0.1549835, -0.0112505 ],
+						[ 5455, -0.007750034, 0.001022339, -0.002649307 ],
+						[ 5457, -0.0247798, -0.003005981, 0.01661921 ],
+						[ 5705, -0.1279501, -0.03800964, 0.02622223 ],
+						[ 5708, -0.06135964, 0.04600525, -0.12642 ],
+						[ 6181, 0.04023027, -0.02301025, 0.02055025 ],
+						[ 6183, 0.006009936, -0.05499268, 0.03845978 ],
+						[ 6184, -0.001860142, -0.07499695, 0.0382185 ],
+						[ 6189, 0.03707981, 0.02302551, 0.01144981 ],
+						[ 6190, 0.01397002, 0.006988525, 0.01896954 ],
+						[ 6192, 0.03866005, 0.01899719, 0.01586056 ],
+						[ 6198, 0.04757023, -0.006011963, -0.005340099 ],
+						[ 6376, 0.004920959, -0.01701355, -0.0500493 ],
+						[ 6387, 0.01180029, -0.01300049, -0.02764034 ],
+						[ 6445, -0.05179024, 0.02600098, -0.01194 ],
+						[ 6446, -0.0429101, 0.05400085, -0.0317297 ],
+						[ 6447, 0.02390957, -0.0329895, -0.007519722 ],
+						[ 6448, -0.002049685, 0.02098083, -0.006249905 ],
+						[ 6450, 0.0148201, -0.05000305, -0.01938009 ],
+						[ 6451, -0.007980347, 0.05499268, 0.007370949 ],
+						[ 6452, -0.007799625, 0.04800415, 0.01184797 ],
+						[ 6454, 0.005559921, 0.04400635, 0.04047012 ],
+						[ 6455, 0.02991986, 0.009994507, -0.05780935 ],
+						[ 6459, 0.01702929, 0.001998901, -0.00654006 ],
+						[ 6510, 0.005610228, -0.09602356, 0.007459641 ],
+						[ 6511, -0.006569862, -0.05000305, 0.01021004 ],
+						[ 6512, -0.01554012, 0.01000977, -0.02431965 ],
+						[ 6514, -0.007119894, -0.08998108, 0.007241249 ],
+						[ 6516, -0.01470017, -0.007003784, -0.02689266 ],
+						[ 6517, -0.009289503, -0.03100586, -0.00898838 ],
+						[ 6518, -0.01113009, -0.004013062, -0.02352142 ],
+						[ 6519, -0.009469986, -0.004974365, -0.02874947 ],
+						[ 6523, -0.009390354, -0.003967285, -0.001713753 ],
+						[ 6525, -0.00131011, 0.01199341, -0.0190897 ],
+						[ 6527, -0.007090092, -0.118988, 0.02310038 ],
+						[ 7095, 0.006760001, 0.007034302, -0.01205063 ],
+						[ 7096, -0.03237963, 0.001983643, -0.01833057 ],
+						[ 7097, -0.02654004, -0.08900452, 0.04915905 ],
+						[ 7098, -0.0346601, -0.2170105, 0.09493828 ],
+						[ 7105, 0.04635, -0.07398987, 0.04625082 ],
+						[ 7106, 0.007000208, -0.07598877, -0.02303791 ],
+						[ 7107, 0.01064014, -0.09500122, -0.0235033 ],
+						[ 7132, -0.0003802776, -0.01800537, -0.003190041 ],
+						[ 7134, -0.01672029, -0.109024, 0.01658154 ],
+						[ 7135, -0.0257597, -0.1999817, 0.05499172 ],
+						[ 7136, -0.02463984, -0.2630005, 0.09571075 ],
+						[ 7138, 0.007070065, -0.1590118, 0.03836918 ],
+						[ 7139, 0.007770061, -0.1340332, 0.02828026 ],
+						[ 7140, -0.002430201, 0.02099609, -0.02031994 ],
+						[ 7144, 0.01216996, 0.03100586, -0.01649094 ],
+						[ 7145, 0.01173997, 0.02500916, -0.007381439 ],
+						[ 7146, -0.001230001, -0.1229706, 0.02185822 ],
+						[ 7148, 0.01778984, -0.01400757, -0.05821133 ],
+						[ 7149, 0.02415025, -0.01199341, -0.05305004 ],
+						[ 7150, 0.02463007, -0.02198792, -0.02835941 ],
+						[ 7151, -0.003519773, -0.06500244, -0.01628113 ],
+						[ 7152, 0.004710197, -0.08399963, -0.006640434 ],
+						[ 7193, -0.003220081, -0.07099915, 0.002309799 ],
+						[ 7194, -0.01746058, -0.05200195, 0.01185989 ],
+						[ 7195, -0.0297699, 0.005996704, 0.009469032 ],
+						[ 7196, -0.04536021, 0.04199219, 0.01202011 ],
+						[ 7197, -0.03458023, 0.07400513, 0.03493023 ],
+						[ 7212, 0.01093006, -0.0599823, 0.07371974 ],
+						[ 7231, 0.01808, -0.03100586, -0.02629662 ],
+						[ 7232, -0.01039982, 0.05299377, -0.0244503 ],
+						[ 7233, 0.01351011, -0.002990723, -0.007590294 ],
+						[ 7234, 0.01964009, -0.01498413, -0.01983261 ],
+						[ 7235, 0.01484036, -0.05699158, 0.008739471 ],
+						[ 7236, -0.003929377, -0.07600403, 0.01595974 ],
+						[ 7237, -0.01040983, -0.1520081, 0.03748035 ],
+						[ 7238, -0.006059885, -0.2039795, 0.06208897 ],
+						[ 7239, -0.007969856, -0.1760254, 0.05751991 ],
+						[ 7240, 0.003209591, -0.08100891, 0.02896976 ],
+						[ 7241, 0.004369974, -0.06100464, 0.01512146 ],
+						[ 7242, 0.01202989, -0.01899719, -0.01963139 ],
+						[ 7243, 0.0004603863, -0.02101135, -0.01337147 ],
+						[ 7248, 0.003409863, 0.03799438, -0.03620052 ],
+						[ 7249, -0.04192996, 0.05999756, 0.01994991 ],
+						[ 7250, 0.00462997, 0.03503418, -0.04472065 ],
+						[ 7272, 0.003540516, -0.01698303, -0.004739761 ],
+						[ 7273, 0.001230121, -0.01296997, -0.01471996 ],
+						[ 7274, -0.001199961, -0.009994507, -0.02115154 ],
+						[ 7276, -0.01039028, -0.03901672, -0.01728058 ],
+						[ 7277, 0.01036, -0.001998901, 0.001540184 ],
+						[ 7278, 0.02440977, -0.04899597, -0.0009584427 ],
+						[ 7279, 0.008980513, -0.05497742, 0.009930134 ],
+						[ 7284, 0.03662968, -0.02099609, -0.02227986 ],
+						[ 7285, -0.01714015, 0.02603149, -0.01450992 ],
+						[ 7287, -0.05919027, -0.7449951, 0.2072706 ],
+						[ 7288, -0.07600069, -0.2880096, 0.1441708 ],
+						[ 7289, 0.004789829, -0.01400757, 0.0347023 ],
+						[ 7290, -0.03583026, -0.3170166, 0.1277986 ],
+						[ 7292, -0.01255059, -0.1209717, 0.05165911 ],
+						[ 7353, -0.009820938, 0.00302124, 0.006658077 ],
+						[ 7356, -0.01383018, 0.02502441, -0.02395122 ],
+						[ 7358, -0.0005407333, 0.007003784, -0.04880011 ],
+						[ 7359, -0.08049989, -0.2919769, 0.132741 ],
+						[ 7360, -0.05964017, -0.3699799, 0.1348104 ],
+						[ 7361, -0.02256966, -0.1470032, 0.05158901 ],
+						[ 7362, 0.007920265, -0.01301575, 0.02026081 ],
+						[ 7498, 0.0176487, -0.0869751, 0.01666021 ],
+						[ 8159, -0.0267601, -0.005996704, 0.01142025 ],
+						[ 8160, -0.0261898, -0.04000854, 0.03382874 ],
+						[ 8166, 0.01637936, 0.05000305, 0.01532817 ],
+						[ 8167, -0.01149988, -0.4290009, 0.06341076 ],
+						[ 8168, 0.05886006, -0.1360016, 0.07036924 ],
+						[ 8169, -0.08507967, -0.3280334, 0.01138067 ],
+						[ 8170, 0.03397012, -0.02096558, -0.03008842 ],
+						[ 8171, 0.03702974, 0.01200867, 0.03201008 ],
+						[ 8172, 0.03567004, 0.03300476, -0.05711842 ],
+						[ 8173, 0.03167999, -0.007995605, -0.02172995 ],
+						[ 8174, -0.01345038, -0.1040039, -0.01094055 ],
+						[ 8175, 0.03593111, 0.003005981, 0.03497074 ],
+						[ 8193, 0.00670898, -0.01100159, -0.02927208 ],
+						[ 8194, 0.006349802, 0.01199341, -0.0006198883 ],
+						[ 8195, -0.0003702641, -0.4419708, 0.1874394 ],
+						[ 8196, -0.1288099, -0.6669769, 0.18435 ],
+						[ 8197, -0.07000017, -0.7669983, 0.2508106 ],
+						[ 8198, -0.0851593, -0.4279785, 0.1131401 ],
+						[ 8205, 0.0335598, -0.1830292, 0.01841021 ],
+						[ 8207, 0.00420022, -0.01600647, -0.0175097 ],
+						[ 8208, -0.01776993, 0.02398682, 0.01245999 ],
+						[ 8209, 0.02456045, -0.1499786, 0.01694012 ],
+						[ 8210, 0.005709648, -0.1110077, 0.03672051 ],
+						[ 8211, 0.02035022, 0.01501465, -0.01006937 ],
+						[ 8213, -0.02248967, 0.02799988, 0.001861572 ],
+						[ 8214, 0.009449005, 0.01600647, 0.005539656 ],
+						[ 8215, 0.03402042, 0.00201416, 0.002409935 ],
+						[ 8818, 0.02571964, -0.03100586, -0.04280019 ],
+						[ 8819, -0.01340961, -0.04098511, -0.02794003 ],
+						[ 8840, -0.08127022, -0.5619965, 0.1715188 ],
+						[ 8841, -0.08072996, -0.4269714, 0.1904688 ],
+						[ 8844, -0.02815974, -0.0110321, -0.00621891 ],
+						[ 8849, -0.01441807, 0.03399658, -0.06914997 ],
+						[ 8850, 0.00615406, 0.005996704, -0.07186985 ],
+						[ 8897, -0.0101099, -0.02301025, 0.02191925 ],
+						[ 8898, 0.01071405, 0.007003784, -0.0605917 ],
+						[ 8899, -0.05000973, -0.2649841, 0.08355999 ],
+						[ 8900, -0.01346064, -0.001998901, 0.005108833 ],
+						[ 8902, -0.08209968, -0.7960052, 0.2296605 ],
+						[ 8903, -0.14185, -0.496994, 0.1547508 ],
+						[ 8905, -0.01407051, -0.08799744, -0.01250839 ],
+						[ 8906, -0.0198698, -0.4529724, 0.1686897 ],
+						[ 8907, 0.04136014, -0.1439667, 0.09563017 ],
+						[ 8908, 0.0164901, -0.01696777, -0.0006408691 ],
+						[ 8921, 0.001049995, 0.006011963, 0.0002317429 ],
+						[ 8929, -0.005929947, -0.007995605, -0.001667976 ],
+						[ 8931, 0.007179856, -0.01100159, 0.03358841 ],
+						[ 8932, -0.01234984, 0.008987427, 0.02763748 ],
+						[ 8933, -0.01034069, -0.002990723, -0.001930237 ],
+						[ 8936, -0.005910397, -0.01298523, 0.005597115 ],
+						[ 8943, -0.04389, -0.3009949, 0.09833956 ],
+						[ 8944, -0.05983043, -0.5309906, 0.1653996 ],
+						[ 8950, 0.03213024, -0.1450043, 0.1076508 ],
+						[ 8951, -0.01980972, -0.03399658, -0.002519608 ],
+						[ 8952, -0.1081502, -0.8739624, 0.2377915 ],
+						[ 8953, 0.01738882, 0.01199341, 0.008729935 ],
+						[ 8954, -0.1283202, -0.8119812, 0.2206607 ],
+						[ 8955, -0.09199905, -0.6639709, 0.2197909 ],
+						[ 8956, -0.02732062, -0.04696655, 0.03228092 ],
+						[ 8957, -0.05482006, -0.1450195, 0.09555817 ],
+						[ 8958, -0.005040169, 0.005020142, -0.002799034 ],
+						[ 8959, -0.01506996, 0.04801941, -0.03075123 ],
+						[ 8960, -0.0006501675, -0.02098083, -0.009967804 ],
+						[ 8961, -0.01187992, -0.02099609, 0.003522873 ],
+						[ 8962, -0.0002303123, -0.04600525, 0.005032539 ],
+						[ 8963, -0.0689199, -0.2269745, 0.1680222 ],
+						[ 8964, -0.0538497, -0.1250305, 0.1129608 ],
+						[ 8965, -0.01044989, -0.06600952, 0.05548286 ],
+						[ 8966, -0.01118994, -0.04997253, -0.03975868 ],
+						[ 8969, -0.04157972, -0.1040039, 0.04675865 ],
+						[ 8970, 0.02497995, 0.01100159, -0.07104778 ],
+						[ 8971, 0.007160187, -0.00100708, -0.05158997 ],
+						[ 8972, -0.003480077, -0.00100708, -0.03350735 ],
+						[ 8973, 0.007310152, -0.1029816, 0.01984072 ],
+						[ 8974, -0.02596021, -0.2399902, 0.07458019 ],
+						[ 8975, 0.009100437, -0.01000977, -0.03783989 ],
+						[ 8976, 0.02143097, -0.07501221, -0.04507923 ],
+						[ 8983, 0.02584982, -0.04298401, 0.00632906 ],
+						[ 8984, 0.03667927, 0.01499939, -0.003709793 ],
+						[ 8985, 0.02396059, -0.02700806, -0.0235703 ],
+						[ 8986, 0.02786827, -0.1440277, 0.02498913 ],
+						[ 8997, 0.01565027, 0.01097107, 0.005680084 ],
+						[ 8998, 0.02828026, 0.02700806, 0.007170081 ],
+						[ 8999, 0.0331707, 0.01998901, -0.007989883 ],
+						[ 9000, 0.04481077, -0.02700806, -0.008619785 ],
+						[ 9001, 0.02666998, 0.07199097, 0.02233994 ],
+						[ 9002, 0.02963972, 0.06698608, 0.01349974 ],
+						[ 9028, 0.04576111, 0.06602478, 0.001933038 ],
+						[ 9029, 0.03653908, 0.02201843, 0.02175999 ],
+						[ 9031, -0.04190063, -0.1439972, -0.03456974 ],
+						[ 9033, 0.01377988, 0.02400208, -0.03396082 ],
+						[ 9034, -0.01885962, 0.02198792, -0.05071974 ],
+						[ 9035, 0.01911986, 0.02200317, 0.03161001 ],
+						[ 9037, 0.05086994, -0.05999756, -0.01865911 ],
+						[ 9112, -0.007599831, -0.001998901, -0.005290031 ],
+						[ 9113, -0.001839399, -0.005996704, -0.004019737 ],
+						[ 9114, 0.0008397102, -0.004989624, -0.01464844 ],
+						[ 9115, -0.000300169, -0.01701355, -0.03228092 ],
+						[ 9116, 0.02645016, -0.01298523, -0.04830027 ],
+						[ 9117, 0.04376888, 0.01498413, -0.02957869 ],
+						[ 9118, 0.03262854, 0.003997803, -0.01102924 ],
+						[ 9231, 0.1235685, -0.05201721, 0.05006699 ],
+						[ 11264, 0.03777981, -0.009994507, -0.03149986 ],
+						[ 11265, 0.008080482, -0.04699707, 0.0310998 ],
+						[ 11266, -0.03206873, -0.2010193, 0.07544947 ],
+						[ 11267, 0.03687954, 0.03300476, -0.01102972 ],
+						[ 11268, 0.01890898, -0.02203369, 0.01536989 ],
+						[ 11269, 0.03305006, 0.004989624, 0.007370949 ],
+						[ 11270, -0.03174925, -0.6109772, 0.1735401 ],
+						[ 11271, -0.06790018, -0.5, 0.1312499 ],
+						[ 11301, 0.05121946, -0.01597595, -0.01899004 ],
+						[ 11766, 0.05708027, 0.007995605, -0.01303005 ],
+						[ 11767, 0.04796934, 0.009002686, -0.02899981 ],
+						[ 11768, -0.00041008, 0.008987427, -0.005169868 ],
+						[ 11769, 0.03084898, -0.009017944, -0.04533911 ],
+						[ 11771, 0.02037144, 0.005020142, -0.03098917 ],
+						[ 11776, -0.002409935, -0.01496887, -0.02563047 ],
+						[ 11778, -0.003229618, 0.009994507, -0.01274872 ],
+						[ 11780, 0.04661942, -0.007995605, -0.005400181 ],
+						[ 11863, -0.007290125, -0.03697205, 0.02558041 ],
+						[ 11865, 0.01955986, -0.2810059, 0.1515002 ],
+						[ 11866, -0.03650045, -0.5950012, 0.2335505 ],
+						[ 11867, -0.09875011, -0.684021, 0.2031202 ],
+						[ 11868, -0.08141041, -0.477005, 0.1797104 ],
+						[ 11870, -0.05986047, -0.2969971, 0.142539 ],
+						[ 11872, -0.0582695, -0.1449585, 0.1061106 ],
+						[ 11873, -0.02125013, 0.001998901, 0.008658409 ],
+						[ 11874, 0.01724958, -0.06600952, 0.08185863 ],
+						[ 11875, -0.02548027, -0.07600403, 0.07274055 ],
+						[ 11876, -0.06650949, -0.7749939, 0.2559304 ],
+						[ 11877, -0.02431035, -0.04698181, 0.02680969 ],
+						[ 11878, 0.01953995, 0.009002686, 0.005579948 ],
+						[ 11903, 0.005639553, -0.3159943, 0.05647993 ],
+						[ 11904, 0.007760048, -0.01397705, 0.001570225 ],
+						[ 11907, -0.002260685, -0.1410217, 0.03971052 ],
+						[ 11908, -0.01463842, -0.4030151, 0.07573128 ],
+						[ 11909, -0.01756907, -0.3199615, 0.03587961 ],
+						[ 11910, -0.002700329, -0.1529846, -0.01106977 ],
+						[ 11911, 0.007750034, 0.001022339, -0.002659798 ],
+						[ 11913, 0.0247798, -0.003005981, 0.01661921 ],
+						[ 12153, 0.1279501, -0.03800964, 0.02622223 ],
+						[ 12156, 0.06135964, 0.04600525, -0.12642 ],
+						[ 12571, -0.04023027, -0.02301025, 0.02055025 ],
+						[ 12573, -0.006009936, -0.05499268, 0.03845978 ],
+						[ 12574, 0.001860142, -0.07499695, 0.03822899 ],
+						[ 12579, -0.03707981, 0.02302551, 0.01144981 ],
+						[ 12580, -0.01397002, 0.005996704, 0.01896 ],
+						[ 12582, -0.03866005, 0.01899719, 0.01586056 ],
+						[ 12586, -0.04757023, -0.006011963, -0.005340099 ],
+						[ 12764, -0.004921436, -0.01701355, -0.0500493 ],
+						[ 12775, -0.01180029, -0.01300049, -0.02764034 ],
+						[ 12829, 0.05178022, 0.02600098, -0.01194 ],
+						[ 12830, 0.0429101, 0.05400085, -0.0317297 ],
+						[ 12831, -0.0239799, -0.0329895, -0.007599354 ],
+						[ 12832, 0.001969576, 0.02197266, -0.006259918 ],
+						[ 12834, -0.01488042, -0.05099487, -0.01947045 ],
+						[ 12835, 0.007950306, 0.05499268, 0.007370949 ],
+						[ 12836, 0.007799625, 0.04800415, 0.01184797 ],
+						[ 12838, -0.005559444, 0.04400635, 0.04047012 ],
+						[ 12839, -0.03001976, 0.009994507, -0.05782938 ],
+						[ 12842, -0.01702929, 0.001998901, -0.00654006 ],
+						[ 12892, -0.003249884, -0.08900452, 0.008050442 ],
+						[ 12893, 0.008779764, -0.04301453, 0.01078033 ],
+						[ 12894, 0.01554012, 0.01000977, -0.02431965 ],
+						[ 12896, 0.007879972, -0.08700562, 0.007521629 ],
+						[ 12898, 0.01469016, -0.007003784, -0.02689266 ],
+						[ 12899, 0.009269476, -0.03100586, -0.009039879 ],
+						[ 12900, 0.01106012, -0.004013062, -0.0235796 ],
+						[ 12901, 0.009459972, -0.004974365, -0.02874947 ],
+						[ 12905, 0.01044011, -0.0009918213, -0.001432419 ],
+						[ 12906, 0.001540303, 0.01300049, -0.01903057 ],
+						[ 12907, 0.009370089, -0.1119843, 0.02378035 ]
+					]
+				},
+				"hd_url" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Jowls%201%20HD.dhdm"
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Jowls 1 HD-1",
+				"url" : "#Jowls%201%20HD"
+			}
+		]
+	}
+}

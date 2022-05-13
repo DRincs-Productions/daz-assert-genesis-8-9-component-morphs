@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/Zev0/Aging%20Morphs%208/CTRLMD_N_Value_n1.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-24T03:06:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_Value_n1",
+			"name" : "CTRLMD_N_Value_n1",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_Value_n1",
+				"label" : "CTRLMD_N_Value_n1",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Male:#CTRLMD_N_Value_n1?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/Zev0/Aging%20Morphs%208/Basic%20Weight%201.dsf#Basic%20Weight%201?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_Value_n1-1",
+				"url" : "#CTRLMD_N_Value_n1"
+			}
+		]
+	}
+}

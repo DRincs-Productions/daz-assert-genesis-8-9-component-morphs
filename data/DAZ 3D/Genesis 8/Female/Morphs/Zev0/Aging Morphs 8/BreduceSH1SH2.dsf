@@ -1,0 +1,107 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/BreduceSH1SH2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-31T21:36:18Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BreduceSH1SH2",
+			"name" : "BreduceSH1SH2",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BreduceSH1SH2",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Correctives/Aging Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#BreduceSH1SH2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%201%20Shape%20HD.dsf#Aged%20Body%201%20Shape%20HD?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BreduceSH1SH2?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%202%20Shape%20HD.dsf#Aged%20Body%202%20Shape%20HD?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BreduceSH1SH2?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aging%20Breast%20Size%20Reduce.dsf#Breast%20Size%20Reduce?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 26,
+					"values" : [
+						[ 84, 5.80386e-05, -0.01901245, 0.02794075 ],
+						[ 85, -0.000240116, 0.1030121, 0.08080864 ],
+						[ 87, -0.000161478, 0.03500366, 0.04149914 ],
+						[ 109, 0.02720022, 0.005004883, -0.02077007 ],
+						[ 863, -0.07587981, -0.2120056, 0.01416111 ],
+						[ 869, -0.002560019, 0, 4.005432e-05 ],
+						[ 1627, -2.002716e-05, 0.001998901, 0.002000809 ],
+						[ 1928, 0.005491018, -0.0009918213, -0.001620293 ],
+						[ 1929, -0.06927693, 0.05300903, -0.05410099 ],
+						[ 1931, -0.01996297, -0.05200195, -0.008520126 ],
+						[ 4439, 0.2444, -0.07899475, -0.05240011 ],
+						[ 4440, 0.03321028, 0.06700134, 0.0808301 ],
+						[ 4441, 0.06801987, -0.1719971, -0.01268005 ],
+						[ 4442, -0.05723906, -0.1210022, -0.03023005 ],
+						[ 4444, 8.26086e-06, -0.04299927, -0.05562019 ],
+						[ 6619, -0.02772045, 0.004013062, -0.01969051 ],
+						[ 7373, 0.07503998, -0.2109985, 0.01398087 ],
+						[ 7379, 0.002520084, 0, 5.054474e-05 ],
+						[ 8137, -0.0003899336, 0.001998901, 0.002000809 ],
+						[ 8438, -0.005349994, -0.0009918213, -0.001590729 ],
+						[ 8439, 0.06748182, 0.05401611, -0.05290031 ],
+						[ 8441, 0.02055597, -0.05299377, -0.009020329 ],
+						[ 10920, -0.24686, -0.07800293, -0.05368996 ],
+						[ 10921, -0.03325033, 0.06700134, 0.08092976 ],
+						[ 10922, -0.06853008, -0.17099, -0.01343966 ],
+						[ 10923, 0.05887705, -0.1200104, -0.0302 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BreduceSH1SH2-1",
+				"url" : "#BreduceSH1SH2"
+			}
+		]
+	}
+}

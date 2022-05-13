@@ -1,0 +1,204 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/%21Aging%20Body%20Controller.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-11-08T07:08:36Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "!Aging Body Controller",
+			"name" : "!Aging Body Controller",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5372549, 0.3529412, 1 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "!Aging Body Controller",
+				"label" : "!Aging Body Controller",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World/Aging Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aged%20Posture.dsf#Aged%20Posture?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 0.6 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Spine%20HD.dsf#Spine%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 0.7 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Shoulder%20Drop.dsf#Shoulder%20Drop?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 0.2 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Neck%20Wrinkles%20HD.dsf#Aging%20Neck%20Detail%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 0.3 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Neck%20Wattle%20Double%20HD.dsf#Neck%20Wattle%20Double%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Neck%20Fine%20Wrinkles%20HD.dsf#Neck%20Fine%20Wrinkles%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 0.3 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Neck%20Detail%204%20HD.dsf#Neck%20Detail%204%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Neck%20Detail%203%20HD.dsf#Neck%20Detail%203%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Neck%20Detail%201%20HD.dsf#Neck%20Detail%201%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Hump%20Fat.dsf#Hump%20Fat?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : -0.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Hump%202.dsf#Hump%202?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : -0.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Hump%201.dsf#Hump%201?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 0.8 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aging%20Hands%20Detail%20HD.dsf#Aging%20Hands%20Detail%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aging%20Feet%20Detail%20HD.dsf#Aging%20Feet%20Detail%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aging%20Body%20Skin%20Base%20HD.dsf#Aging%20Body%20Skin%20Base%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aging%20Body%20Detail%20HD%202.dsf#Aging%20Body%20Detail%20HD%202?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aging%20Body%20Detail%20HD%201.dsf#Aging%20Body%20Detail%20HD%201?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aging%20Arms%20Detail%20HD.dsf#Aging%20Arms%20Detail%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Aged%20Body%201%20Shape%20HD.dsf#Aged%20Body%201%20Shape%20HD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#%21Aging%20Body%20Controller?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "!Aging Body Controller-1",
+				"url" : "#%21Aging%20Body%20Controller"
+			}
+		]
+	}
+}

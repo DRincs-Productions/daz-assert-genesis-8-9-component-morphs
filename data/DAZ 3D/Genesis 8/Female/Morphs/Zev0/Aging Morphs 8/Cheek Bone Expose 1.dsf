@@ -1,0 +1,2687 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Cheek%20Bone%20Expose%201.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-21T22:34:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Cheek Bone Strength",
+			"name" : "Cheek Bone Expose 1",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1568627, 0.1686275, 0.3058824 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Cheek Bone Expose 1",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/Real World/Aging Morphs/Face",
+			"formulas" : [
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001065501 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.003967285 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01304973 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -1.367702e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.002182007 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lowerFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003261566 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.04191399 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.01791382 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.03368998 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01779389 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.009475708 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01911688 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.04196739 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.01834106 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.03364325 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.01777911 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.009094238 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01914167 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.1690383 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.05690002 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.141346 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.1133714 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.04174805 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMouthCorner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.1131454 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.1690192 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0567627 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.1413598 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.1133699 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.04159546 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMouthCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMouthCorner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.1131477 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.03766441 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.01338196 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.04231215 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01587272 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.005767822 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipCorver:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipCorver?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.02379131 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001618147 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001403809 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001983643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0004038811 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0005187988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003187656 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.00070858 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.00214231 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.003005981 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.007014275 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 4.445123e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.000951767 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -3.891329e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.000289917 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 6.29425e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003335476 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001525879 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0006504059 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002251744 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001831055 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.006848335 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001600981 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001434326 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.002006531 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004210472 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004882812 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0004844666 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.03741837 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.01329041 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.04242516 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.01592612 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.005172729 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipCorner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipCorner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.02382469 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -5.649037e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004882812 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001288414 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -6.316366e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipBelow?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001444817 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 3.751588e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0006256104 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.002926826 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -4.104006e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.003067017 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Chin?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001449585 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.48171 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.09869385 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.2692256 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.4767814 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.1105804 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.2864842 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.4817195 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.09846497 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.2692323 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.4767089 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.1103363 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.2866125 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 1.56289e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0007295609 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -1.061185e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003967285 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#BelowJaw?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0005936623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.02343988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -7.629395e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.006487787 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.05713367 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001937866 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lJawClench?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0189693 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.02344942 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004730225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.006438613 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.05703974 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001449585 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rJawClench:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rJawClench?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01909268 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002370643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002304077 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.005863905 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 1.364643e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.00177002 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.007873893 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0002521276 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001083374 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003442764 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 2.753735e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -1.525879e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002193451 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 4.267693e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004272461 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001478195 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001256466 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003204346 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001592636 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 5.578995e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0005493164 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001635551 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -1.525879e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002593994 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 2.813339e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001152754 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001190186 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004463196 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -4.172325e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001220703 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.000210762 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -3.743172e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002441406 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001277924 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.000105381 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0002441406 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001621246 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -3.385544e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003356934 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001554489 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 2.861023e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003814697 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 1.859665e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 1.684662e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002336502 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 1.802353e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003204346 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001468658 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 2.661353e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001068115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0007743835 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 2.093748e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001068115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003232956 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0007050037 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001434326 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001068115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 6.270409e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001037598 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001692772 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 8.630753e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001983643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001759529 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001134872 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003509521 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.00137043 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.005800724 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01255798 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01719427 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002887726 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.005493164 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01000595 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.005738258 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01261902 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01719475 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.002721786 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.006149292 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.01001453 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 7.874743e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0007171631 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0007448196 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -4.761856e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.008468628 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.000582695 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 9.739399e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003814697 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0005264282 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 4.61936e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0112915 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0006818771 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001234412 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0005578995 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -3.510714e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.008834839 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0005292892 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001060843 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0005187988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.002005577 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 5.960464e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.002182007 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002233505 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0009258986 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0004272461 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001888275 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003582239 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001037598 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002439499 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003421307 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.00050354 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003843307 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001971483 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004272461 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002207756 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003345013 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0004119873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002758503 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001220703 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002621651 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003912449 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0007820129 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0002918243 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0002288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0007152557 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003583431 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.000213623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0007839203 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003088713 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001220703 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.000702858 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0008835793 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001162529 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001759529 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0009613037 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002463341 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0009264946 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0003814697 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001149178 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001695633 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001190186 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.002614021 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 8.064289e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.00112915 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001319885 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 4.733042e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003509521 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001497269 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001157522 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001205444 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001514435 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.000194788 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001373291 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003318787 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0005375147 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001214027 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0001473427 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001525879 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004844666 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0004777908 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 7.629395e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.001250267 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001189709 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0001220703 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0004863739 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.001130104 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0009918213 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.00152874 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.000203371 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : -0.0002593994 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Cheek%20Bone%20Strength?value" },
+						{ "op" : "push", "val" : 0.0003223419 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 322,
+					"values" : [
+						[ 588, -0.002209902, 0.0009918213, -0.003800392 ],
+						[ 624, -0.0006899834, 1.525879e-05, -0.00109005 ],
+						[ 625, -0.00270009, 0.001022339, -0.004839897 ],
+						[ 626, -0.003760099, 0.00100708, -0.007049561 ],
+						[ 628, -0.001970053, 0.00100708, -0.003520489 ],
+						[ 629, -0.000880003, 0.00100708, -0.001479149 ],
+						[ 636, -0.00135994, 0, -0.002340317 ],
+						[ 669, -0.005149364, 1.525879e-05, -0.0009360164 ],
+						[ 727, -0.001899958, 0.0009918213, -0.00331974 ],
+						[ 728, -0.002720118, 0.0009918213, -0.004980087 ],
+						[ 729, -0.001420259, 0.001022339, -0.002429008 ],
+						[ 773, -0.113719, 1.525879e-05, -0.04710996 ],
+						[ 774, -0.03541994, 0.001998901, -0.01103008 ],
+						[ 777, -0.1617098, 0.06300354, -0.10149 ],
+						[ 778, -0.3127398, 0.0920105, -0.2288404 ],
+						[ 780, -0.005379915, 0.00201416, -0.008280754 ],
+						[ 782, -0.001129866, 1.525879e-05, -0.0012393 ],
+						[ 849, -0.003720045, 0.0009918213, -0.006590843 ],
+						[ 850, -0.00612998, 0.002990723, -0.01163006 ],
+						[ 851, -0.001760006, 0.0009918213, -0.002839565 ],
+						[ 988, -0.08090973, 0.0009918213, -0.1285095 ],
+						[ 1656, -0.0185895, -0.00100708, -0.004034996 ],
+						[ 1657, -0.07245994, 0.03201294, -0.0297904 ],
+						[ 1658, -0.008690119, 0.002990723, -0.006070137 ],
+						[ 1659, -0.03184986, 0.01300049, -0.01950026 ],
+						[ 1661, -0.002979755, 0, -0.0003229678 ],
+						[ 1664, -0.009519815, 0.005004883, -0.00605011 ],
+						[ 1669, -0.009599686, 0.00100708, -0.001349002 ],
+						[ 1671, -0.02471018, 0.00201416, -0.002213955 ],
+						[ 1685, -0.01122975, 0.005004883, -0.01296997 ],
+						[ 1686, -0.08679008, 0.03401184, -0.09447002 ],
+						[ 1687, -0.0397799, 0.02101135, -0.05004025 ],
+						[ 1688, -0.04407978, 0.01499939, -0.05440998 ],
+						[ 1695, -0.2139602, 0.04101562, -0.09722972 ],
+						[ 1699, -0.1019697, 0.03800964, -0.03586984 ],
+						[ 1700, -0.02827978, 0.01599121, -0.006229877 ],
+						[ 1704, -0.02659988, 0.01000977, -0.006230116 ],
+						[ 1705, -0.08349991, 0.02400208, -0.02792001 ],
+						[ 2330, -0.01830006, 0.007003784, -0.03118086 ],
+						[ 2331, -0.01031995, 0.003997803, -0.01745033 ],
+						[ 2389, -0.07091999, 0.01699829, -0.08694983 ],
+						[ 2392, -0.08123016, 0.04000854, -0.07581997 ],
+						[ 2393, -0.1658802, 0.05899048, -0.1468501 ],
+						[ 2395, -0.002479792, 0, -0.003669739 ],
+						[ 2396, -0.02784014, 0.01300049, -0.02580976 ],
+						[ 2397, -0.00338006, 0.0009918213, -0.002429485 ],
+						[ 2433, -0.004759789, 0.001998901, -0.008939743 ],
+						[ 2434, -0.01330018, 0.005020142, -0.0229702 ],
+						[ 2442, -0.08541012, 0.03799438, -0.09877968 ],
+						[ 2443, -0.197629, 0.007995605, -0.07375002 ],
+						[ 2444, -0.1889796, 0.07600403, -0.1526704 ],
+						[ 2445, -0.3259201, 0.1140137, -0.21421 ],
+						[ 2453, -0.000770092, 0, -0.001159668 ],
+						[ 2456, -0.0008099079, 1.525879e-05, -0.001400948 ],
+						[ 2459, -0.002570152, 0.00100708, -0.003510475 ],
+						[ 2463, -0.008100033, 0.0009918213, -0.01215029 ],
+						[ 2464, -0.006690025, 0.001998901, -0.009079456 ],
+						[ 2466, -0.009690285, 0.001998901, -0.01264 ],
+						[ 2473, -0.4867601, 0.07598877, -0.2632999 ],
+						[ 2474, -0.2027998, 0.01100159, -0.09640002 ],
+						[ 2475, -0.3110604, 0.03399658, -0.16467 ],
+						[ 2476, -0.3810587, 0.05599976, -0.2067299 ],
+						[ 2480, -0.3207498, 0.02799988, -0.1468699 ],
+						[ 2481, -0.3340096, 0.01901245, -0.1303799 ],
+						[ 2482, 0.02378035, -0.01399231, 3.004074e-05 ],
+						[ 2487, -0.4256196, 0.04501343, -0.21945 ],
+						[ 2488, -0.05901051, -0.001983643, -0.01540005 ],
+						[ 2489, -0.1231003, 0.009002686, -0.04814029 ],
+						[ 2490, -0.1716299, 0.02998352, -0.08167982 ],
+						[ 2491, -0.02322006, -0.0009918213, -0.001750112 ],
+						[ 2492, -0.05832005, 0.007003784, -0.01418996 ],
+						[ 2493, -0.08697033, 0.009002686, -0.02358007 ],
+						[ 2494, -0.1388197, 0.01100159, -0.02749991 ],
+						[ 2495, -0.1122699, 0.01199341, -0.009180069 ],
+						[ 2512, 0.001880169, 0.00100708, -0.001499653 ],
+						[ 2513, -0.0001101494, 0.00100708, 0.001149654 ],
+						[ 2514, -0.2526898, 0.01799011, -0.06737018 ],
+						[ 2515, 0.0006599426, 0.005004883, 0.00211978 ],
+						[ 2516, 0.001190186, 0.001998901, 0.001220226 ],
+						[ 2518, -0.006430626, 0, -0.0004220009 ],
+						[ 2519, -0.01904964, 0.002990723, -0.003440022 ],
+						[ 2521, -0.01152015, 0.01100159, -0.005579472 ],
+						[ 2527, -0.005460024, 0.002990723, -0.003579617 ],
+						[ 2594, 0.006580353, -0.003997803, -0.0003194809 ],
+						[ 2607, -0.02303934, -0.00201416, -0.03961992 ],
+						[ 2608, -0.1731901, -0.01100159, -0.1415 ],
+						[ 4794, 0.007750034, -0.005996704, -0.003220081 ],
+						[ 4795, -0.24406, 0.022995, -0.2219601 ],
+						[ 4796, -0.4373999, 0.1110077, -0.2788801 ],
+						[ 4797, -0.0582695, -0.02398682, -0.1333103 ],
+						[ 4798, -0.3607898, 0.04399109, -0.2466698 ],
+						[ 4799, -0.1369495, -0.01499939, -0.1454697 ],
+						[ 4800, -0.2300901, 0.0710144, -0.1177201 ],
+						[ 4801, -0.40413, 0.1049957, -0.2420497 ],
+						[ 4828, 0.0004000664, 0, -0.002379894 ],
+						[ 4829, 0.0681901, -0.04400635, -0.00372982 ],
+						[ 4830, 0.05904007, -0.04400635, -0.003640175 ],
+						[ 4831, -0.01959991, -0.004989624, -0.006609678 ],
+						[ 4832, 0.03537035, -0.022995, -0.003560543 ],
+						[ 5301, 0.01266003, -0.03300476, -0.0464201 ],
+						[ 5302, 0.002379894, -0.01300049, -0.02326965 ],
+						[ 5304, -0.001299381, -0.001998901, -0.00617981 ],
+						[ 5313, -0.05808973, 0.00100708, -0.006160021 ],
+						[ 5316, 0.03108025, -0.04899597, -0.04765034 ],
+						[ 5317, -0.002281189, 0, -0.0003359616 ],
+						[ 5318, -0.01510954, 0.00100708, -0.001784027 ],
+						[ 5331, -0.0117197, 0.0009918213, -0.001789987 ],
+						[ 5332, -0.004139423, 0.00100708, -0.0009200573 ],
+						[ 5333, 0.0002508163, 0.001998901, -0.001329899 ],
+						[ 5361, -0.008450985, 0, -0.001258075 ],
+						[ 5362, -0.002530098, 0, -0.0004479885 ],
+						[ 5406, -0.004849911, 0.001998901, -0.005410194 ],
+						[ 5407, -0.01682997, 0.007995605, -0.02484989 ],
+						[ 5408, -0.04620028, 0.01799011, -0.06255007 ],
+						[ 5409, -0.02584004, 0.009994507, -0.03633022 ],
+						[ 5411, -0.00345993, 0.00100708, -0.005020142 ],
+						[ 5413, -0.001290083, -1.525879e-05, -0.001700401 ],
+						[ 5418, -0.04009008, 0.01701355, -0.06079006 ],
+						[ 5446, -0.4324598, 0.07499695, -0.2385702 ],
+						[ 5450, -0.5107298, 0.1069946, -0.2859597 ],
+						[ 5451, -0.2358713, 0.05101013, -0.1061897 ],
+						[ 5453, -0.09324121, 0.03599548, -0.03430986 ],
+						[ 5454, -0.02166009, 0.01599121, -0.005149841 ],
+						[ 5455, -0.4100904, 0.04901123, -0.2344799 ],
+						[ 5456, -0.0149498, -0.04701233, -0.03669024 ],
+						[ 5457, -0.40481, 0.03300476, -0.1973302 ],
+						[ 5458, -0.1990099, -0.01899719, -0.1083498 ],
+						[ 5459, 0.009029865, -0.02600098, -0.004880428 ],
+						[ 5460, -0.1971498, -0.01499939, -0.05430984 ],
+						[ 5461, -0.06642962, -0.03799438, -0.01802015 ],
+						[ 5462, -0.1843095, 0.003997803, -0.01985002 ],
+						[ 5463, -0.09183025, -0.01599121, -0.01060009 ],
+						[ 5464, -0.008629799, 0.005996704, -0.00225997 ],
+						[ 5465, 0.0008201599, 0.003005981, -0.004609823 ],
+						[ 5478, 0.0002202988, 0.00100708, -0.001199722 ],
+						[ 5510, 0.001750469, 0.00100708, -0.006650209 ],
+						[ 5512, 0.001160145, -0.0009918213, -0.004479885 ],
+						[ 5524, 0.001239777, -0.0009918213, -0.004879951 ],
+						[ 5533, 0.001600266, 0.001022339, -0.007180214 ],
+						[ 5646, -0.05385971, 0.004989624, -0.008180022 ],
+						[ 5647, -0.01933002, 0.002990723, -0.004377007 ],
+						[ 5648, -0.05374956, 0.005996704, -0.004330039 ],
+						[ 5649, -0.003629684, 0.001998901, -0.001062989 ],
+						[ 5651, -0.02241087, 0.004989624, 3.004074e-05 ],
+						[ 5652, 0.0001802444, 0.009002686, -0.002130032 ],
+						[ 5653, -0.004880428, 0.006988525, 0.002220154 ],
+						[ 5954, 0.001859903, 1.525879e-05, 0.0003600121 ],
+						[ 5962, 0.005259991, 0, 0.001190186 ],
+						[ 6018, 0.001670122, 0, 0.0003204346 ],
+						[ 6088, 0.001809835, -1.525879e-05, 0.0003304482 ],
+						[ 6089, 0.001489878, 0, 0.0002794266 ],
+						[ 6376, 0.01042986, -0.005996704, 0 ],
+						[ 6388, 0.005259991, -0.003005981, 0 ],
+						[ 6447, -0.001700401, 0.0009918213, -0.0002098083 ],
+						[ 6450, -0.002040148, 0.001998901, -0.0002601147 ],
+						[ 6454, -0.001379967, 0, -0.0002199411 ],
+						[ 6459, -0.002370358, 0.00100708, -0.0004701614 ],
+						[ 6510, -0.0008897781, 0.0009918213, -0.00153017 ],
+						[ 6527, -0.001330137, 0.0009918213, -0.002369881 ],
+						[ 7098, 0.002199888, 0.0009918213, -0.003800392 ],
+						[ 7134, 0.0006899834, 1.525879e-05, -0.00109005 ],
+						[ 7135, 0.00270009, 0.001022339, -0.004839897 ],
+						[ 7136, 0.003760099, 0.00100708, -0.007049561 ],
+						[ 7138, 0.001970053, 0.00100708, -0.003520489 ],
+						[ 7139, 0.000880003, 0.00100708, -0.001488686 ],
+						[ 7146, 0.001349926, 0, -0.00233078 ],
+						[ 7179, 0.005149364, 1.525879e-05, -0.0009360164 ],
+						[ 7237, 0.001899958, 0.0009918213, -0.00331974 ],
+						[ 7238, 0.002720118, 0.0009918213, -0.004980087 ],
+						[ 7239, 0.001430273, 0.001022339, -0.002419472 ],
+						[ 7283, 0.113739, 1.525879e-05, -0.04712999 ],
+						[ 7284, 0.03543997, 0.001998901, -0.01104009 ],
+						[ 7287, 0.1617396, 0.06300354, -0.1015 ],
+						[ 7288, 0.3126597, 0.0920105, -0.2288303 ],
+						[ 7290, 0.005379915, 0.00201416, -0.008280754 ],
+						[ 7292, 0.001129866, 0.00100708, -0.0012393 ],
+						[ 7359, 0.003720045, 0.0009918213, -0.006590843 ],
+						[ 7360, 0.00612998, 0.002990723, -0.01163006 ],
+						[ 7361, 0.001760006, 0.0009918213, -0.002839565 ],
+						[ 7498, 0.08089972, 0.0009918213, -0.1285496 ],
+						[ 8166, 0.01859951, -0.00100708, -0.004037976 ],
+						[ 8167, 0.07247996, 0.03201294, -0.0297904 ],
+						[ 8168, 0.008690119, 0.002990723, -0.006070137 ],
+						[ 8169, 0.03184986, 0.01300049, -0.01950026 ],
+						[ 8171, 0.002979755, 0, -0.0003229678 ],
+						[ 8174, 0.009519815, 0.005004883, -0.00605011 ],
+						[ 8179, 0.009599686, 0.00100708, -0.001349002 ],
+						[ 8181, 0.02471018, 0.00201416, -0.002213955 ],
+						[ 8195, 0.01122975, 0.005004883, -0.01296997 ],
+						[ 8196, 0.08678007, 0.03401184, -0.09447002 ],
+						[ 8197, 0.0397799, 0.02101135, -0.05004025 ],
+						[ 8198, 0.04407978, 0.01499939, -0.05440998 ],
+						[ 8205, 0.2139702, 0.04101562, -0.09723973 ],
+						[ 8209, 0.1019897, 0.03800964, -0.03587985 ],
+						[ 8210, 0.02828979, 0.01699829, -0.006239653 ],
+						[ 8214, 0.02663994, 0.01000977, -0.006240129 ],
+						[ 8215, 0.08354998, 0.02400208, -0.02794003 ],
+						[ 8840, 0.01830006, 0.008010864, -0.03118086 ],
+						[ 8841, 0.01031995, 0.003997803, -0.01745033 ],
+						[ 8899, 0.07089996, 0.01699829, -0.08693981 ],
+						[ 8902, 0.08125019, 0.04000854, -0.07581997 ],
+						[ 8903, 0.1658602, 0.0579834, -0.1468401 ],
+						[ 8905, 0.002479792, 0, -0.003679276 ],
+						[ 8906, 0.02785015, 0.01300049, -0.02580976 ],
+						[ 8907, 0.00338006, 0.0009918213, -0.002429485 ],
+						[ 8943, 0.004759789, 0.001998901, -0.008939743 ],
+						[ 8944, 0.01330018, 0.005020142, -0.0229702 ],
+						[ 8952, 0.08541012, 0.03799438, -0.09877968 ],
+						[ 8953, 0.197639, 0.007995605, -0.07375002 ],
+						[ 8954, 0.1889997, 0.07600403, -0.1526804 ],
+						[ 8955, 0.3259602, 0.1140137, -0.2142301 ],
+						[ 8963, 0.000770092, 0.00100708, -0.001159668 ],
+						[ 8966, 0.0008099079, 1.525879e-05, -0.001400948 ],
+						[ 8969, 0.002570152, 0.00100708, -0.003510475 ],
+						[ 8973, 0.008100033, 0.0009918213, -0.01215029 ],
+						[ 8974, 0.006690025, 0.001998901, -0.009079456 ],
+						[ 8976, 0.009690285, 0.001998901, -0.01264 ],
+						[ 8983, 0.4867501, 0.07598877, -0.2632999 ],
+						[ 8984, 0.2027998, 0.01100159, -0.09640002 ],
+						[ 8985, 0.3110604, 0.03399658, -0.16467 ],
+						[ 8986, 0.3810587, 0.05599976, -0.2067199 ],
+						[ 8990, 0.3207498, 0.02799988, -0.1468699 ],
+						[ 8991, 0.3339996, 0.01901245, -0.1303799 ],
+						[ 8992, -0.02378035, -0.01399231, 3.004074e-05 ],
+						[ 8997, 0.4256196, 0.04501343, -0.21945 ],
+						[ 8998, 0.05902052, -0.001983643, -0.01540005 ],
+						[ 8999, 0.1231203, 0.009002686, -0.04815006 ],
+						[ 9000, 0.1716399, 0.02998352, -0.08167982 ],
+						[ 9001, 0.02323008, -0.0009918213, -0.001760125 ],
+						[ 9002, 0.05838013, 0.007995605, -0.01420987 ],
+						[ 9003, 0.08698034, 0.009002686, -0.02358007 ],
+						[ 9004, 0.1388297, 0.01199341, -0.02749991 ],
+						[ 9005, 0.1122799, 0.01199341, -0.009170055 ],
+						[ 9022, -0.001880169, 0.00100708, -0.001499653 ],
+						[ 9023, 0.0001101494, 0.00100708, 0.001149654 ],
+						[ 9024, 0.2526999, 0.01799011, -0.06737018 ],
+						[ 9025, -0.0006599426, 0.005004883, 0.00211978 ],
+						[ 9026, -0.001190186, 0.001998901, 0.001220226 ],
+						[ 9028, 0.006450653, -0.00100708, -0.0004239678 ],
+						[ 9029, 0.0190897, 0.003997803, -0.003450036 ],
+						[ 9031, 0.01153016, 0.01100159, -0.005589485 ],
+						[ 9037, 0.005460024, 0.002990723, -0.003579617 ],
+						[ 9104, -0.006570339, -0.003997803, -0.0003194809 ],
+						[ 9117, 0.02302933, -0.00201416, -0.03964996 ],
+						[ 9118, 0.1732001, -0.01100159, -0.14149 ],
+						[ 11264, -0.007750034, -0.005996704, -0.003230095 ],
+						[ 11265, 0.2440701, 0.022995, -0.2219701 ],
+						[ 11266, 0.4373798, 0.1110077, -0.2788901 ],
+						[ 11267, 0.0582695, -0.02398682, -0.1333299 ],
+						[ 11268, 0.3608098, 0.04399109, -0.2466698 ],
+						[ 11269, 0.1369796, -0.01499939, -0.1454997 ],
+						[ 11270, 0.2301302, 0.0710144, -0.1177502 ],
+						[ 11271, 0.40414, 0.1049957, -0.2420697 ],
+						[ 11297, -0.0004000664, 0, -0.002379894 ],
+						[ 11298, -0.06818008, -0.04301453, -0.003719807 ],
+						[ 11299, -0.05902004, -0.04400635, -0.003640175 ],
+						[ 11300, 0.01959991, -0.004989624, -0.006609678 ],
+						[ 11301, -0.03537035, -0.022995, -0.003560543 ],
+						[ 11766, -0.01264, -0.03300476, -0.04645014 ],
+						[ 11767, -0.002359867, -0.01300049, -0.02330971 ],
+						[ 11769, 0.001299381, -0.001998901, -0.006189823 ],
+						[ 11777, 0.05809975, 0.00100708, -0.006160021 ],
+						[ 11780, -0.03108025, -0.04899597, -0.04765034 ],
+						[ 11781, 0.002281189, 0, -0.0003359616 ],
+						[ 11782, 0.01510954, 0.00100708, -0.001784027 ],
+						[ 11794, 0.0117197, 0.0009918213, -0.001789987 ],
+						[ 11795, 0.004149437, 0.00100708, -0.0009200573 ],
+						[ 11796, -0.0002508163, 0.001998901, -0.001329899 ],
+						[ 11822, 0.008450985, 0, -0.001258075 ],
+						[ 11823, 0.002530098, 0, -0.0004479885 ],
+						[ 11865, 0.004849911, 0.001998901, -0.005410194 ],
+						[ 11866, 0.01682997, 0.007995605, -0.02484989 ],
+						[ 11867, 0.04620028, 0.01799011, -0.06254005 ],
+						[ 11868, 0.02584004, 0.009994507, -0.03633022 ],
+						[ 11870, 0.00345993, 0.00100708, -0.005020142 ],
+						[ 11872, 0.001290083, -1.525879e-05, -0.001700401 ],
+						[ 11876, 0.04009008, 0.01701355, -0.06079006 ],
+						[ 11903, 0.4324598, 0.07499695, -0.2385702 ],
+						[ 11907, 0.5107298, 0.1069946, -0.2859597 ],
+						[ 11908, 0.2358713, 0.05101013, -0.1061897 ],
+						[ 11909, 0.09324121, 0.03599548, -0.03431988 ],
+						[ 11910, 0.02166009, 0.01599121, -0.005149841 ],
+						[ 11911, 0.4100904, 0.04901123, -0.2344899 ],
+						[ 11912, 0.01495981, -0.04701233, -0.03669024 ],
+						[ 11913, 0.40481, 0.03300476, -0.1973302 ],
+						[ 11914, 0.1990199, -0.01899719, -0.1083598 ],
+						[ 11915, -0.009009838, -0.02600098, -0.004880428 ],
+						[ 11916, 0.1971598, -0.01499939, -0.05432987 ],
+						[ 11917, 0.06643963, -0.03799438, -0.01802015 ],
+						[ 11918, 0.1843095, 0.003997803, -0.01986003 ],
+						[ 11919, 0.09183025, -0.01599121, -0.01060009 ],
+						[ 11920, 0.00865984, 0.005996704, -0.00225997 ],
+						[ 11921, -0.0008201599, 0.003005981, -0.004609823 ],
+						[ 11933, -0.0002202988, 0.00100708, -0.001199722 ],
+						[ 11962, -0.001750469, 0.00100708, -0.006650209 ],
+						[ 11964, -0.001160145, -0.0009918213, -0.004479885 ],
+						[ 11975, -0.001239777, -0.0009918213, -0.004879951 ],
+						[ 11984, -0.001600266, 0.001022339, -0.007180214 ],
+						[ 12094, 0.05386925, 0.004989624, -0.008180022 ],
+						[ 12095, 0.01933002, 0.002990723, -0.004377961 ],
+						[ 12096, 0.05374956, 0.005996704, -0.004330039 ],
+						[ 12097, 0.003629684, 0.001998901, -0.001061976 ],
+						[ 12099, 0.0224309, 0.004989624, 3.004074e-05 ],
+						[ 12100, -0.0001802444, 0.009002686, -0.002130032 ],
+						[ 12101, 0.004880428, 0.006988525, 0.002220154 ],
+						[ 12375, -0.001859903, 1.525879e-05, 0.0003600121 ],
+						[ 12383, -0.005259991, 0, 0.001190186 ],
+						[ 12421, -0.001670122, 0, 0.0003204346 ],
+						[ 12485, -0.001809835, -1.525879e-05, 0.0003304482 ],
+						[ 12486, -0.001489878, 0, 0.0002794266 ],
+						[ 12764, -0.01042986, -0.005996704, 0 ],
+						[ 12776, -0.005259991, -0.003005981, 0 ],
+						[ 12831, 0.001700401, 0.0009918213, -0.0002098083 ],
+						[ 12834, 0.002040148, 0.001998901, -0.0002601147 ],
+						[ 12838, 0.001379967, 0, -0.0002199411 ],
+						[ 12842, 0.002370358, 0.00100708, -0.0004701614 ],
+						[ 12892, 0.0008897781, 0.0009918213, -0.00153017 ],
+						[ 12907, 0.001330137, 0.0009918213, -0.002359867 ],
+						[ 13256, 0.001000166, 0, 0.0001602173 ],
+						[ 13279, 0.00172019, -1.525879e-05, 0.0002908707 ],
+						[ 13885, -0.001000166, 0, 0.0001602173 ],
+						[ 13908, -0.00172019, -1.525879e-05, 0.0002908707 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Cheek Bone Expose 1",
+				"url" : "#Cheek%20Bone%20Strength"
+			}
+		]
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Nostril%20Smoother.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-21T22:34:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Nostril Smoother",
+			"name" : "Nostril Smoother",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Nostril Smoother",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/Real World/Aging Morphs/Nose",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#Nostril%20Smoother?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/%21Aging%20Head%20Controller.dsf#%21Face%20Age%20Controller?value" },
+						{ "op" : "push", "val" : 0.5 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 11,
+					"values" : [
+						[ 1651, -0.005873322, -0.0614624, 0.07889557 ],
+						[ 1709, -0.001946688, -0.001693726, 0.0009813309 ],
+						[ 3917, 0.08085346, -0.008865356, 0.05038929 ],
+						[ 3918, 0.07333279, -0.0009155273, 0.005666733 ],
+						[ 3919, -0.0007901192, -0.002807617, 0.004236221 ],
+						[ 8161, 0.006657839, -0.05184937, 0.07794476 ],
+						[ 8219, 0.002914429, -0.00163269, 4.386902e-05 ],
+						[ 8924, 0.0009108782, -0.002227783, 0.001213074 ],
+						[ 10404, -0.08632064, -0.009414673, 0.05383205 ],
+						[ 10405, -0.08015943, 0.0009155273, 0.006070137 ],
+						[ 10406, 0.002147198, -0.003875732, 0.006977081 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Nostril Smoother-1",
+				"url" : "#Nostril%20Smoother"
+			}
+		]
+	}
+}

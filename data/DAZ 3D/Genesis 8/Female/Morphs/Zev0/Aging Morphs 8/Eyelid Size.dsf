@@ -1,0 +1,2714 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Eyelid%20Size.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-21T22:34:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Eyelid Size",
+			"name" : "Eyelid Size",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1568627, 0.1686275, 0.3058824 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Eyelid Size",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/Real World/Aging Morphs/Eyes",
+			"formulas" : [
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002373623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0006256104 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001158714 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.248414e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0007629395 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#upperFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0223645 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.04454041 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01000977 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01845109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.02774048 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.009410858 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.006964922 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0849762 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.006322861 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01069689 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08061218 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.009037971 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001411438 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1172333 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -6.818771e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1371002 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.0504e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.02249205 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0446167 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0101099 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01846957 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.02758789 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.009396553 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.006947994 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08468628 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.006292343 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01065087 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08003235 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.009023666 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001630783 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1173096 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -5.960464e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -5.76973e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.136673 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.908707e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.694977e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0006866455 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.482269e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.796416e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 9.155273e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidBrowUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.335144e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.674764e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0008239746 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.479553e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.135075e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#MidNoseBridge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.386902e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001858234 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.008300781 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 5.722046e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0003066063 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1112823 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001196861 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.002334595 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.008087158 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0006051064 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.193451e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001831055 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001182556 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidTop:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidTop?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001617432 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidTop:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidTop?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007553101 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidTop:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidTop?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001935959 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidTop:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidTop?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01285219 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidTop:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidTop?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1293945 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidTop:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidTop?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0007429123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0013237 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007614136 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003290176 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.00753808 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.074646 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0004167557 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001713991 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007904053 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002622604 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.002245426 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0004119873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.622604e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001669168 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007125854 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001759529 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003116131 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01358032 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.00076437 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.002089024 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.006561279 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0004029274 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0003068447 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01997375 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0006752014 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower_2?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001831293 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower_2?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007492065 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower_2?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001487732 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower_2?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.62532e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower_2?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01332092 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lEyelidLower_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lEyelidLower_2?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001454353 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001348972 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.00769043 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.243851e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003070831 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1111298 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001106262 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.00182128 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007705688 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002903938 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.193451e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001831055 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001182556 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001710415 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007904053 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.000184536 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0130198 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1363983 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002565384 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001470566 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0078125 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -7.629395e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.007610083 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0790863 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002231598 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001689196 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007904053 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003042221 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0005736351 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0005340576 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.430511e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001663685 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007644653 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0004301071 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0003139973 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0136261 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0007662773 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001730204 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.006698608 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002331734 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003049374 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01998901 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLower:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0006847382 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001721382 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007171631 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.536743e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.839897e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01330566 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rEyelidLowerInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rEyelidLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001420975 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001839399 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0663147 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 5.149841e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.003020048 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07302856 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.622604e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0185442 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0717926 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001262188 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.02016211 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.09042358 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSquintOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001292706 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001908302 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.06588745 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 5.483627e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.003015995 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07325745 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -5.626678e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01853991 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07159424 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001268387 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01992893 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.09049988 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSquintOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001190662 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.621246e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002746582 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.768372e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0004658699 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001449585 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002331734 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 6.628036e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003509521 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.430511e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003008842 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0007781982 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.000228405 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 7.86408e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001068115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.000166893 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.769896e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.008468628 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Nose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0005874634 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.66893e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001068115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.049042e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.732609e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0112915 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0006914139 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.273653e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.155273e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.193451e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -3.600121e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.00881958 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.000538826 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001115799 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001983643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -5.245209e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0004937649 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0007324219 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0005340576 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.336502e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003051758 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 6.580353e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001374483 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0004272461 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.000330925 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.239777e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -3.242493e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.536743e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.00213623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002441406 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.768372e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001983643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.536743e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0008833408 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.003753662 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001716614 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.000110507 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0006408691 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.525879e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 7.31945e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0006256104 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNoseBirdge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.673004e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 7.772446e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0006103516 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.907349e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.024143e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.00050354 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -5.817413e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.049042e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003051758 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.574921e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 9.10759e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001077652 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 3.218651e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0006713867 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.049042e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.765656e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001525879 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0002622604 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 8.060564e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0005493164 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.196167e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.745149e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0004272461 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 3.910065e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.145767e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0005950928 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 5.817413e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.31266e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 3.051758e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -3.814697e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.708767e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0004730225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 9.536743e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.026558e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001068115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.716614e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.251698e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0004119873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -3.814697e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.804134e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.155273e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.430511e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.813339e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.386902e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.549721e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001525879 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -9.536743e-06 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 397,
+					"values" : [
+						[ 605, 0.00124979, 0.01200867, -4.768372e-07 ],
+						[ 607, 0.002669811, 0.03399658, -9.536743e-06 ],
+						[ 608, 0.01207972, 0.2330017, -3.004074e-05 ],
+						[ 610, 0.02042055, 0.08500671, -0.0001597404 ],
+						[ 611, 0.03837967, 0.2960052, -0.0004401207 ],
+						[ 613, 0.03489017, 0.1589966, -0.0006494522 ],
+						[ 614, 0.0483501, 0.3249969, -0.0009698868 ],
+						[ 616, 0.01794004, 0.1910095, -0.000169754 ],
+						[ 617, 0.02152014, 0.3490143, -0.0002708435 ],
+						[ 619, 0.006259918, 0.1929932, 8.869171e-05 ],
+						[ 672, 0.006430149, -0.0329895, -2.002716e-05 ],
+						[ 675, -0.001039982, -0.09399414, 0 ],
+						[ 677, -0.006129742, -0.2079926, 0 ],
+						[ 678, -0.003109932, -0.1049957, 4.768372e-07 ],
+						[ 679, -0.001760006, -0.08601379, 4.768372e-07 ],
+						[ 681, 0.006210327, -0.0249939, -0.0002799034 ],
+						[ 705, 0.05129004, 0.2519989, -0.0009498596 ],
+						[ 706, 0.03681993, 0.1729889, -0.0003600121 ],
+						[ 707, 0.008749962, 0.1200104, -3.004074e-05 ],
+						[ 708, 0.00755024, 0.05999756, 0 ],
+						[ 709, 0.009259701, 0.1759949, 4.768372e-07 ],
+						[ 712, 0.007829905, 0.3170013, -9.536743e-06 ],
+						[ 713, 0.02488995, 0.3170166, -0.0002498627 ],
+						[ 753, 0.007640362, -0.07699585, -0.000579834 ],
+						[ 755, 0.02558994, 0.3270264, -0.0002698898 ],
+						[ 756, 0.05350995, 0.2810059, -0.001009941 ],
+						[ 757, 0.007679939, 0.3209991, -5.054474e-05 ],
+						[ 758, 0.04081011, 0.2150116, -0.0004200935 ],
+						[ 759, 0.01099968, 0.1700134, -3.004074e-05 ],
+						[ 760, 0.009970188, 0.1209869, 0 ],
+						[ 761, 0.007470131, 0.3360138, -0.0003089905 ],
+						[ 776, 0.000190258, 0.01901245, -0.0003709793 ],
+						[ 783, 0.005470276, 0.2869873, 0.000579834 ],
+						[ 784, 0.001809835, 0.2799988, 0.0005803108 ],
+						[ 785, 0.001459599, 0.2649994, 0.0005407333 ],
+						[ 787, 2.002716e-05, 0.20401, 0.0007500648 ],
+						[ 788, 1.001358e-05, 0.1940002, 0.0007405281 ],
+						[ 789, 0, 0.001998901, 0 ],
+						[ 989, -0.0002801418, -0.0920105, 4.768372e-07 ],
+						[ 990, -0.0005402565, -0.1699982, 4.768372e-07 ],
+						[ 993, 0.001549959, -0.08198547, -9.536743e-06 ],
+						[ 994, 0.0001599789, -0.07199097, 0 ],
+						[ 995, -1.013279e-05, 0.08898926, 5.00679e-05 ],
+						[ 997, -9.894371e-06, 0.02198792, 2.002716e-05 ],
+						[ 1477, 0.0001900196, -0.003997803, -4.768372e-07 ],
+						[ 1478, -9.775162e-06, 0.02000427, 0.0001196861 ],
+						[ 1480, 1.001358e-05, -0.003997803, 4.768372e-07 ],
+						[ 1481, 0.0008296967, -0.003997803, -2.002716e-05 ],
+						[ 1482, -4.982948e-05, -0.003982544, 4.768372e-07 ],
+						[ 1484, -0.0002698898, -0.005996704, 0 ],
+						[ 1487, 0.001270294, -0.006988525, 0 ],
+						[ 1490, 0, 0.006988525, 0 ],
+						[ 1491, 0, 0.01399231, 0 ],
+						[ 1492, 0.0004401207, 0.01699829, 0 ],
+						[ 1493, 0.0006694794, 0.003005981, 0 ],
+						[ 1494, 0.0008807182, -0.01098633, -3.957748e-05 ],
+						[ 1495, 0.005179882, -0.004989624, -4.768372e-07 ],
+						[ 1644, 0, 0.1040039, 6.055832e-05 ],
+						[ 1645, 0.01948023, -0.1439972, -0.0007996559 ],
+						[ 1646, 0.003630161, -0.1339874, -0.0001296997 ],
+						[ 1647, 0.0005199909, -0.1490021, -2.002716e-05 ],
+						[ 1648, 0.03102016, -0.1170044, -0.001529217 ],
+						[ 1654, 0.0281105, -0.1100006, -0.001959801 ],
+						[ 1672, 0.0005099773, -0.2149963, -9.536743e-06 ],
+						[ 1673, -0.0004901886, -0.2109985, 4.768372e-07 ],
+						[ 1674, 0.003289938, -0.2189941, -7.963181e-05 ],
+						[ 1675, 0.03220034, -0.2089844, -0.00180006 ],
+						[ 1676, -0.002699852, -0.2059937, 0 ],
+						[ 1677, 0.02029991, -0.207016, -0.0007295609 ],
+						[ 1678, 0.03009033, -0.20401, -0.002299786 ],
+						[ 1679, -0.003170013, -0.1799927, 0 ],
+						[ 1680, -0.006919861, -0.1880035, -4.768372e-07 ],
+						[ 1681, -0.0004301071, -0.01800537, 0 ],
+						[ 1682, -0.0002800226, -0.0329895, 0 ],
+						[ 1689, 3.004074e-05, 0.05699158, 2.002716e-05 ],
+						[ 1691, -1.001358e-05, 0.04298401, -4.768372e-07 ],
+						[ 1693, 1.192093e-07, 0.06900024, 0 ],
+						[ 1694, 0, 0.05899048, 0 ],
+						[ 2317, 0.01513004, 0.02000427, -0.01089954 ],
+						[ 2318, 0.01311016, 0.022995, -0.01222992 ],
+						[ 2319, 0.002740145, 0.01599121, -0.00345993 ],
+						[ 2322, -0.006660461, -0.07499695, 4.768372e-07 ],
+						[ 2323, 0.01311064, -0.03599548, -0.000480175 ],
+						[ 2324, -0.0006399155, -0.07498169, 0 ],
+						[ 2325, 0.0003602505, -0.05599976, -1.001358e-05 ],
+						[ 2326, 0.001110077, -0.04600525, -3.004074e-05 ],
+						[ 2327, 0.004048824, -0.03500366, -0.0001096725 ],
+						[ 2336, 0.003730297, -0.04798889, -1.001358e-05 ],
+						[ 2341, -0.0002100468, 0.007003784, 4.768372e-07 ],
+						[ 2343, 0.004659891, 0.02099609, -6.961823e-05 ],
+						[ 2345, 0.003350258, 0.02000427, -1.001358e-05 ],
+						[ 2346, 0.0004501343, 0.01599121, 0 ],
+						[ 2347, 0.0002098083, 0.003997803, 5.00679e-05 ],
+						[ 2349, -9.775162e-06, 0.01698303, 0.000120163 ],
+						[ 2350, 0, 0.004013062, 1.001358e-05 ],
+						[ 2351, 0.002200127, -0.02700806, -0.0001502037 ],
+						[ 2352, 0.003849983, -0.01698303, -0.0001196861 ],
+						[ 2354, -0.0009801388, -0.03199768, 4.768372e-07 ],
+						[ 2355, -0.0002398491, -0.01698303, 0 ],
+						[ 2356, -4.768372e-07, -0.003997803, 0.0004296303 ],
+						[ 2357, 0, -0.009002686, 0.001520157 ],
+						[ 2358, 0.0002098083, -0.009994507, 0.0001802444 ],
+						[ 2359, 0, -0.005004883, 0.0008101463 ],
+						[ 2360, -1.001358e-05, -0.007003784, 0 ],
+						[ 2361, -9.894371e-06, -0.004013062, 4.768372e-07 ],
+						[ 2362, 0.001330376, -0.01400757, 0.0003700256 ],
+						[ 2364, 0.003590107, -0.00100708, 0 ],
+						[ 2365, 0.004129887, -0.009002686, 0 ],
+						[ 2366, -4.768372e-07, -0.003005981, 0.0006098747 ],
+						[ 2367, 0.003789902, -0.1000061, -5.960464e-05 ],
+						[ 2368, 0.01468039, -0.003005981, 0 ],
+						[ 2369, 0.02527952, 0.04000854, 0 ],
+						[ 2370, 0.02297974, 0.02200317, 0 ],
+						[ 2371, 0.0009202957, -0.01400757, -1.001358e-05 ],
+						[ 2372, 0.002520561, -0.08300781, -0.0002202988 ],
+						[ 2373, 0.0007100105, -0.02798462, -3.004074e-05 ],
+						[ 2374, 0.005060077, 0.005996704, -0.00275135 ],
+						[ 2375, 0.003900051, 0.2169952, 0.0007104874 ],
+						[ 2376, 0.01032019, -0.1690063, -0.001010418 ],
+						[ 2377, 0.004729748, -0.05999756, -4.005432e-05 ],
+						[ 2378, -2.002716e-05, 0.03399658, 0 ],
+						[ 2379, 0.0004301071, -0.02500916, -2.002716e-05 ],
+						[ 2380, 0.004950047, -0.01499939, 0 ],
+						[ 2425, -0.003279924, -0.08099365, 0 ],
+						[ 2496, 0.05257988, 0.1190033, -0.03691006 ],
+						[ 2497, 0.0546, 0.2579956, -0.02638912 ],
+						[ 2498, 0.05123997, 0.07699585, -0.0248909 ],
+						[ 2499, 0.07518005, 0.1699982, -0.0188694 ],
+						[ 2500, 0.008900046, 0.01100159, -0.003590584 ],
+						[ 2501, 0.01810002, 0.03500366, -0.00356102 ],
+						[ 2502, 0.00831008, 0.2830048, -0.005000114 ],
+						[ 2503, 0.009270191, 0.1269989, -0.008339882 ],
+						[ 2504, 0.0008006096, 0.1720123, 4.768372e-07 ],
+						[ 2505, 0.0002398491, 0.2939911, 4.768372e-07 ],
+						[ 2506, 0.001629829, 0.2740021, -0.0004997253 ],
+						[ 2507, 0.0007596016, 0.2900085, -4.005432e-05 ],
+						[ 2511, 0.004190445, 0.01901245, -4.768372e-07 ],
+						[ 2582, 4.768372e-07, 0.002990723, 0 ],
+						[ 2583, 0, 0.004989624, 0 ],
+						[ 2584, 2.95639e-05, 0.003997803, -6.961823e-05 ],
+						[ 2585, 0, 0.00100708, -4.768372e-07 ],
+						[ 2586, 0, 0.03700256, 4.768372e-07 ],
+						[ 2587, 4.768372e-07, 0.01300049, 0 ],
+						[ 2588, 0, 0.04399109, 0 ],
+						[ 2589, 0.0001296997, 0.003005981, 0 ],
+						[ 2590, 0.0004496574, 0.1210022, -0.0005893707 ],
+						[ 2591, 4.005432e-05, 0.1439972, -2.95639e-05 ],
+						[ 2592, 6.008148e-05, 0.06900024, -4.768372e-07 ],
+						[ 2593, 0, 0.1580048, -4.768372e-07 ],
+						[ 4786, 0.001600266, -0.02200317, 0.0003499985 ],
+						[ 4787, 0.003109932, -0.009002686, 7.963181e-05 ],
+						[ 4788, 0.004590034, -0.1379852, -0.0002999306 ],
+						[ 4789, 0.002309322, -0.06300354, -2.002716e-05 ],
+						[ 4790, 0.001749992, -0.07701111, -8.010864e-05 ],
+						[ 4791, 0.006770134, -0.08200073, -0.0005698204 ],
+						[ 4792, 0.002610207, -0.01300049, -0.0001397133 ],
+						[ 4793, 0.0135994, -0.03598022, -0.0007696152 ],
+						[ 5225, -0.0004999638, -0.009002686, -4.768372e-07 ],
+						[ 5226, -1.001358e-05, 0.0650177, 0.000140667 ],
+						[ 5227, -1.0252e-05, 0.154007, 0.0002202988 ],
+						[ 5228, -0.006870031, -0.2030029, -4.768372e-07 ],
+						[ 5229, -0.003520012, -0.1040039, -4.768372e-07 ],
+						[ 5230, 2.014637e-05, 0.1679993, 0.0002298355 ],
+						[ 5233, 0, 0.001998901, -4.768372e-07 ],
+						[ 5234, 0, -0.01498413, 0.002679825 ],
+						[ 5235, 0.000939846, 0.1100006, 0.0002698898 ],
+						[ 5237, -0.00736022, -0.1849976, 4.768372e-07 ],
+						[ 5238, -0.006780148, -0.08000183, 0 ],
+						[ 5239, -0.00421989, -0.1710052, 4.768372e-07 ],
+						[ 5240, -0.003610253, -0.1360016, 4.768372e-07 ],
+						[ 5241, -0.001860023, -0.06001282, 0 ],
+						[ 5242, 0, 0.005004883, 0 ],
+						[ 5262, 0, 0.005996704, 0 ],
+						[ 5281, 2.384186e-07, 0.00100708, 0 ],
+						[ 5285, 0, 0.00100708, 0 ],
+						[ 6370, -0.001179934, -0.01301575, 0 ],
+						[ 6371, -0.001930237, -0.01000977, 0 ],
+						[ 6372, 0.01966047, 0.03599548, 0 ],
+						[ 6373, 0.02314007, 0.1069946, 0.0007505417 ],
+						[ 6374, -0.001960039, -0.01100159, 0 ],
+						[ 6375, 4.005432e-05, 0.00100708, 9.536743e-06 ],
+						[ 6377, 0.001089931, 0.01300049, 0.0003595352 ],
+						[ 6379, 4.005432e-05, -0.003005981, 0 ],
+						[ 6380, 1.001358e-05, -0.005004883, -4.768372e-07 ],
+						[ 6381, 0, 0.03500366, 0 ],
+						[ 6382, 0, 0.022995, 0 ],
+						[ 6383, -0.0002999306, -0.00100708, 0 ],
+						[ 6384, 0.0001797676, -0.002990723, 0 ],
+						[ 6385, 0.002810001, 1.525879e-05, -4.768372e-07 ],
+						[ 6386, 0.04699993, 0.2559967, -0.001131058 ],
+						[ 6387, 0.0004301071, -0.00201416, 0 ],
+						[ 6388, 0.0003299713, -0.00100708, 0 ],
+						[ 6389, 0.02100015, 0.3399963, -0.005519867 ],
+						[ 6390, 0.004439831, 0.3230133, -3.051758e-05 ],
+						[ 6391, 0.01382017, 0.3430023, -0.0002698898 ],
+						[ 6392, 0.01229, 0.3500061, -0.0003795624 ],
+						[ 6393, 0.004310131, 0.2249908, 0 ],
+						[ 6394, 0.008030176, 0.355011, -0.001130104 ],
+						[ 6395, -0.0002400875, -0.01499939, 0 ],
+						[ 7115, -0.00124979, 0.01200867, -4.768372e-07 ],
+						[ 7117, -0.002669811, 0.03399658, -9.536743e-06 ],
+						[ 7118, -0.01207972, 0.2330017, -3.004074e-05 ],
+						[ 7120, -0.02042055, 0.08500671, -0.0001597404 ],
+						[ 7121, -0.0383997, 0.2960052, -0.0004401207 ],
+						[ 7123, -0.03489017, 0.1589966, -0.0006494522 ],
+						[ 7124, -0.04836011, 0.3249969, -0.0009698868 ],
+						[ 7126, -0.01794004, 0.1910095, -0.0001602173 ],
+						[ 7127, -0.02153015, 0.3490143, -0.0002708435 ],
+						[ 7129, -0.007199764, 0.1959991, 7.915497e-05 ],
+						[ 7182, 0, -0.02000427, 0 ],
+						[ 7185, 0.001039982, -0.09399414, 0 ],
+						[ 7187, 0.006139755, -0.2079926, 0 ],
+						[ 7188, 0.003119946, -0.1049957, 4.768372e-07 ],
+						[ 7189, 0.001839995, -0.08900452, 4.768372e-07 ],
+						[ 7191, 0, -0.01799011, 0 ],
+						[ 7215, -0.05128002, 0.2519989, -0.0009498596 ],
+						[ 7216, -0.03682995, 0.173996, -0.0003600121 ],
+						[ 7217, -0.008769989, 0.1210175, -3.004074e-05 ],
+						[ 7218, -0.007560253, 0.05999756, 0 ],
+						[ 7219, -0.009249687, 0.1759949, 4.768372e-07 ],
+						[ 7222, -0.007829905, 0.3170013, -9.536743e-06 ],
+						[ 7223, -0.02488995, 0.3170166, -0.0002498627 ],
+						[ 7263, -0.007620335, -0.07699585, -0.000579834 ],
+						[ 7265, -0.02557969, 0.3270264, -0.0002698898 ],
+						[ 7266, -0.05350995, 0.2810059, -0.001009941 ],
+						[ 7267, -0.007679939, 0.3209991, -5.054474e-05 ],
+						[ 7268, -0.04081011, 0.2150116, -0.0004200935 ],
+						[ 7269, -0.01099968, 0.1700134, -4.005432e-05 ],
+						[ 7270, -0.009880066, 0.1239929, 0 ],
+						[ 7271, -0.007480145, 0.3360138, -0.0003089905 ],
+						[ 7286, -0.000190258, 0.01901245, -0.0003709793 ],
+						[ 7293, -0.005480289, 0.2869873, 0.000579834 ],
+						[ 7294, -0.001809835, 0.2799988, 0.0005803108 ],
+						[ 7295, -0.001459599, 0.2649994, 0.0005407333 ],
+						[ 7297, -2.002716e-05, 0.20401, 0.0007500648 ],
+						[ 7298, -1.001358e-05, 0.1940002, 0.0007505417 ],
+						[ 7299, 0, 0.001998901, 0 ],
+						[ 7499, 0.0002701283, -0.09100342, 4.768372e-07 ],
+						[ 7500, 0.0005402565, -0.1699982, 4.768372e-07 ],
+						[ 7503, -0.001549959, -0.08198547, -9.536743e-06 ],
+						[ 7504, -0.0001599789, -0.07199097, 0 ],
+						[ 7505, 1.013279e-05, 0.08898926, 5.00679e-05 ],
+						[ 7507, -1.192093e-07, 0.02198792, 2.002716e-05 ],
+						[ 7988, 9.775162e-06, 0.02000427, 0.0001196861 ],
+						[ 7990, 2.384186e-07, -0.001998901, 4.768372e-07 ],
+						[ 7991, -2.002716e-05, -0.002990723, 0 ],
+						[ 7992, 2.992153e-05, -0.003982544, 4.768372e-07 ],
+						[ 7994, 0.0002698898, -0.005996704, 0 ],
+						[ 7997, -0.001270294, -0.006988525, 0 ],
+						[ 8000, 0, 0.006988525, 0 ],
+						[ 8001, 0, 0.01399231, 0 ],
+						[ 8002, -0.0004401207, 0.01699829, 0 ],
+						[ 8003, -0.0006694794, 0.003005981, 0 ],
+						[ 8004, -0.0008807182, -0.01098633, -3.957748e-05 ],
+						[ 8005, 0, -0.006988525, -4.768372e-07 ],
+						[ 8154, 0, 0.1040039, 6.055832e-05 ],
+						[ 8155, -0.01948023, -0.1439972, -0.0007996559 ],
+						[ 8156, -0.003630161, -0.1339874, -0.0001296997 ],
+						[ 8157, -0.0005199909, -0.1490021, -2.002716e-05 ],
+						[ 8158, -0.03103018, -0.1170044, -0.001529217 ],
+						[ 8164, -0.02808046, -0.1100006, -0.001959801 ],
+						[ 8182, -0.0005002022, -0.2149963, -9.536743e-06 ],
+						[ 8183, 0.0004901886, -0.2109985, 4.768372e-07 ],
+						[ 8184, -0.003289938, -0.2189941, -7.963181e-05 ],
+						[ 8185, -0.03220034, -0.2089844, -0.00180006 ],
+						[ 8186, 0.002709866, -0.2059937, 0 ],
+						[ 8187, -0.02029991, -0.207016, -0.0007295609 ],
+						[ 8188, -0.03008032, -0.20401, -0.002299786 ],
+						[ 8189, 0.003190041, -0.1799927, 0 ],
+						[ 8190, 0.006929874, -0.1870117, -4.768372e-07 ],
+						[ 8191, 0.0004301071, -0.01800537, 0 ],
+						[ 8192, 0.0002800226, -0.0329895, 0 ],
+						[ 8199, -3.004074e-05, 0.05699158, 2.002716e-05 ],
+						[ 8201, 0, 0.04298401, -4.768372e-07 ],
+						[ 8203, -1.192093e-07, 0.06900024, 0 ],
+						[ 8204, 0, 0.05899048, 0 ],
+						[ 8827, -0.01514006, 0.02000427, -0.01090908 ],
+						[ 8828, -0.01316023, 0.022995, -0.01228046 ],
+						[ 8829, -0.002780199, 0.01599121, -0.003499985 ],
+						[ 8832, 0.006650209, -0.07400513, 4.768372e-07 ],
+						[ 8833, -0.01312065, -0.03599548, -0.000480175 ],
+						[ 8834, 0.0006399155, -0.07498169, 0 ],
+						[ 8835, -0.0003602505, -0.05599976, -2.002716e-05 ],
+						[ 8836, -0.001110077, -0.04600525, -4.005432e-05 ],
+						[ 8837, -0.004058838, -0.03500366, -0.0001096725 ],
+						[ 8845, 0, -0.001998901, 0 ],
+						[ 8846, -0.004909992, -0.03300476, 0 ],
+						[ 8851, 0.0002100468, 0.007003784, 4.768372e-07 ],
+						[ 8853, -0.004659891, 0.02099609, -6.961823e-05 ],
+						[ 8855, -0.003350258, 0.02000427, -1.001358e-05 ],
+						[ 8856, -0.0004501343, 0.01599121, 0 ],
+						[ 8857, -0.0002098083, 0.003997803, 5.00679e-05 ],
+						[ 8859, 9.775162e-06, 0.01698303, 0.000120163 ],
+						[ 8860, 0, 0.004013062, 1.001358e-05 ],
+						[ 8861, -0.002180099, -0.02700806, -0.0001401901 ],
+						[ 8862, 0, -0.01199341, 0 ],
+						[ 8864, 0.0009801388, -0.03199768, 4.768372e-07 ],
+						[ 8865, 0.0002398491, -0.01698303, 0 ],
+						[ 8866, 4.768372e-07, -0.003997803, 0.0004296303 ],
+						[ 8867, 0, -0.009002686, 0.001520157 ],
+						[ 8868, -0.0001997948, -0.009002686, 0.000190258 ],
+						[ 8869, 0, -0.005004883, 0.0008201599 ],
+						[ 8870, 1.001358e-05, -0.007003784, 0 ],
+						[ 8871, 9.894371e-06, -0.004013062, 4.768372e-07 ],
+						[ 8872, -0.001340389, -0.01400757, 0.0003700256 ],
+						[ 8874, 4.768372e-07, -0.00201416, 0 ],
+						[ 8875, -0.004159927, -0.009002686, 0 ],
+						[ 8876, 4.768372e-07, -0.003005981, 0.0006098747 ],
+						[ 8877, -0.003789902, -0.1000061, -5.960464e-05 ],
+						[ 8878, -0.01472044, -0.003005981, 0 ],
+						[ 8879, -0.02527952, 0.04000854, 0 ],
+						[ 8880, -0.02300978, 0.02301025, 0 ],
+						[ 8881, -0.0007104874, -0.01400757, 0 ],
+						[ 8882, -0.002510548, -0.08300781, -0.0002202988 ],
+						[ 8883, -0.0006999969, -0.02798462, -3.004074e-05 ],
+						[ 8884, -0.005050063, 0.005996704, -0.00275135 ],
+						[ 8885, -0.003890038, 0.2169952, 0.0007104874 ],
+						[ 8886, -0.01030016, -0.1690063, -0.001010418 ],
+						[ 8887, -0.004729748, -0.05999756, -4.005432e-05 ],
+						[ 8888, 2.002716e-05, 0.03399658, 0 ],
+						[ 8889, -0.0004301071, -0.02500916, -1.001358e-05 ],
+						[ 8890, -0.00496006, -0.01499939, 0 ],
+						[ 8935, 0.003289938, -0.08099365, 0 ],
+						[ 9006, -0.05262995, 0.1200104, -0.03689957 ],
+						[ 9007, -0.05443025, 0.2579956, -0.0262804 ],
+						[ 9008, -0.05128002, 0.07699585, -0.02490044 ],
+						[ 9009, -0.07517004, 0.17099, -0.01885986 ],
+						[ 9010, -0.008890033, 0.01100159, -0.003590584 ],
+						[ 9011, -0.01813006, 0.03500366, -0.00357151 ],
+						[ 9012, -0.008290052, 0.2830048, -0.004989624 ],
+						[ 9013, -0.009280205, 0.128006, -0.008330345 ],
+						[ 9014, -0.0008006096, 0.1720123, 4.768372e-07 ],
+						[ 9015, -0.0002398491, 0.2939911, 4.768372e-07 ],
+						[ 9016, -0.001639843, 0.2740021, -0.0004997253 ],
+						[ 9017, -0.0007596016, 0.2900085, -4.005432e-05 ],
+						[ 9021, -0.004200459, 0.01901245, -4.768372e-07 ],
+						[ 9092, -4.768372e-07, 0.002990723, 0 ],
+						[ 9093, 0, 0.004989624, 0 ],
+						[ 9094, -3.957748e-05, 0.003997803, -6.961823e-05 ],
+						[ 9095, 0, 0.00100708, -4.768372e-07 ],
+						[ 9096, 0, 0.03700256, 4.768372e-07 ],
+						[ 9097, -4.768372e-07, 0.01300049, 0 ],
+						[ 9098, 0, 0.04499817, 0 ],
+						[ 9099, -0.0001296997, 0.003005981, 0 ],
+						[ 9100, -0.000459671, 0.1210022, -0.0005998611 ],
+						[ 9101, -4.005432e-05, 0.1450043, -2.95639e-05 ],
+						[ 9102, -6.008148e-05, 0.06900024, -4.768372e-07 ],
+						[ 9103, 0, 0.1580048, -4.768372e-07 ],
+						[ 11256, -0.002099991, -0.01600647, 0.0003499985 ],
+						[ 11257, -0.0008401871, -0.009002686, 7.963181e-05 ],
+						[ 11258, -0.004570007, -0.1379852, -0.0002999306 ],
+						[ 11259, -0.002339363, -0.06300354, -2.002716e-05 ],
+						[ 11260, -0.001760006, -0.07600403, -8.010864e-05 ],
+						[ 11261, -0.00676012, -0.08200073, -0.0005698204 ],
+						[ 11262, -0.002600193, -0.01300049, -0.0001397133 ],
+						[ 11263, -0.0135994, -0.03598022, -0.0007696152 ],
+						[ 11694, 0, -0.007003784, -4.768372e-07 ],
+						[ 11695, 1.001358e-05, 0.06402588, 0.000140667 ],
+						[ 11696, 1.0252e-05, 0.154007, 0.0002202988 ],
+						[ 11697, 0.006989956, -0.2050018, -4.768372e-07 ],
+						[ 11698, 0.003560066, -0.105011, -4.768372e-07 ],
+						[ 11699, -2.014637e-05, 0.1679993, 0.0002298355 ],
+						[ 11701, 0, 0.001998901, -4.768372e-07 ],
+						[ 11702, 0, -0.01498413, 0.00330019 ],
+						[ 11703, -0.000939846, 0.1100006, 0.0002698898 ],
+						[ 11705, 0.007350206, -0.1840057, 4.768372e-07 ],
+						[ 11706, 0.006590128, -0.07501221, 0 ],
+						[ 11707, 0.00421989, -0.1699982, 4.768372e-07 ],
+						[ 11708, 0.00360024, -0.1360016, 4.768372e-07 ],
+						[ 11709, 0.001860023, -0.06001282, 0 ],
+						[ 11710, 0, 0.005004883, 0 ],
+						[ 11728, 0, 0.005996704, 0 ],
+						[ 11746, -2.384186e-07, 0.00100708, 0 ],
+						[ 11750, 0, 0.00100708, 0 ],
+						[ 12758, 0.001179934, -0.01301575, 0 ],
+						[ 12759, 0.00191021, -0.01000977, 0 ],
+						[ 12760, -0.01967049, 0.03599548, 0 ],
+						[ 12761, -0.0231601, 0.1069946, 0.0007505417 ],
+						[ 12762, 0.001929998, -0.01100159, 0 ],
+						[ 12763, -4.005432e-05, 0.00100708, 9.536743e-06 ],
+						[ 12765, -0.001099944, 0.01300049, 0.0003595352 ],
+						[ 12767, -4.005432e-05, -0.003005981, 0 ],
+						[ 12768, -1.001358e-05, -0.005004883, -4.768372e-07 ],
+						[ 12769, 0, 0.03500366, 0 ],
+						[ 12770, 0, 0.022995, 0 ],
+						[ 12772, -0.0001797676, -0.002990723, 0 ],
+						[ 12773, -0.002810001, 1.525879e-05, -4.768372e-07 ],
+						[ 12774, -0.04690003, 0.2559967, -0.001131058 ],
+						[ 12775, -0.0004301071, -0.00201416, 0 ],
+						[ 12776, -0.0003299713, -0.00100708, 0 ],
+						[ 12777, -0.02093005, 0.3399963, -0.00549984 ],
+						[ 12778, -0.004429817, 0.3230133, -3.051758e-05 ],
+						[ 12779, -0.01383018, 0.3430023, -0.0002698898 ],
+						[ 12780, -0.01231003, 0.3500061, -0.0003795624 ],
+						[ 12781, -0.004310131, 0.2249908, 0 ],
+						[ 12782, -0.008030176, 0.3560028, -0.001119614 ],
+						[ 12783, 0.0002400875, -0.01499939, 0 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Eyelid Size-1",
+				"url" : "#Eyelid%20Size"
+			}
+		]
+	}
+}

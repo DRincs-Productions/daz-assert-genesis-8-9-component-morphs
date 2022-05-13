@@ -1,0 +1,118 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/zev0/Aging%20Morphs%208/BendfixGluteCreasebackSH1%262LSB.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-10-31T21:36:18Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "BendfixGluteCreasebackSH1&2LSB",
+			"name" : "BendfixGluteCreasebackSH1&2LSB",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4196078, 0, 0.003921569 ], [ 0.1607843, 0.1607843, 0.1607843 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "BendfixGluteCreasebackSH1&2LSB",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Correctives/Aging Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#BendfixGluteCreasebackSH1%262LSB?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%201%20Shape%20HD.dsf#Aged%20Body%201%20Shape%20HD?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixGluteCreasebackSH1%262LSB?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/Aged%20Body%202%20Shape%20HD.dsf#Aged%20Body%202%20Shape%20HD?value" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#BendfixGluteCreasebackSH1%262LSB?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "lThigh:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Aging%20Morphs%208/lThighBend_CTRLMD_N_XRotate_35.dsf#CTRLMD_N_XRotate_35?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 37,
+					"values" : [
+						[ 5, 0.00615232, 0.007598877, 0.003800392 ],
+						[ 6, -0.00423603, 0.001998901, -0.01070213 ],
+						[ 152, 0.01024008, -0.007995605, 0.01530933 ],
+						[ 153, -0.001878023, -0.003005981, 0.001319885 ],
+						[ 154, 0.3647901, -0.1490021, 0.2041187 ],
+						[ 155, 0.03900003, -0.04800415, 0.0316 ],
+						[ 158, 0.3439009, 0.08219147, 0.2622995 ],
+						[ 170, 0.036735, 0.03988647, -0.01775932 ],
+						[ 1723, 0.004370093, 0.008888245, -0.02950001 ],
+						[ 3272, 0.156799, 0.1701965, 0.1933994 ],
+						[ 3294, 0.18715, -0.1419983, 0.1071997 ],
+						[ 3295, 0.2813199, 0.05059814, 0.08940029 ],
+						[ 3296, 0.05676997, 0.08760834, -0.05760002 ],
+						[ 3297, 0.0625549, 0.1751022, 0.03670025 ],
+						[ 3300, 0.05175801, 0.05059052, -0.01945019 ],
+						[ 3302, 0.121718, 0.0430069, -0.01323032 ],
+						[ 3303, 0.005869299, 0.01729584, -0.002020359 ],
+						[ 3308, 0.2650279, -0.05799103, 0.1600504 ],
+						[ 3309, 0.151781, 0.04969788, 0.3553095 ],
+						[ 3310, 0.2606498, 0.3620987, -0.08915997 ],
+						[ 3311, 0.314846, 0.4310989, -0.2907801 ],
+						[ 3312, 0.06630498, 0.07339478, -0.008171082 ],
+						[ 3313, 0.004442036, 0.001800537, -0.003809929 ],
+						[ 3502, 0.05026031, 0.03969574, -0.0004997253 ],
+						[ 3503, 0.2574298, 0.1789017, 0.0950985 ],
+						[ 3504, 0.2429099, 0.2144012, 0.3266001 ],
+						[ 3505, 0.0355528, 0.03370667, -0.02436161 ],
+						[ 3507, 0.040828, 0.0674057, 0.5468483 ],
+						[ 3511, -0.002249718, -0.0004959106, -0.007800102 ],
+						[ 4641, 0.003059864, -0.003005981, 0.002960205 ],
+						[ 4646, 0.005529881, -0.005996704, 0.001329422 ],
+						[ 6668, -0.005350053, 0.001998901, 0.002900124 ],
+						[ 9799, -0.01158299, 0.01079559, 0.01798058 ],
+						[ 9807, -0.03003502, 0.01429749, 0.01162052 ],
+						[ 9808, -0.008518495, 0.02380371, 0.01570892 ],
+						[ 9809, -0.013007, 0.02649689, -0.003360748 ],
+						[ 10001, -0.006140009, 0.002601624, 0.002109528 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "BendfixGluteCreasebackSH1&2LSB-1",
+				"url" : "#BendfixGluteCreasebackSH1%262LSB"
+			}
+		]
+	}
+}

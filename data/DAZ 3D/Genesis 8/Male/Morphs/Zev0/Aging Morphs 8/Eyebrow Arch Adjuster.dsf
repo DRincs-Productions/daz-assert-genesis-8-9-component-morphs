@@ -1,0 +1,1579 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Eyebrow%20Arch%20Adjuster.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-11-08T03:33:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Eyebrow Arch Adjuster",
+			"name" : "Eyebrow Arch Adjuster",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1568627, 0.1686275, 0.3058824 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Eyebrow Arch Adjuster",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/Real World/Aging Morphs/Brow & Forehead",
+			"formulas" : [
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0002709597 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.002853394 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0003317595 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 8.387685e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.007125854 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001502037 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.01571822 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.1430511 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.04733276 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.01135015 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.1432495 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.05256748 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.009447098 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4801178 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.02468491 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0009493828 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4347992 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.03360271 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.02387571 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4919586 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.01756001 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.01802301 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4842834 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.03691101 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.01559973 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.143158 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.04733849 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.01142073 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.1438599 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.05263519 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.009407997 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4794159 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.02468681 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001293898 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4353638 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.03344536 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.02383137 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4906616 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.01752281 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.01821136 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.4846191 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.03670502 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.635386e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.004394531 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0005664825 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0003081483 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.004653931 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0002441406 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.109113e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.004760742 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 8.487701e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 7.357517e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.000164032 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 4.720688e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0007324219 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.861023e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -3.814697e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.525879e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001296997 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -5.722046e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0003509521 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.288818e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001392365 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001263618 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Nose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.669452e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Nose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0006256104 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Nose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 3.433228e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Nose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.509805e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Nose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.009994507 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Nose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Nose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0007238388 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.907349e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0004577637 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -3.814697e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -9.155273e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -4.196167e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNostril?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -4.935265e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNostril?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.525879e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNostril?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.335144e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNostril?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.740456e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNostril?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001983643 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNostril:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNostril?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.049042e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.215935e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0007324219 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.907349e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001972914 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001220703 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001850128 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipBelowNose?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.418591e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipBelowNose?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0003356934 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipBelowNose?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 4.768372e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipBelowNose?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001547337 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipBelowNose?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001235962 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipBelowNose:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipBelowNose?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001029968 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.311302e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0004730225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.288818e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.000572443 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.002166748 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.001508713 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.192093e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0003509521 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 3.623962e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -4.863739e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001724243 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0004768372 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNoseBirdge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -6.628036e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNoseBirdge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0003509521 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNoseBirdge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001115799 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNoseBirdge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.377697e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNoseBirdge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001647949 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNoseBirdge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNoseBirdge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -1.335144e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.192093e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001211166 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -4.589558e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0007781982 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0001277924 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.670288e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0003356934 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 4.577637e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001541138 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0002355576 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -8.08239e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.000793457 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.580353e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001368523 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.001113892 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0003013611 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipUpperMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -3.519847e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipUpperMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0004119873 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipUpperMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.29425e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipUpperMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 4.978352e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipUpperMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.001617432 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipUpperMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -9.822845e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 8.153915e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.000213623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -2.288818e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -3.027916e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -5.626678e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.084805e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0003814697 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 3.051758e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.169609e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.098083e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.318092e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.103516e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 8.583069e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.716614e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 0.0001525879 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 6.67572e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 2.0504e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -9.155273e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -5.722046e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : 1.907349e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -0.0004577637 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyebrow%20Arch%20Adjuster?value" },
+						{ "op" : "push", "val" : -3.528595e-05 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 238,
+					"values" : [
+						[ 588, 0, -0.04901123, 0 ],
+						[ 591, 0, -0.03997803, 9.536743e-07 ],
+						[ 594, 2.384186e-07, -0.03201294, 0 ],
+						[ 597, 0, -0.02700806, -1.907349e-06 ],
+						[ 689, 0, -0.05000305, 1.430511e-06 ],
+						[ 735, 0, -0.006942749, 0 ],
+						[ 736, 9.536743e-07, -0.006973267, -1.907349e-06 ],
+						[ 737, 2.384186e-07, -0.006027222, 1.907349e-06 ],
+						[ 738, 1.430511e-06, -0.007003784, 1.430511e-06 ],
+						[ 739, -4.768372e-07, -0.009002686, 0 ],
+						[ 740, 0, -0.008972168, -1.430511e-06 ],
+						[ 741, 7.152557e-07, -0.02101135, 0 ],
+						[ 756, -0.02142, -0.6119995, 0.01531982 ],
+						[ 763, 0.0009996891, -0.01901245, 0.0001630783 ],
+						[ 764, 0.000279665, -0.005996704, 4.959106e-05 ],
+						[ 767, 0.0004000664, -0.003997803, 6.008148e-05 ],
+						[ 768, 0.0001101494, -0.00100708, 2.002716e-05 ],
+						[ 2168, -0.008110046, -0.2980042, -0.03567982 ],
+						[ 2169, 0.0298202, -0.437973, -0.009679794 ],
+						[ 2170, 0.00398016, -0.5500031, 0.01187801 ],
+						[ 2171, -0.0005501509, -0.001953125, 0.0001058578 ],
+						[ 2220, 9.536743e-07, -0.02900696, -4.768372e-07 ],
+						[ 2221, 9.536743e-07, -0.008956909, 4.768372e-07 ],
+						[ 2225, 0.002130508, -0.1150055, -0.016819 ],
+						[ 2226, 0.001920223, -0.01599121, 0.0003128052 ],
+						[ 2278, 0.03123963, 0.02098083, -0.003492355 ],
+						[ 2319, 0.0008900166, -0.2969971, 0.008080482 ],
+						[ 2320, -0.006579876, -0.4400177, 0.02375984 ],
+						[ 2321, 0.005949974, -0.05300903, -0.003182411 ],
+						[ 2322, 0.01414013, -0.1620026, -0.007670403 ],
+						[ 2323, 0, -0.2270203, 0 ],
+						[ 2347, 0.01429009, -0.3580017, -0.1060123 ],
+						[ 2348, 0.01689005, -0.2019958, -0.05102444 ],
+						[ 2349, 0.01225019, -0.1869812, -0.07688236 ],
+						[ 2350, 0.03991008, -0.1139832, -0.04679298 ],
+						[ 2351, 0.03317034, -0.05697632, -0.09391975 ],
+						[ 2352, 0.05117977, -0.07095337, -0.02049732 ],
+						[ 2353, -0.01255989, -0.2989655, -0.04944038 ],
+						[ 2354, -0.01707006, -0.451004, -0.04730129 ],
+						[ 2355, -0.02056837, -0.2599792, -0.03126955 ],
+						[ 2356, -0.0173912, -0.3110046, -0.03372002 ],
+						[ 2357, -0.02627039, -0.3189697, -0.0366497 ],
+						[ 2358, -0.002139568, -0.3410187, -0.05369091 ],
+						[ 2359, 4.768372e-07, -0.07699585, 0 ],
+						[ 2360, 1.430511e-06, -0.03997803, 0 ],
+						[ 2361, 0, -0.2839813, 1.430511e-06 ],
+						[ 2362, -0.02523088, -0.1660004, 0.02437019 ],
+						[ 2368, 0, -0.05599976, -4.768372e-07 ],
+						[ 2409, -1.430511e-06, -0.4880066, -4.768372e-07 ],
+						[ 2410, -1.430511e-06, -0.5129547, 4.768372e-07 ],
+						[ 2411, -0.01438856, -0.5650024, 0.03868008 ],
+						[ 2412, 0, -0.4049835, -4.768372e-07 ],
+						[ 2413, 0, -0.5609741, -9.536743e-07 ],
+						[ 2414, -0.01688766, -0.4240112, 0.002000809 ],
+						[ 2415, -0.000120163, -0.5719757, 0.00135231 ],
+						[ 2416, 9.536743e-07, -0.2610016, 0 ],
+						[ 2417, -0.03919983, -0.4759979, -0.05315781 ],
+						[ 2418, -0.01628017, -0.5079956, -0.06050873 ],
+						[ 2419, -0.03766918, -0.3639984, -0.01490879 ],
+						[ 2420, -0.03995848, -0.473999, -0.02638006 ],
+						[ 2423, -9.536743e-07, -0.06700134, 9.536743e-07 ],
+						[ 2436, 4.768372e-07, -0.03900146, 1.430511e-06 ],
+						[ 2438, -1.430511e-06, -0.01200867, 4.768372e-07 ],
+						[ 2440, 0, -0.003967285, -4.768372e-07 ],
+						[ 2442, 4.768372e-07, -0.003952026, 0 ],
+						[ 4524, 0, -0.05296326, 0 ],
+						[ 4525, 0, -0.02403259, 2.384186e-07 ],
+						[ 4529, -2.384186e-07, -0.01300049, 0 ],
+						[ 4530, 0, -0.03703308, 4.768372e-07 ],
+						[ 4531, 4.768372e-07, -0.06500244, 4.768372e-07 ],
+						[ 4532, 0, -0.09899902, 0 ],
+						[ 4533, 0, -0.1199493, -4.768372e-07 ],
+						[ 4547, 0, -0.022995, 0 ],
+						[ 4931, 0.0009902716, -0.005981445, 0.0001688004 ],
+						[ 5018, 0, -0.008026123, 1.907349e-06 ],
+						[ 5019, -2.384186e-07, -0.05000305, 1.907349e-06 ],
+						[ 5020, 0, -0.1019592, 0 ],
+						[ 5021, 0, -0.1810303, 9.536743e-07 ],
+						[ 5022, 0, -0.1100159, 0 ],
+						[ 5023, 4.768372e-07, -0.2140045, -4.768372e-07 ],
+						[ 5024, 0, -0.2669525, 0 ],
+						[ 5025, 4.768372e-07, -0.2579803, 9.536743e-07 ],
+						[ 5163, 1.430511e-06, -0.1949768, 0 ],
+						[ 5164, -4.768372e-07, -0.1949615, 9.536743e-07 ],
+						[ 5165, 1.430511e-06, -0.1499939, 0 ],
+						[ 5166, 2.384186e-07, -0.07600403, 0 ],
+						[ 5167, 4.768372e-07, -0.04498291, 0 ],
+						[ 5170, 0, -0.1019745, 1.430511e-06 ],
+						[ 5171, -2.384186e-07, -0.03697205, 0 ],
+						[ 5204, 0, -0.01997375, -3.814697e-06 ],
+						[ 5205, 0, -0.0849762, 0 ],
+						[ 5207, 0, -0.1209717, 9.536743e-07 ],
+						[ 5208, 0, -0.007034302, 0 ],
+						[ 5209, -2.384186e-07, -0.1490021, -2.861023e-06 ],
+						[ 5210, 0, -0.2919769, 0 ],
+						[ 5211, -1.430511e-06, -0.2720032, 0 ],
+						[ 5212, 4.768372e-07, -0.4200134, -9.536743e-07 ],
+						[ 5213, 0, -0.3519897, 4.768372e-07 ],
+						[ 5214, 0, -0.3699799, 1.430511e-06 ],
+						[ 5218, 7.152557e-07, -0.07600403, 9.536743e-07 ],
+						[ 5219, 4.768372e-07, -0.02000427, 0 ],
+						[ 5221, -4.768372e-07, -0.05397034, -4.768372e-07 ],
+						[ 5222, 0, -0.1709595, 0 ],
+						[ 5223, 0, -0.2579956, 4.768372e-07 ],
+						[ 5224, 4.768372e-07, -0.2599792, -1.907349e-06 ],
+						[ 5225, -2.384186e-07, -0.1279297, -1.907349e-06 ],
+						[ 5226, 0, -0.3189545, 9.536743e-07 ],
+						[ 5227, 4.768372e-07, -0.3309937, -4.768372e-07 ],
+						[ 6068, -0.02012968, -0.09895325, 0.005629539 ],
+						[ 6069, 0.006539822, -0.04899597, 0.001056671 ],
+						[ 6073, 0.003429651, -0.0199585, 0.0005588531 ],
+						[ 6081, 0, -0.02200317, 1.430511e-06 ],
+						[ 6082, 0.004160643, -0.0579834, 0.000670433 ],
+						[ 6085, 0.01683021, -0.07197571, 0.001219749 ],
+						[ 6086, -0.03998995, -0.1689758, -0.02914953 ],
+						[ 6087, -0.007418633, -0.1499786, -0.06165218 ],
+						[ 6088, -0.01296997, -0.1240387, -0.02679157 ],
+						[ 6089, -0.01499844, -0.1369934, -0.02437019 ],
+						[ 6090, -0.007629871, -0.1130371, -0.03719711 ],
+						[ 6774, 0, -0.04901123, 0 ],
+						[ 6777, 0, -0.03997803, 9.536743e-07 ],
+						[ 6780, -2.384186e-07, -0.0320282, 0 ],
+						[ 6783, 0, -0.02700806, -1.907349e-06 ],
+						[ 6875, 0, -0.05000305, 1.430511e-06 ],
+						[ 6921, 0, -0.006958008, 0 ],
+						[ 6922, -9.536743e-07, -0.006973267, -2.861023e-06 ],
+						[ 6923, -2.384186e-07, -0.006027222, 2.861023e-06 ],
+						[ 6924, -1.430511e-06, -0.007003784, 1.430511e-06 ],
+						[ 6925, 9.536743e-07, -0.009002686, 0 ],
+						[ 6926, 4.768372e-07, -0.008972168, -1.430511e-06 ],
+						[ 6927, -7.152557e-07, -0.02101135, -9.536743e-07 ],
+						[ 6942, 0.02142, -0.6119995, 0.01531982 ],
+						[ 6949, -0.0009996891, -0.01901245, 0.0001630783 ],
+						[ 6950, -0.000279665, -0.006011963, 4.959106e-05 ],
+						[ 6953, -0.0004000664, -0.003997803, 6.008148e-05 ],
+						[ 6954, -0.0001101494, -0.00100708, 2.002716e-05 ],
+						[ 8354, 0.008110046, -0.2980042, -0.03567982 ],
+						[ 8355, -0.0298202, -0.437973, -0.009679794 ],
+						[ 8356, -0.00398016, -0.5500031, 0.01187801 ],
+						[ 8357, 0.0005501509, -0.001953125, 0.0001058578 ],
+						[ 8406, -9.536743e-07, -0.02900696, -4.768372e-07 ],
+						[ 8407, -9.536743e-07, -0.008956909, 4.768372e-07 ],
+						[ 8411, -0.002130508, -0.1150055, -0.016819 ],
+						[ 8412, -0.001920223, -0.01599121, 0.0003128052 ],
+						[ 8464, -0.03123963, 0.02098083, -0.003492355 ],
+						[ 8505, -0.0008900166, -0.2969971, 0.008080482 ],
+						[ 8506, 0.006579876, -0.4400177, 0.02375984 ],
+						[ 8507, -0.005949974, -0.05300903, -0.003182411 ],
+						[ 8508, -0.01414013, -0.1620026, -0.007670403 ],
+						[ 8509, 0, -0.2270203, 0 ],
+						[ 8533, -0.01429009, -0.3580017, -0.1060123 ],
+						[ 8534, -0.01689005, -0.2019958, -0.05102444 ],
+						[ 8535, -0.01225019, -0.1869812, -0.07688236 ],
+						[ 8536, -0.03991008, -0.1139832, -0.04679298 ],
+						[ 8537, -0.03317034, -0.05697632, -0.09391975 ],
+						[ 8538, -0.05117977, -0.07095337, -0.02049732 ],
+						[ 8539, 0.01255989, -0.2989655, -0.04943085 ],
+						[ 8540, 0.01707006, -0.451004, -0.04730129 ],
+						[ 8541, 0.02056837, -0.2599792, -0.03127956 ],
+						[ 8542, 0.0173912, -0.3110046, -0.03372002 ],
+						[ 8543, 0.02627039, -0.3189697, -0.0366497 ],
+						[ 8544, 0.002139568, -0.3410187, -0.05369091 ],
+						[ 8545, -4.768372e-07, -0.07698059, 0 ],
+						[ 8546, -1.430511e-06, -0.03997803, 0 ],
+						[ 8547, 0, -0.2839813, 1.430511e-06 ],
+						[ 8548, 0.02523088, -0.1660004, 0.02437019 ],
+						[ 8554, 0, -0.05599976, -4.768372e-07 ],
+						[ 8595, 1.430511e-06, -0.4880066, -4.768372e-07 ],
+						[ 8596, 1.430511e-06, -0.5129547, 4.768372e-07 ],
+						[ 8597, 0.01438856, -0.5650024, 0.03868008 ],
+						[ 8598, 0, -0.4049835, -4.768372e-07 ],
+						[ 8599, 0, -0.5609741, -9.536743e-07 ],
+						[ 8600, 0.01688766, -0.4240112, 0.002000809 ],
+						[ 8601, 0.000120163, -0.5719757, 0.00135231 ],
+						[ 8602, -9.536743e-07, -0.2610016, 0 ],
+						[ 8603, 0.03919983, -0.4759979, -0.05315781 ],
+						[ 8604, 0.01628017, -0.5079956, -0.06050873 ],
+						[ 8605, 0.03766918, -0.3639984, -0.01490879 ],
+						[ 8606, 0.03995848, -0.473999, -0.02638006 ],
+						[ 8609, 1.430511e-06, -0.06700134, 9.536743e-07 ],
+						[ 8622, -4.768372e-07, -0.03900146, 1.430511e-06 ],
+						[ 8624, 1.430511e-06, -0.01200867, 4.768372e-07 ],
+						[ 8626, 0, -0.003967285, -4.768372e-07 ],
+						[ 8628, -4.768372e-07, -0.003952026, 0 ],
+						[ 10672, 0, -0.05296326, 0 ],
+						[ 10673, 0, -0.02403259, 2.384186e-07 ],
+						[ 10676, 2.384186e-07, -0.01300049, 0 ],
+						[ 10677, 0, -0.03703308, 4.768372e-07 ],
+						[ 10678, -4.768372e-07, -0.06500244, 4.768372e-07 ],
+						[ 10679, 0, -0.09899902, 0 ],
+						[ 10680, 0, -0.1199493, -4.768372e-07 ],
+						[ 10694, 0, -0.022995, 0 ],
+						[ 11077, -0.0009902716, -0.005981445, 0.0001688004 ],
+						[ 11159, 0, -0.008026123, 1.907349e-06 ],
+						[ 11160, 2.384186e-07, -0.05000305, 1.907349e-06 ],
+						[ 11161, 0, -0.1019592, 0 ],
+						[ 11162, 0, -0.1810303, 9.536743e-07 ],
+						[ 11163, 0, -0.1100159, 0 ],
+						[ 11164, -4.768372e-07, -0.2140045, -4.768372e-07 ],
+						[ 11165, 0, -0.2669525, 0 ],
+						[ 11166, -4.768372e-07, -0.2579803, 9.536743e-07 ],
+						[ 11297, -1.430511e-06, -0.1949768, 0 ],
+						[ 11298, 4.768372e-07, -0.1949615, 9.536743e-07 ],
+						[ 11299, -1.430511e-06, -0.1499939, 0 ],
+						[ 11300, -2.384186e-07, -0.07600403, 0 ],
+						[ 11301, -4.768372e-07, -0.04498291, 0 ],
+						[ 11303, 0, -0.1019745, 1.430511e-06 ],
+						[ 11304, 2.384186e-07, -0.03697205, 0 ],
+						[ 11334, 0, -0.01997375, -3.814697e-06 ],
+						[ 11335, 0, -0.0849762, 0 ],
+						[ 11337, 0, -0.1209717, 9.536743e-07 ],
+						[ 11338, 0, -0.007034302, 0 ],
+						[ 11339, 2.384186e-07, -0.1490021, -2.861023e-06 ],
+						[ 11340, 0, -0.2919769, 0 ],
+						[ 11341, 1.430511e-06, -0.2720032, 0 ],
+						[ 11342, -4.768372e-07, -0.4200134, -9.536743e-07 ],
+						[ 11343, 0, -0.3519897, 4.768372e-07 ],
+						[ 11344, 0, -0.3699799, 1.430511e-06 ],
+						[ 11347, -7.152557e-07, -0.07600403, 9.536743e-07 ],
+						[ 11348, -4.768372e-07, -0.02000427, 0 ],
+						[ 11350, 4.768372e-07, -0.05397034, -4.768372e-07 ],
+						[ 11351, 0, -0.1709595, 0 ],
+						[ 11352, 0, -0.2579956, 4.768372e-07 ],
+						[ 11353, -4.768372e-07, -0.2599792, -1.907349e-06 ],
+						[ 11354, 2.384186e-07, -0.1279297, -1.907349e-06 ],
+						[ 11355, 0, -0.3189545, 9.536743e-07 ],
+						[ 11356, -4.768372e-07, -0.3309937, -4.768372e-07 ],
+						[ 12134, 0.02012968, -0.09895325, 0.005629539 ],
+						[ 12135, -0.006539822, -0.04899597, 0.001056671 ],
+						[ 12139, -0.003429651, -0.0199585, 0.0005588531 ],
+						[ 12147, 0, -0.02200317, 1.430511e-06 ],
+						[ 12148, -0.004160643, -0.0579834, 0.000670433 ],
+						[ 12151, -0.01683021, -0.07197571, 0.001219749 ],
+						[ 12152, 0.03998995, -0.1689758, -0.02914953 ],
+						[ 12153, 0.007418633, -0.1499786, -0.06165218 ],
+						[ 12154, 0.01296997, -0.1240387, -0.02679157 ],
+						[ 12155, 0.01499844, -0.1369934, -0.02438068 ],
+						[ 12156, 0.007629871, -0.1130371, -0.03719711 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Eyebrow Arch Adjuster-1",
+				"url" : "#Eyebrow%20Arch%20Adjuster"
+			}
+		]
+	}
+}

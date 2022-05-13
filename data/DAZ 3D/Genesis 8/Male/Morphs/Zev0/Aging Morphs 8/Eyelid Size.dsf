@@ -1,0 +1,1163 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/zev0/Aging%20Morphs%208/Eyelid%20Size.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-11-08T03:33:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Eyelid Size",
+			"name" : "Eyelid Size",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1568627, 0.1686275, 0.3058824 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Eyelid Size",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/Real World/Aging Morphs/Eyes",
+			"formulas" : [
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0002712876 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001678467 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0003831387 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 8.477092e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0002288818 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "upperFaceRig:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#upperFaceRig?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0002915859 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.02243853 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.04527283 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.009976387 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01281786 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01826477 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.00703907 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.007030249 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08641052 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.006324768 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01583028 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08085632 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01206207 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001792908 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1211243 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -4.291534e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.000295639 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1511536 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.670288e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.02231407 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.04508972 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.009980202 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01288891 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01760864 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.00710392 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.007047176 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08660889 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.006310463 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01614833 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.08021545 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowMid:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowMid?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01189137 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0002236366 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1218109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -7.152557e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.000105381 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.1498413 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lBrowOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lBrowOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0001773834 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.636736e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001052856 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -8.392334e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003080119 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.002319336 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidBrowUpper:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidBrowUpper?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002632141 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.096121e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001800537 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -2.193451e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 7.36427e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0008392334 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "MidNoseBridge:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#MidNoseBridge?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 6.198883e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.002116442 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07191467 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.955032e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001571178 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.05499268 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -7.915497e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01884556 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07217407 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001266956 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.01954699 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.08398438 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lSquintOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001247883 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.002063513 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07177734 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 5.435944e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.001743317 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.05517578 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0001268387 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.018785 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.07267761 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001273155 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.01912451 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.08364868 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rSquintOuter:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rSquintOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.001169205 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 1.907349e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0007781982 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -1.430511e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0004005432 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0005493164 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 3.242493e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 2.193451e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0003662109 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 4.291534e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : -0.0002970695 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 0.0004882812 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rCheekUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rCheekUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Eyelid%20Size?value" },
+						{ "op" : "push", "val" : 3.671646e-05 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 382,
+					"values" : [
+						[ 588, 0.01208019, 0.2329865, -3.004074e-05 ],
+						[ 590, 0.01983976, 0.08200073, -0.0001506805 ],
+						[ 591, 0.03855991, 0.2940216, -0.000439167 ],
+						[ 593, 0.03561044, 0.1619873, -0.0006628036 ],
+						[ 594, 0.04911995, 0.3240204, -0.0009803772 ],
+						[ 596, 0.0187602, 0.1960144, -0.0001811981 ],
+						[ 597, 0.02198005, 0.3480225, -0.0002717972 ],
+						[ 599, 0.005599737, 0.1889954, 0.0001077652 ],
+						[ 652, 0.00641489, -0.03305054, -1.716614e-05 ],
+						[ 655, -0.001010418, -0.1029968, -2.861023e-06 ],
+						[ 657, -0.006099224, -0.2050018, 9.536743e-07 ],
+						[ 658, -0.003299236, -0.1130371, -9.536743e-07 ],
+						[ 659, -0.001810074, -0.08700562, 0 ],
+						[ 685, 0.05174041, 0.2539978, -0.0009737015 ],
+						[ 686, 0.03886509, 0.1982117, -0.0004029274 ],
+						[ 687, 0.009320736, 0.1227417, -3.957748e-05 ],
+						[ 688, 0.007128239, 0.0589447, 0 ],
+						[ 689, 0.009349823, 0.1729889, 1.430511e-06 ],
+						[ 692, 0.007730007, 0.3000336, 0.0001020432 ],
+						[ 693, 0.02491021, 0.3160095, -0.0002374649 ],
+						[ 735, 0.02605987, 0.3159943, -0.0002603531 ],
+						[ 736, 0.05367017, 0.2779846, -0.001008987 ],
+						[ 737, 0.00744009, 0.2990265, 0.0001115799 ],
+						[ 738, 0.04083157, 0.2119598, -0.0004191399 ],
+						[ 739, 0.01112986, 0.1649933, -3.957748e-05 ],
+						[ 740, 0.009819984, 0.1199951, -1.430511e-06 ],
+						[ 741, 0.007020712, 0.3329773, -0.000210762 ],
+						[ 756, 0.0001797676, 0.01898193, -0.0003700256 ],
+						[ 763, 0.004069805, 0.2879791, 0.0005407333 ],
+						[ 764, 0.001350403, 0.2620087, 0.000576973 ],
+						[ 767, 2.074242e-05, 0.2050171, 0.0007710457 ],
+						[ 768, 1.0252e-05, 0.1940155, 0.0007505417 ],
+						[ 769, 7.152557e-07, 0.00201416, -4.768372e-07 ],
+						[ 936, -0.0001504421, -0.04605103, -2.861023e-06 ],
+						[ 937, -0.0005397797, -0.1700287, 4.768372e-07 ],
+						[ 940, 0.001770735, -0.0909729, -2.145767e-05 ],
+						[ 941, 0.0002000332, -0.08901978, 9.536743e-07 ],
+						[ 942, -1.0252e-05, 0.08700562, 5.102158e-05 ],
+						[ 944, -9.298325e-06, 0.022995, 2.002716e-05 ],
+						[ 1425, -1.0252e-05, 0.02000427, 0.0001096725 ],
+						[ 1427, 9.775162e-06, -0.003997803, 0 ],
+						[ 1429, -4.947186e-05, -0.004013062, -4.768372e-07 ],
+						[ 1431, -0.0002698898, -0.005996704, 4.768372e-07 ],
+						[ 1434, 0.001203537, -0.006851196, 2.098083e-05 ],
+						[ 1438, 0.0003204346, 0.01460266, -1.430511e-06 ],
+						[ 1439, 0.0004448891, 0.0161438, 0 ],
+						[ 1440, 0.0005545616, 0.002822876, 4.386902e-05 ],
+						[ 1441, 0.0009393692, -0.01200867, -4.291534e-05 ],
+						[ 1442, 0.004914284, -0.005172729, 1.716614e-05 ],
+						[ 1540, 3.576279e-07, 0.1069946, 7.200241e-05 ],
+						[ 1541, 0.019526, -0.1441345, -0.0007987022 ],
+						[ 1542, 0.003719807, -0.1470032, -0.000128746 ],
+						[ 1543, 0.000579834, -0.164978, -1.955032e-05 ],
+						[ 1544, 0.0308938, -0.1165924, -0.001513958 ],
+						[ 1550, 0.02820206, -0.1100159, -0.001955986 ],
+						[ 1568, 0.0004608631, -0.2150116, -1.335144e-05 ],
+						[ 1569, -0.0004901886, -0.2120056, -1.907349e-06 ],
+						[ 1570, 0.003189802, -0.2200165, -7.820129e-05 ],
+						[ 1571, 0.03076506, -0.2029572, -0.001673222 ],
+						[ 1572, -0.002789736, -0.2059784, 0 ],
+						[ 1573, 0.01965857, -0.2078552, -0.0007052422 ],
+						[ 1574, 0.02938986, -0.1958771, -0.002224922 ],
+						[ 1575, -0.003239393, -0.1829987, 1.430511e-06 ],
+						[ 1576, -0.006949186, -0.1890106, 4.768372e-07 ],
+						[ 1577, -0.0004997253, -0.02099609, 9.536743e-07 ],
+						[ 1578, -0.0002906322, -0.03399658, 4.768372e-07 ],
+						[ 1585, 2.980232e-05, 0.05599976, 1.907349e-05 ],
+						[ 1587, -1.001358e-05, 0.04199219, 9.536743e-07 ],
+						[ 1588, -3.027916e-05, 0.00100708, 0 ],
+						[ 1589, 2.384186e-07, 0.06898499, 0 ],
+						[ 1590, 0, 0.05900574, -9.536743e-07 ],
+						[ 2168, 0.01521993, 0.02001953, -0.01109028 ],
+						[ 2169, 0.01229, 0.02203369, -0.01161957 ],
+						[ 2170, 0.002790451, 0.01599121, -0.003525734 ],
+						[ 2173, -0.006709337, -0.07699585, 4.768372e-07 ],
+						[ 2174, 0.0132494, -0.036026, -0.0004787445 ],
+						[ 2175, -0.0006306171, -0.07400513, 9.536743e-07 ],
+						[ 2176, 0.0004198551, -0.05700684, -7.629395e-06 ],
+						[ 2177, 0.001199722, -0.04699707, -4.005432e-05 ],
+						[ 2178, 0.004108906, -0.03599548, -0.0001096725 ],
+						[ 2187, 0.004992962, -0.03161621, 2.384186e-06 ],
+						[ 2193, 0.002869844, 0.02999878, -2.193451e-05 ],
+						[ 2194, 0.004661083, 0.02099609, -7.05719e-05 ],
+						[ 2196, 0.00469923, 0.02505493, -2.193451e-05 ],
+						[ 2198, 0.0005249977, 0.006942749, 3.242493e-05 ],
+						[ 2200, -2.002716e-05, 0.03399658, 0.0002422333 ],
+						[ 2201, -2.384186e-07, 0.004013062, 1.001358e-05 ],
+						[ 2203, 0.0002074242, -0.001068115, 1.859665e-05 ],
+						[ 2205, -0.0009999275, -0.03300476, 9.536743e-07 ],
+						[ 2206, -0.0002398491, -0.01704407, -4.768372e-07 ],
+						[ 2207, 3.814697e-06, -0.004074097, 0.0004272461 ],
+						[ 2208, -2.384186e-07, -0.009033203, 0.001530647 ],
+						[ 2209, 0.0002200603, -0.009979248, 0.0001802444 ],
+						[ 2210, 0, -0.004989624, 0.0008077621 ],
+						[ 2211, -9.655952e-06, -0.007034302, 0 ],
+						[ 2212, -1.001358e-05, -0.002975464, -9.536743e-07 ],
+						[ 2213, 0.001496315, -0.01483154, 0.0003519058 ],
+						[ 2215, 0.003334522, -0.001373291, 5.483627e-05 ],
+						[ 2217, 0.0009446144, -0.003631592, 0.0004262924 ],
+						[ 2218, 0.004469872, -0.09848022, -1.955032e-05 ],
+						[ 2219, 0.01474094, -0.002914429, -9.536743e-07 ],
+						[ 2220, 0.02520132, 0.03904724, -4.768372e-07 ],
+						[ 2221, 0.02313995, 0.02201843, 4.768372e-07 ],
+						[ 2222, 0.0006775856, -0.01535034, -1.049042e-05 ],
+						[ 2225, 0.005270123, 0.007003784, -0.002868652 ],
+						[ 2226, 0.004020214, 0.2190094, 0.0007343292 ],
+						[ 2227, 0.01293564, -0.1703796, -0.001168251 ],
+						[ 2228, 0.004714966, -0.06126404, -3.957748e-05 ],
+						[ 2229, -2.026558e-05, 0.03303528, 0 ],
+						[ 2230, 0.0004200935, -0.02401733, -9.536743e-06 ],
+						[ 2231, 0.004880905, -0.01400757, 9.536743e-07 ],
+						[ 2276, -0.003150225, -0.08395386, 1.907349e-06 ],
+						[ 2278, 0.0003097057, 0.00201416, 0.0001020432 ],
+						[ 2319, 0.0007996559, 0.001022339, -0.0007410049 ],
+						[ 2320, 6.008148e-05, 0.001022339, -6.961823e-05 ],
+						[ 2347, 0.05211043, 0.1190186, -0.03666973 ],
+						[ 2348, 0.05447006, 0.2579956, -0.02635098 ],
+						[ 2349, 0.05178976, 0.07797241, -0.02519989 ],
+						[ 2350, 0.07507062, 0.17099, -0.01916981 ],
+						[ 2351, 0.009219885, 0.01205444, -0.003759384 ],
+						[ 2352, 0.01828957, 0.03599548, -0.003530502 ],
+						[ 2353, 0.008270025, 0.28302, -0.004970551 ],
+						[ 2354, 0.00943923, 0.1310577, -0.008399963 ],
+						[ 2355, 0.0007801056, 0.1779633, 9.536743e-07 ],
+						[ 2356, 0.0002603531, 0.2949982, 4.768372e-07 ],
+						[ 2357, 0.001699924, 0.2779846, -0.0004796982 ],
+						[ 2358, 0.0007705688, 0.292038, -4.1008e-05 ],
+						[ 2362, 0.003769398, 0.01696777, 0 ],
+						[ 2409, -9.536743e-07, 0.003005981, -4.768372e-07 ],
+						[ 2410, -1.430511e-06, 0.005050659, 4.768372e-07 ],
+						[ 2411, 2.95639e-05, 0.00302124, -6.103516e-05 ],
+						[ 2413, 0, 0.03903198, -9.536743e-07 ],
+						[ 2414, 1.430511e-06, 0.01300049, 4.768372e-07 ],
+						[ 2415, -4.768372e-07, 0.04600525, -1.907349e-06 ],
+						[ 2416, 0.0001211166, 0.00302124, 0 ],
+						[ 2417, 0.0003714561, 0.1290436, -0.0005073547 ],
+						[ 2418, 5.102158e-05, 0.1489868, -3.242493e-05 ],
+						[ 2419, 6.008148e-05, 0.07099915, 4.768372e-07 ],
+						[ 2420, 9.536743e-07, 0.1630249, 9.536743e-07 ],
+						[ 4506, 0.001303196, -0.01072693, 0.0004525185 ],
+						[ 4507, 0.0027771, -0.009765625, 9.202957e-05 ],
+						[ 4508, 0.004893303, -0.137207, -0.0003356934 ],
+						[ 4509, 0.002284527, -0.0647583, -3.814697e-05 ],
+						[ 4510, 0.00152874, -0.07992554, -9.965897e-05 ],
+						[ 4511, 0.007268429, -0.08270264, -0.0005984306 ],
+						[ 4512, 0.002622128, -0.01298523, -0.0001392365 ],
+						[ 4513, 0.0138011, -0.03701782, -0.0007801056 ],
+						[ 4920, 0, 0.001983643, -4.768372e-07 ],
+						[ 4921, -0.0004899502, -0.009002686, -4.768372e-07 ],
+						[ 4922, -1.072884e-05, 0.06500244, 0.0001606941 ],
+						[ 4923, -1.001358e-05, 0.1539917, 0.000210762 ],
+						[ 4924, -0.006860495, -0.2039948, -9.536743e-07 ],
+						[ 4925, -0.003899813, -0.1110077, 4.768372e-07 ],
+						[ 4926, 9.894371e-06, 0.1690063, 0.0002298355 ],
+						[ 4929, 7.152557e-07, 0.001998901, 4.768372e-07 ],
+						[ 4930, 7.152557e-07, -0.01498413, 0.003309727 ],
+						[ 4931, 0.001040578, 0.1110077, 0.0002889633 ],
+						[ 4933, -0.00737977, -0.184967, 4.768372e-07 ],
+						[ 4934, -0.00687027, -0.08195496, -4.768372e-07 ],
+						[ 4935, -0.004129767, -0.1669464, 0 ],
+						[ 4936, -0.003659725, -0.1369934, 9.536743e-07 ],
+						[ 4937, -0.00191021, -0.06199646, 0 ],
+						[ 4938, 5.960464e-07, 0.006027222, -1.907349e-06 ],
+						[ 4958, 1.788139e-07, 0.005981445, 9.536743e-07 ],
+						[ 6066, -0.001199961, -0.01499939, 0 ],
+						[ 6067, -0.002059698, -0.01100159, 9.536743e-07 ],
+						[ 6068, 0.01952028, 0.0349884, -9.536743e-07 ],
+						[ 6069, 0.02250004, 0.1119995, 0.0008392334 ],
+						[ 6070, -0.002079964, -0.01100159, 0 ],
+						[ 6073, 0.001649976, 0.02001953, 0.0004768372 ],
+						[ 6075, 3.957748e-05, -0.002975464, 4.768372e-07 ],
+						[ 6076, 9.536743e-06, -0.004974365, -9.536743e-07 ],
+						[ 6077, 0, 0.03500366, 9.536743e-07 ],
+						[ 6078, -1.192093e-07, 0.02705383, 0 ],
+						[ 6079, -0.0003194809, -0.001953125, 1.907349e-06 ],
+						[ 6080, 0.0001711845, -0.002990723, -4.768372e-07 ],
+						[ 6081, 0.002309799, 0, 1.430511e-06 ],
+						[ 6082, 0.04586959, 0.2570038, -0.001104355 ],
+						[ 6083, 0.0004286766, -0.00201416, 0 ],
+						[ 6085, 0.0199399, 0.3399963, -0.005119324 ],
+						[ 6086, 0.004370213, 0.3230286, -3.051758e-05 ],
+						[ 6087, 0.01374149, 0.3430634, -0.0002698898 ],
+						[ 6088, 0.01371956, 0.3489838, -0.0004110336 ],
+						[ 6089, 0.004041672, 0.2279968, 0 ],
+						[ 6090, 0.008230925, 0.3560028, -0.001050949 ],
+						[ 6091, -0.0002508163, -0.01600647, -1.907349e-06 ],
+						[ 6774, -0.01208019, 0.2329865, -3.004074e-05 ],
+						[ 6776, -0.01984978, 0.08200073, -0.0001506805 ],
+						[ 6777, -0.03857994, 0.2940216, -0.000439167 ],
+						[ 6779, -0.03570008, 0.1619873, -0.0006628036 ],
+						[ 6780, -0.04912996, 0.3239899, -0.0009803772 ],
+						[ 6782, -0.01877022, 0.1960144, -0.0001811981 ],
+						[ 6783, -0.02198005, 0.3480225, -0.0002794266 ],
+						[ 6785, -0.005599737, 0.1889954, 9.822845e-05 ],
+						[ 6838, -9.059906e-06, -0.0202179, 2.861023e-06 ],
+						[ 6841, 0.001010418, -0.1029968, -2.861023e-06 ],
+						[ 6843, 0.006109238, -0.2050018, 9.536743e-07 ],
+						[ 6844, 0.003309965, -0.1130371, -9.536743e-07 ],
+						[ 6845, 0.001820087, -0.08700562, 0 ],
+						[ 6871, -0.05173063, 0.2539978, -0.0009737015 ],
+						[ 6872, -0.0388751, 0.1982117, -0.0004034042 ],
+						[ 6873, -0.009349346, 0.123703, -3.957748e-05 ],
+						[ 6874, -0.007146835, 0.0589447, 0 ],
+						[ 6875, -0.009329319, 0.1729889, 1.430511e-06 ],
+						[ 6878, -0.007769823, 0.2990265, 0.0001134872 ],
+						[ 6879, -0.0249002, 0.3159943, -0.0002269745 ],
+						[ 6921, -0.02605009, 0.3159943, -0.0002603531 ],
+						[ 6922, -0.05365014, 0.2779999, -0.001008987 ],
+						[ 6923, -0.007430077, 0.2990265, 0.0001115799 ],
+						[ 6924, -0.04083109, 0.2119598, -0.0004191399 ],
+						[ 6925, -0.01109982, 0.1649933, -3.957748e-05 ],
+						[ 6926, -0.009840012, 0.1199951, -1.430511e-06 ],
+						[ 6927, -0.007030249, 0.3329773, -0.000210762 ],
+						[ 6942, -0.0001893044, 0.01898193, -0.0003728867 ],
+						[ 6949, -0.004089594, 0.2879791, 0.0005407333 ],
+						[ 6950, -0.001350164, 0.2620087, 0.000576973 ],
+						[ 6953, -2.074242e-05, 0.2050171, 0.0007710457 ],
+						[ 6954, -1.0252e-05, 0.1940155, 0.0007505417 ],
+						[ 6955, -7.152557e-07, 0.00201416, -4.768372e-07 ],
+						[ 7122, 4.768372e-07, -0.02900696, -2.861023e-06 ],
+						[ 7123, 0.0005397797, -0.1700287, 4.768372e-07 ],
+						[ 7126, -0.001770735, -0.09095764, -2.145767e-05 ],
+						[ 7127, -0.0002000332, -0.08901978, 9.536743e-07 ],
+						[ 7128, 1.0252e-05, 0.08700562, 5.102158e-05 ],
+						[ 7130, -5.960464e-07, 0.022995, 2.95639e-05 ],
+						[ 7611, 1.0252e-05, 0.02000427, 0.0001096725 ],
+						[ 7613, 0, -0.001998901, 0 ],
+						[ 7615, 2.95639e-05, -0.004013062, -4.768372e-07 ],
+						[ 7617, 0.0002698898, -0.005996704, 4.768372e-07 ],
+						[ 7620, -0.001203537, -0.006851196, 2.098083e-05 ],
+						[ 7624, -0.0003204346, 0.01460266, -1.430511e-06 ],
+						[ 7625, -0.0004448891, 0.0161438, 0 ],
+						[ 7626, -0.0005545616, 0.002822876, 4.386902e-05 ],
+						[ 7627, -0.0009484291, -0.01200867, -4.291534e-05 ],
+						[ 7628, -6.151199e-05, -0.007019043, 1.716614e-05 ],
+						[ 7726, -3.576279e-07, 0.1069946, 6.151199e-05 ],
+						[ 7727, -0.019526, -0.1441345, -0.0007987022 ],
+						[ 7728, -0.003710032, -0.1470032, -0.0001296997 ],
+						[ 7729, -0.000579834, -0.164978, -2.908707e-05 ],
+						[ 7730, -0.0308938, -0.1165924, -0.001513958 ],
+						[ 7736, -0.02817249, -0.1100159, -0.001955509 ],
+						[ 7754, -0.0004608631, -0.2150116, -1.239777e-05 ],
+						[ 7755, 0.0004901886, -0.2119751, -1.907349e-06 ],
+						[ 7756, -0.003189802, -0.2200165, -7.867813e-05 ],
+						[ 7757, -0.03050947, -0.2024689, -0.001681328 ],
+						[ 7758, 0.002799988, -0.2059784, -4.768372e-07 ],
+						[ 7759, -0.01964998, -0.2078247, -0.0007052422 ],
+						[ 7760, -0.02895927, -0.1954193, -0.002206326 ],
+						[ 7761, 0.003259897, -0.1829987, 1.430511e-06 ],
+						[ 7762, 0.006969213, -0.1880035, 0 ],
+						[ 7763, 0.0004997253, -0.01998901, 9.536743e-07 ],
+						[ 7764, 0.0002906322, -0.03399658, 4.768372e-07 ],
+						[ 7771, -1.990795e-05, 0.05702209, 1.907349e-05 ],
+						[ 7773, -3.576279e-07, 0.04199219, 9.536743e-07 ],
+						[ 7774, 2.026558e-05, 0.00100708, 0 ],
+						[ 7775, -2.384186e-07, 0.06898499, 0 ],
+						[ 7776, 0, 0.05900574, -9.536743e-07 ],
+						[ 8354, -0.01522994, 0.02001953, -0.01109982 ],
+						[ 8355, -0.01235008, 0.02203369, -0.01167011 ],
+						[ 8356, -0.002830505, 0.01599121, -0.003565788 ],
+						[ 8359, 0.006699324, -0.07699585, -4.768372e-07 ],
+						[ 8360, -0.01325941, -0.036026, -0.0004782677 ],
+						[ 8361, 0.0006005764, -0.07902527, 4.768372e-07 ],
+						[ 8362, -0.0004198551, -0.05700684, -1.859665e-05 ],
+						[ 8363, -0.001209497, -0.04699707, -3.957748e-05 ],
+						[ 8364, -0.004108906, -0.03599548, -0.0001096725 ],
+						[ 8372, -4.768372e-07, -0.001998901, 0 ],
+						[ 8373, -0.005053043, -0.03161621, 2.384186e-06 ],
+						[ 8379, -0.002869844, 0.02999878, -2.193451e-05 ],
+						[ 8380, -0.004661083, 0.02099609, -7.05719e-05 ],
+						[ 8382, -0.004700184, 0.02505493, -2.193451e-05 ],
+						[ 8384, -0.0005249977, 0.006942749, 3.242493e-05 ],
+						[ 8386, 2.002716e-05, 0.03399658, 0.0002422333 ],
+						[ 8387, 2.384186e-07, 0.004013062, 1.001358e-05 ],
+						[ 8391, 0.001009464, -0.03300476, 9.536743e-07 ],
+						[ 8392, 0.0002398491, -0.01704407, -4.768372e-07 ],
+						[ 8393, -3.814697e-06, -0.004074097, 0.0004272461 ],
+						[ 8394, 2.384186e-07, -0.009033203, 0.001527786 ],
+						[ 8395, -0.0002200603, -0.009979248, 0.0001802444 ],
+						[ 8396, 0, -0.004989624, 0.0008077621 ],
+						[ 8397, 9.655952e-06, -0.007034302, 0 ],
+						[ 8398, 1.001358e-05, -0.003952026, -9.536743e-07 ],
+						[ 8399, -0.001508713, -0.01483154, 0.0003519058 ],
+						[ 8401, 0, -0.002288818, 5.483627e-05 ],
+						[ 8403, -0.0009584427, -0.003631592, 0.0004262924 ],
+						[ 8404, -0.004499435, -0.09848022, -1.955032e-05 ],
+						[ 8405, -0.014781, -0.002914429, -9.536743e-07 ],
+						[ 8406, -0.02520132, 0.03904724, -4.768372e-07 ],
+						[ 8407, -0.02316999, 0.02201843, 4.768372e-07 ],
+						[ 8408, -0.0006775856, -0.01535034, -1.049042e-05 ],
+						[ 8411, -0.00526011, 0.007003784, -0.002868652 ],
+						[ 8412, -0.004020214, 0.2190094, 0.0007343292 ],
+						[ 8413, -0.01289225, -0.1703796, -0.001168251 ],
+						[ 8414, -0.004725456, -0.06031799, -3.004074e-05 ],
+						[ 8415, 2.026558e-05, 0.03303528, 0 ],
+						[ 8416, -0.0004200935, -0.02401733, -9.536743e-06 ],
+						[ 8417, -0.004880905, -0.01400757, 9.536743e-07 ],
+						[ 8462, 0.003160238, -0.08395386, 1.907349e-06 ],
+						[ 8464, -0.0003097057, 0.00201416, 0.0001020432 ],
+						[ 8505, -0.0008099079, 0.001022339, -0.0007486343 ],
+						[ 8506, -6.008148e-05, 0.001022339, -8.106232e-05 ],
+						[ 8533, -0.05215979, 0.1190186, -0.03665924 ],
+						[ 8534, -0.05431962, 0.2579956, -0.02625084 ],
+						[ 8535, -0.05182981, 0.07797241, -0.02521324 ],
+						[ 8536, -0.07505059, 0.17099, -0.01915741 ],
+						[ 8537, -0.00921011, 0.01205444, -0.003749847 ],
+						[ 8538, -0.01830947, 0.03599548, -0.003540039 ],
+						[ 8539, -0.00824976, 0.28302, -0.004950523 ],
+						[ 8540, -0.009449005, 0.1320648, -0.008399963 ],
+						[ 8541, -0.0007801056, 0.1779633, 9.536743e-07 ],
+						[ 8542, -0.0002603531, 0.2960205, 0 ],
+						[ 8543, -0.001699924, 0.2779846, -0.0004796982 ],
+						[ 8544, -0.000790596, 0.2969971, -4.1008e-05 ],
+						[ 8548, -0.003769398, 0.01696777, 0 ],
+						[ 8595, 9.536743e-07, 0.003005981, -4.768372e-07 ],
+						[ 8596, 1.430511e-06, 0.005050659, -4.768372e-07 ],
+						[ 8597, -2.95639e-05, 0.00302124, -6.103516e-05 ],
+						[ 8599, 0, 0.03903198, -9.536743e-07 ],
+						[ 8600, -1.430511e-06, 0.01300049, 4.768372e-07 ],
+						[ 8601, 4.768372e-07, 0.04600525, -1.907349e-06 ],
+						[ 8602, -0.0001211166, 0.00302124, 0 ],
+						[ 8603, -0.0003814697, 0.1290436, -0.0005073547 ],
+						[ 8604, -5.102158e-05, 0.1499939, -3.242493e-05 ],
+						[ 8605, -6.008148e-05, 0.07099915, 4.768372e-07 ],
+						[ 8606, -9.536743e-07, 0.164032, 9.536743e-07 ],
+						[ 10654, -0.001318932, -0.01072693, 0.0004525185 ],
+						[ 10655, -0.001147747, -0.009765625, 9.202957e-05 ],
+						[ 10656, -0.00486517, -0.136322, -0.0003356934 ],
+						[ 10657, -0.002301693, -0.0647583, -3.814697e-05 ],
+						[ 10658, -0.001538277, -0.07992554, -9.965897e-05 ],
+						[ 10659, -0.007238388, -0.08270264, -0.0005979538 ],
+						[ 10660, -0.002611637, -0.01298523, -0.0001392365 ],
+						[ 10661, -0.0138011, -0.03701782, -0.0007801056 ],
+						[ 11067, 0, 0.001983643, -4.768372e-07 ],
+						[ 11068, 0, -0.007003784, -4.768372e-07 ],
+						[ 11069, 1.072884e-05, 0.06500244, 0.0001606941 ],
+						[ 11070, 1.001358e-05, 0.1539917, 0.000210762 ],
+						[ 11071, 0.00687027, -0.2039948, -9.536743e-07 ],
+						[ 11072, 0.003929853, -0.1119995, 4.768372e-07 ],
+						[ 11073, -9.894371e-06, 0.1690063, 0.0002298355 ],
+						[ 11075, -7.152557e-07, 0.001998901, 4.768372e-07 ],
+						[ 11076, -7.152557e-07, -0.01498413, 0.003329277 ],
+						[ 11077, -0.001040578, 0.1110077, 0.0002889633 ],
+						[ 11079, 0.007359982, -0.1829681, 4.768372e-07 ],
+						[ 11080, 0.006840229, -0.08195496, -4.768372e-07 ],
+						[ 11081, 0.004119754, -0.1659698, 0 ],
+						[ 11082, 0.003640652, -0.1369934, 9.536743e-07 ],
+						[ 11083, 0.001900434, -0.06098938, 0 ],
+						[ 11084, -5.960464e-07, 0.0050354, -1.907349e-06 ],
+						[ 11102, -1.788139e-07, 0.005981445, 9.536743e-07 ],
+						[ 12132, 0.001189947, -0.01499939, -1.907349e-06 ],
+						[ 12133, 0.002039909, -0.01100159, 0 ],
+						[ 12134, -0.0195303, 0.0349884, -9.536743e-07 ],
+						[ 12135, -0.02251005, 0.1119995, 0.0008392334 ],
+						[ 12136, 0.002049923, -0.01100159, 0 ],
+						[ 12139, -0.001660347, 0.02001953, 0.0004768372 ],
+						[ 12141, -3.957748e-05, -0.002975464, 4.768372e-07 ],
+						[ 12142, -9.536743e-06, -0.004989624, -9.536743e-07 ],
+						[ 12143, 0, 0.03500366, 9.536743e-07 ],
+						[ 12144, 1.192093e-07, 0.02705383, 0 ],
+						[ 12145, 0.0003796816, -0.001953125, 1.907349e-06 ],
+						[ 12146, -0.0001716614, -0.003005981, -4.768372e-07 ],
+						[ 12147, -0.002309799, 0, 1.430511e-06 ],
+						[ 12148, -0.04575992, 0.2570038, -0.001104355 ],
+						[ 12149, -0.0004291534, -0.001998901, 9.536743e-07 ],
+						[ 12151, -0.01983976, 0.3399963, -0.005080223 ],
+						[ 12152, -0.004370213, 0.3230286, -3.051758e-05 ],
+						[ 12153, -0.01376152, 0.3430634, -0.0002708435 ],
+						[ 12154, -0.01373959, 0.3489838, -0.0004110336 ],
+						[ 12155, -0.004041672, 0.2279968, 0 ],
+						[ 12156, -0.008239985, 0.3560028, -0.001039505 ],
+						[ 12157, 0.0002508163, -0.01600647, -2.861023e-06 ],
+						[ 15790, 0.0002465248, 0.002578735, -1.907349e-06 ],
+						[ 15920, -0.0002465248, 0.002578735, -1.907349e-06 ],
+						[ 15950, -4.768372e-07, -0.00177002, 0 ],
+						[ 15963, -0.0001261234, -0.002304077, 0 ],
+						[ 16019, 1.430511e-06, -0.002410889, 0.0003027916 ],
+						[ 16025, 0, -0.002151489, 0.0003027916 ],
+						[ 16250, -4.768372e-07, -0.001754761, 0.0002970695 ],
+						[ 16251, 4.768372e-07, -0.001754761, 0.0002965927 ],
+						[ 16254, 5.960464e-06, -0.002990723, 9.489059e-05 ],
+						[ 16255, 0, -0.001785278, 9.489059e-05 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Eyelid Size-1",
+				"url" : "#Eyelid%20Size"
+			}
+		]
+	}
+}

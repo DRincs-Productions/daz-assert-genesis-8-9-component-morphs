@@ -1,0 +1,164 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lips%20Style%20Voluptuous.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-15T14:25:34Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "EJFM Lips Style Voluptuous",
+			"name" : "EJFM Lips Style Voluptuous",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.854902, 1, 0.7176471 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "EJFM Lips Style Voluptuous",
+				"label" : "EJFM Lips Style Voluptuous",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Mouth",
+			"group" : "/Real World/EJ Face Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Mouth%20Narrow%20Outer.dsf#EJFM%20Mouth%20Narrow%20Outer?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : -0.03418803 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Volume.dsf#EJFM%20Lip%20Top%20Volume?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Size.dsf#EJFM%20Lip%20Upper%20Size?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.3589743 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Sides%20Depth.dsf#EJFM%20Lip%20Top%20Sides%20Depth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : -0.1111111 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Outer%20Curves.dsf#EJFM%20Lip%20Top%20Outer%20Curves?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.2649573 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Inner%20Curves.dsf#EJFM%20Lip%20Top%20Inner%20Curves?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.7435898 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Center%20Depth.dsf#EJFM%20Lip%20Top%20Center%20Depth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : -0.1111111 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Center%20Definition.dsf#EJFM%20Lip%20Top%20Center%20Definition?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.2820513 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Upper%20Bumpy.dsf#EJFM%20Lip%20Bumpy%20Top?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.3076923 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Lower%20Volume.dsf#EJFM%20Lip%20Bottom%20Volume?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.6954732 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Lower%20Depth%20Sides.dsf#EJFM%20Lip%20Bottom%20Sides%20Depth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.3662552 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Lower%20Depth%20Center.dsf#EJFM%20Lip%20Bottom%20Center%20Depth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.7037038 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Corners%20Style%2005.dsf#EJFM%20Lip%20Corner%20Style%2005?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.1623932 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lip%20Corners%20Style%2002.dsf#EJFM%20Lip%20Corner%20Style%2002?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Lips%20Style%20Voluptuous?value" },
+						{ "op" : "push", "val" : 0.465812 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "EJFM Lips Style Voluptuous-1",
+				"url" : "#EJFM%20Lips%20Style%20Voluptuous"
+			}
+		]
+	}
+}

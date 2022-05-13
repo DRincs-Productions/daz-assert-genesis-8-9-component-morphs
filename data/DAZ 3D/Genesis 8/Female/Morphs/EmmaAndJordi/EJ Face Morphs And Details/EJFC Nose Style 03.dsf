@@ -1,0 +1,164 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Nose%20Style%2003.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-15T14:25:34Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "EJFM Nose Style 03",
+			"name" : "EJFM Nose Style 03",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.854902, 1, 0.7176471 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "EJFM Nose Style 03",
+				"label" : "EJFM Nose Style 03",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Nose",
+			"group" : "/Real World/EJ Face Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Width.dsf#EJFM%20Nose%20Tip%20Tip%20Width?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : -0.3622047 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Turn%20Up.dsf#EJFM%20Noe%20Tip%20Turn%20Up?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.07874012 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Triangular.dsf#EJFM%20Nose%20Tip%20Triangular?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.2283465 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Thin.dsf#EJFM%20Nose%20Tip%20Thin%20Tip?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.1496063 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Sides%20Square.dsf#EJFM%20Nose%20Tip%20Sides%20Square?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Pinch.dsf#EJFM%20Nose%20Tip%20Pinch?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.503937 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Long%20Pointy.dsf#EJFM%20Nose%20Tip%20Down?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : -0.1417323 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Length.dsf#EJFM%20Nose%20Tip%20Length?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.4251969 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Height.dsf#EJFM%20Nose%20Tip%20Height?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : -0.1732283 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Depth.dsf#EJFM%20Nose%20Tip%20Tip%20Depth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.3700787 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Cartilage%20Creases.dsf#EJFM%20Nose%20Tip%20Cartilage%20Creases?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : -0.3937008 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Tip%20Bulbous.dsf#EJFM%20Nose%20Tip%20Bulbous?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.6062992 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Nose%20Flesh%20Small.dsf#EJFM%20Nose%20Flesh%20Small?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : -0.3700787 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Nose%20Bridge%20Depth.dsf#EJFM%20Nose%20Bridge%20Depth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Nose%20Style%2003?value" },
+						{ "op" : "push", "val" : 0.5748031 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "EJFM Nose Style 03-1",
+				"url" : "#EJFM%20Nose%20Style%2003"
+			}
+		]
+	}
+}

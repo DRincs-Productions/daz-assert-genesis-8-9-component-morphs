@@ -1,0 +1,188 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyes%20Shape%20Round.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-05-15T14:25:34Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "EJFM Eyes Shape Round",
+			"name" : "EJFM Eyes Shape Round",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.854902, 1, 0.7176471 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "EJFM Eyes Shape Round",
+				"label" : "EJFM Eyes Style Round",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Eyes",
+			"group" : "/Real World/EJ Face Morphs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Orbital%20Outer%20Depression.dsf#EJFM%20Orbital%20Outer%20Depression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.3982301 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Lacrimals%20Up.dsf#EJFM%20Lacrimal%20Up?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.2920353 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyes%20Size.dsf#EJFM%20Eyes%20Size?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : -0.1769912 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyes%20Round.dsf#EJFM%20Round%20Eyes?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyes%20Rotation.dsf#EJFM%20Eyes%20Rotation?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.2654867 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyes%20Distance.dsf#EJFM%20Eyes%20Distance?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : -0.09734511 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Tension.dsf#EJFM%20Upper%20Eyelids%20Tension?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.2035398 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Smooth.dsf#EJFM%20Smooth%20Eyelid%20Upper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : -0.2212389 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Outer%20Style%2001.dsf#EJFM%20Upper%20Eyelids%20Outer%20Style%2001?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.4778761 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Inner%20Width.dsf#EJFM%20Upper%20Eyelids%20Inner%20Width?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.5398231 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Inner%20Style%2003.dsf#EJFM%20Upper%20Eyelids%20Inner%20Style%2003?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : -0.460177 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Inner%20Style%2002.dsf#EJFM%20Upper%20Eyelids%20Inner%20Style%2002?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : -0.1238938 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Inner%20Style%2001.dsf#EJFM%20Upper%20Eyelid%20Inner%20Style%2001?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : -0.5309734 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Upper%20Heavy.dsf#EJFM%20Upper%20Eyelids%20Heavy?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.4690266 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Lower%20Volume%20Outer.dsf#EJFM%20Lower%20Eyelid%20Outer%20Volume?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.3362832 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Lower%20Volume%20Inner.dsf#EJFM%20Lower%20Eyelid%20Inner%20Volume?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.3628318 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Face%20Morphs%20And%20Details/EJFM%20Eyelids%20Lower%20Height%20Inner.dsf#EJFM%20Lower%20Eyelids%20Inner%20Height?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#EJFM%20Eyes%20Shape%20Round?value" },
+						{ "op" : "push", "val" : 0.03539824 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "EJFM Eyes Shape Round-1",
+				"url" : "#EJFM%20Eyes%20Shape%20Round"
+			}
+		]
+	}
+}

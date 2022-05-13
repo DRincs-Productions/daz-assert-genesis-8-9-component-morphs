@@ -1,0 +1,81 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMCervicals.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-19T11:42:09Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Cervicals",
+			"name" : "EJBSDMCervicals",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/back/Cervicals.png",
+				"colors" : [ [ 0.03529412, 0.4901961, 0.7843137 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Cervicals",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World/EJ Body Shape And Detail/Back",
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 22,
+					"values" : [
+						[ 26, 0, -0.04841614, 0.1655474 ],
+						[ 27, 0, 0.1026611, -0.6019831 ],
+						[ 40, 0, -0.02630615, 0.08199883 ],
+						[ 92, 0, -0.01469421, 0.04055309 ],
+						[ 93, 0, 0.2460327, -0.7703276 ],
+						[ 2547, -0.005213976, -0.01220703, 0.0460453 ],
+						[ 2548, -0.0006140471, -0.001953125, 0.00603199 ],
+						[ 2549, 0.01515698, 0.02305603, -0.1282215 ],
+						[ 2555, 0.006524086, 0.04663086, -0.139308 ],
+						[ 2916, -7.498264e-05, -0.0133667, 0.03076839 ],
+						[ 2930, 0, -0.07188416, 0.1674919 ],
+						[ 4247, 0, 0.2502899, -0.6871653 ],
+						[ 4248, -0.01806998, 0.07369995, -0.195446 ],
+						[ 4308, 0, 0.1236115, -0.5497408 ],
+						[ 4309, -0.03110003, 0.03927612, -0.1674919 ],
+						[ 8733, 0.005213976, -0.01220703, 0.0460453 ],
+						[ 8734, 0.0006140471, -0.001953125, 0.00603199 ],
+						[ 8735, -0.01515698, 0.02305603, -0.1282215 ],
+						[ 8741, -0.006524086, 0.04663086, -0.139308 ],
+						[ 9101, 7.498264e-05, -0.0133667, 0.03076839 ],
+						[ 10404, 0.01806998, 0.07369995, -0.195446 ],
+						[ 10460, 0.03110003, 0.03927612, -0.1674919 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "EJBSDMCervicals",
+				"url" : "#Cervicals"
+			}
+		]
+	}
+}

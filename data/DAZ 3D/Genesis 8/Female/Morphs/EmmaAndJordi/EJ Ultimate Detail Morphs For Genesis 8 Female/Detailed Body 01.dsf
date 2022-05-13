@@ -1,0 +1,532 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Detailed%20Body%2001.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-10T22:43:39Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Detailed Body 01",
+			"name" : "Detailed Body 01",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/full/apple1.png",
+				"colors" : [ [ 0.03529412, 0.4901961, 0.7843137 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Detailed Body 01",
+				"label" : "Apple Body Shape",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World/EJ Body Shape And Detail/Full Body Shape Presets",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Wrist%20Bone.dsf#Wrist%20Bone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.1644737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Weak%20Shoulders.dsf#Weak%20Shoulders?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.4782894 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Upper%20Scapula.dsf#Upper%20Scapula?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.3881579 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Upper%20Leg%20Volume.dsf#Upper%20Leg%20Volume?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : -0.2086331 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Upper%20Arms%20Volume.dsf#Upper%20Arms%20Volume?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.7960526 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Trapezium%20Back.dsf#Trapezium%20Back?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.4671053 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Trachea%20Bulge.dsf#Trachea%20Bulge?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2894737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Toe%20Knucles.dsf#Toe%20Knucles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.1118421 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thorax%20Size.dsf#Thorax%20Size?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.1578947 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thorax%20Ribs.dsf#Thorax%20Ribs?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.5263158 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thinner%20Waist%20Back.dsf#Thinner%20Waist%20Back?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.05263162 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thin%20Waist.dsf#Thin%20Waist?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : -0.6578947 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thin%20Sternocleidomastoid.dsf#Thin%20Sternocleidomastoid?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2894737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thigh%20Fat.dsf#Thigh%20Fat?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.7631579 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Strong%20Upper%20Back.dsf#Strong%20Upper%20Back?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.6 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Strong%20Sternocleidomastoid.dsf#Strong%20Sternocleidomastoid?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Strong%20Clavicle.dsf#Strong%20Clavicle?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.3223684 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Sternum%20Protrusion.dsf#Sternum%20Protrusion?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2131579 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Small%20Hips.dsf#Small%20Hips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : -0.1973684 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Small%20Back%20Muscles.dsf#Small%20Back%20Muscles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : -0.1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Shins%20Tone.dsf#Shins%20Tone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.4144737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Round%20Hips.dsf#Round%20Hips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.9342105 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Ribs%20Shape%2003.dsf#Ribs%20Shape%2003?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.6315789 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Ribs%20Shape%2002.dsf#Ribs%20Shape%2002?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.7894737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Plus%20Gutles.dsf#Plus%20Gutles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.7828947 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Plus%20Breasts.dsf#Plus%20Breasts?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.875 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Over%20Collarbone%20Depression.dsf#Over%20Collarbone%20Depression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.09210526 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Outer%20Elbows.dsf#Outer%20Elbows?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.6578947 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Outer%20Chest%20Depression.dsf#Outer%20Chest%20Depression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2236842 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Mons%20Pubis.dsf#Mons%20Pubis?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.4210526 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Lumbar%20Concavity.dsf#Lumbar%20Concavity?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Lower%20Scapula.dsf#Lower%20Scapula?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Kneebones%20Detail.dsf#Kneebones%20Detail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.7039474 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Knee%20Back.dsf#Knee%20Back?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Inner%20Elbow%20Depression.dsf#Inner%20Elbow%20Depression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Hand%20Knucles.dsf#Hand%20Knucles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.3956835 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Gravity.dsf#Gravity?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.381579 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Glutes%20Shape%2001.dsf#Glutes%20Shape%2001?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2039474 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Gluteal%20Crease.dsf#Gluteal%20Crease?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.3552631 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Fold%20Under%20Scapula.dsf#Fold%20Under%20Scapula?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Flabby%20Hamstrings.dsf#Flabby%20Hamstrings?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.9539474 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Flabby%20Glutes.dsf#Flabby%20Glutes?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.5394737 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Finger%20Tendons.dsf#Finger%20Tendons?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2374101 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Finger%20Knuckles.dsf#Finger%20Knuckles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.25 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/External%20Oblique%20Upper.dsf#External%20Oblique%20Upper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.2039474 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/External%20Oblique%20Lower.dsf#External%20Oblique%20Lower?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.1907895 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Dimples%20Of%20Venus%201.dsf#Dimples%20Of%20Venus%201?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.4276316 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Deltoid%20Back.dsf#Deltoid%20Back?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.3486842 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Deeper%20Sternum%20Area.dsf#Deeper%20Sternum%20Area?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.368421 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Collarbone%20Center%20Depression.dsf#Collarbone%20Center%20Depression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.25 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Closer%20Cleavage%20Area.dsf#Closer%20Cleavage%20Area?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.03289474 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Clavicle%20Shoulder%20Depression.dsf#Clavicle%20Shoulder%20Depression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.3421053 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Clavicle%20Outer%20Strong.dsf#Clavicle%20Outer%20Strong?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.08552632 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Clavicle%20Center%20Strong.dsf#Clavicle%20Center%20Strong?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.131579 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Big%20Hips.dsf#Big%20Hips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.6973684 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Belly%20Size.dsf#Belly%20Size?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.8947368 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Back%20Thigh%20Muscle.dsf#Back%20Thigh%20Muscle?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.5328947 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Ankle%20Detail.dsf#Ankle%20Detail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : 0.375 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Angled%20Shoulders.dsf#Angled%20Shoulders?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : -0.05263156 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Adductor%20Gap.dsf#Adductor%20Gap?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Detailed%20Body%2001?value" },
+						{ "op" : "push", "val" : -0.2 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Detailed Body 01-1",
+				"url" : "#Detailed%20Body%2001"
+			}
+		]
+	}
+}

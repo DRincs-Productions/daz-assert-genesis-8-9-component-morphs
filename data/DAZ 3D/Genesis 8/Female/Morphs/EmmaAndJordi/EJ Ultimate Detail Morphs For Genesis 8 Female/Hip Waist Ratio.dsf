@@ -1,0 +1,76 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Hip%20Waist%20Ratio.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-10T22:43:39Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Hip Waist Ratio",
+			"name" : "Hip Waist Ratio",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/lower/HipWaistRatio.png",
+				"colors" : [ [ 0.03529412, 0.4901961, 0.7843137 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Hip Waist Ratio",
+				"label" : "Hip Waist Ratio",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World/EJ Body Shape And Detail/Lower Body",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Thin%20Waist.dsf#Thin%20Waist?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Hip%20Waist%20Ratio?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Round%20Hips.dsf#Round%20Hips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Hip%20Waist%20Ratio?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/EmmaAndJordi/EJ%20Ultimate%20Detail%20Morphs%20For%20Genesis%208%20Female/Big%20Hips.dsf#Big%20Hips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Hip%20Waist%20Ratio?value" },
+						{ "op" : "push", "val" : 0.5 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Hip Waist Ratio-1",
+				"url" : "#Hip%20Waist%20Ratio"
+			}
+		]
+	}
+}

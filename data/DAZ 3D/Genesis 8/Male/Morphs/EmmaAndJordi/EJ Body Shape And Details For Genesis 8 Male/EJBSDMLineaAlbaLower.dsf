@@ -1,0 +1,64 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLineaAlbaLower.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-19T11:42:08Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "EJBSDMLineaAlbaLower",
+			"name" : "EJBSDMLineaAlbaLower",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/abdomen/LineaAlbaLower.png",
+				"colors" : [ [ 0.03529412, 0.4901961, 0.7843137 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Linea Alba Lower",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World/EJ Body Shape And Detail/Abdomen",
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 5,
+					"values" : [
+						[ 44, 0, 0.02274323, -0.328021 ],
+						[ 45, 0, -0.03572845, -0.2842646 ],
+						[ 94, 0, -0.0002365112, -0.001584053 ],
+						[ 3154, 0, -0.01029205, -0.3550425 ],
+						[ 3164, 0, 0.03910828, -0.2699814 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "EJBSDMLineaAlbaLower-1",
+				"url" : "#EJBSDMLineaAlbaLower"
+			}
+		]
+	}
+}

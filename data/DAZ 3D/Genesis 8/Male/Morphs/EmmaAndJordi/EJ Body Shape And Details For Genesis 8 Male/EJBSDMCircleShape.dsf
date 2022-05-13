@@ -1,0 +1,492 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMCircleShape.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "EmmaAndJordi",
+			"email" : "",
+			"website" : "www.emmaalvarez.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-19T11:42:08Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "EJBSDMCircleShape",
+			"name" : "EJBSDMCircleShape",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/full/Circle1.png",
+				"colors" : [ [ 0.03529412, 0.4901961, 0.7843137 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "EJBSDMCircleShape",
+				"label" : "Circle Body Shape",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World/EJ Body Shape And Detail/Full Body Shape Presets",
+			"formulas" : [
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMWristsBone.dsf#EJBSDMWristsBone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3989637 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMWideNeck.dsf#EJBSDMWideNeck?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.2849741 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMWeakShoulders.dsf#WeakShoulders?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMUpperScapula.dsf#UpperScapula?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.6943005 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMUnderSternumDepression.dsf#EJBSDMUnderSternumDepression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.1968912 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMTriceps.dsf#EJBSDMTriceps?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.2911918 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMTrapeziumBack.dsf#TrapeziumBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.619171 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMToeTendons.dsf#EJBSDMToeTendons?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.5025907 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMToeKnucles.dsf#EJBSDMToeKnucles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.8134715 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMThroraxSize.dsf#EJBSDMThroraxSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.8860104 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongUpperBack.dsf#StrongUpperBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.1139896 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongSternocleidomastoid.dsf#EJBSDMStrongSternocleidomastoid?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongShoulders.dsf#StrongShoulders?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.2312139 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongMiddleBack.dsf#StrongMiddleBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.2227979 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongForearms.dsf#EJBSDMStrongForearms?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.6416185 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongClavicle.dsf#EJBSDMStrongClavicle?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.307513 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMStrongBiceps.dsf#EJBSDMStrongBiceps?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3815029 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMShouldersShape01.dsf#EJBSDMShouldersShape01?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3215026 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMRibcageShape06.dsf#EJBSDMRibcageShape06?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMProminentStomach.dsf#EJBSDMProminentStomach?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMOuterElbows.dsf#OuterElbows?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.75 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMMaleBelly.dsf#EJBSDMMaleBelly?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.8010362 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLumbars.dsf#Lumbars?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.6010363 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLowerTorsoShape05.dsf#EJBSDMLowerTorsoShape05?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.1813471 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLowerTorsoShape04.dsf#EJBSDMLowerTorsoShape04?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3502591 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLowerSpineCrease.dsf#EJBSDMLowerSpineCrease?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.6025906 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLowerScapula.dsf#LowerScapula?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.5336788 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMLowerBackDepression.dsf#EJBSDMLowerBackDepression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.4248705 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMKneebonesDetail.dsf#EJBSDMKneebonesDetail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.6632124 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMKneeBack.dsf#EJBSDMKneeBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMInnerElbowDepression.dsf#InnerElbowDepression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMHeavyBack.dsf#EJBSDMHeavyBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.02176166 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMHangingChest.dsf#EJBSDMHangingChest?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMHandKnucles.dsf#EJBSDMHandKnucles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.5699482 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMGlutesShape02.dsf#EJBSDMGlutesShape02?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.7875648 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMFoldUnderScapula.dsf#FoldUnderScapula?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.5906736 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMFlabbyGlutes.dsf#EJBSDMFlabbyGlutes?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMFingerTendons.dsf#EJBSDMFingerTendons?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3782384 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMFingerKnucles.dsf#EJBSDMFingerKnucles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.7202073 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMFatLegs.dsf#EJBSDMFatLegs?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMFatArms.dsf#EJBSDMFatArms?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.9417099 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMExternalObliqueUpper.dsf#EJBSDMExternalObliqueUpper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.357513 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMDimplesOfApollo.dsf#EJBSDMDimplesOfApollo?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMDeltoidBack.dsf#DeltoidBack?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.9533679 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMClavicleShoulderDepression.dsf#EJBSDMClavicleShoulderDepression?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.4663212 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMClavicleOuterStrong.dsf#EJBSDMClavicleOuterStrong?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3212435 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMClavicleCenterStrong.dsf#EJBSDMClavicleCenterStrong?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3108808 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMChestShape03.dsf#EJBSDMChestShape03?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.4041451 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMChestShape01.dsf#EJBSDMChestShape01?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.4455959 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMCervicals.dsf#Cervicals?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.4818653 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMBigHips.dsf#EJBSDMBigHips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.6476684 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMBigBelly.dsf#EJBSDMBigBelly?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMArmpits.dsf#EJBSDMArmpits?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.8 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMAnkleDetail.dsf#EJBSDMAnkleDetail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.3678756 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/EmmaAndJordi/EJ%20Body%20Shape%20And%20Details%20For%20Genesis%208%20Male/EJBSDMAdamsApple.dsf#EJBSDMAdamsApple?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#EJBSDMCircleShape?value" },
+						{ "op" : "push", "val" : 0.2590674 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "EJBSDMCircleShape-1",
+				"url" : "#EJBSDMCircleShape"
+			}
+		]
+	}
+}

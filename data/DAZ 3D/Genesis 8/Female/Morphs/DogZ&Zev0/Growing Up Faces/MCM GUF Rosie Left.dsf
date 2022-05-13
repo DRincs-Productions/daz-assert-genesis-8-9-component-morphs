@@ -1,0 +1,95 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/Growing%20Up%20Faces/MCM%20GUF%20Rosie%20Left.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2019-06-21T14:33:50Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "MCM GUF Rosie Left",
+			"name" : "MCM GUF Rosie Left",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.2509804, 0 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "MCM GUF Rosie Left",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Growing Up Faces",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#MCM%20GUF%20Rosie%20Left?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesClosedL.dsf#ECTRLEyesClosedL?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#MCM%20GUF%20Rosie%20Left?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/Growing%20Up%20Faces/GUF%20Rosie.dsf#GUF%20Rosie?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 19,
+					"values" : [
+						[ 605, 0.00858736, -0.03720093, 0.0007910728 ],
+						[ 607, 0.01559734, -0.02641296, 0.00803566 ],
+						[ 610, 0.01232243, -0.03569031, 0.01498413 ],
+						[ 619, 0.004435539, 0.02023315, -0.008401871 ],
+						[ 678, -0.001098156, 0.001953125, 5.102158e-05 ],
+						[ 753, 0.000442028, -0.001937866, -0.0003972054 ],
+						[ 786, -0.0008032322, -0.06181335, 0.02518368 ],
+						[ 789, 0.002470493, -0.05999756, 0.01886511 ],
+						[ 2344, 0.0001339912, 0.001831055, -0.000834465 ],
+						[ 2345, 0.01248503, -0.03633118, 0.01503706 ],
+						[ 2346, 0.02740335, -0.04798889, 0.0103054 ],
+						[ 2347, 0.01469135, -0.05731201, -0.0004429817 ],
+						[ 2348, -0.005577326, -0.08381653, 0.03724289 ],
+						[ 2349, 0.01122689, -0.05134583, 0.01882553 ],
+						[ 2351, 0.005343914, -0.01329041, -0.00177002 ],
+						[ 2353, -0.0002028942, -0.003921509, -0.0003314018 ],
+						[ 2354, -0.01356912, 0.01818848, 6.67572e-05 ],
+						[ 2357, 0.0002076626, 0.003265381, 0.0005044937 ],
+						[ 2373, 0.003114223, -0.01144409, -0.002388477 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "MCM GUF Rosie Left-1",
+				"url" : "#MCM%20GUF%20Rosie%20Left"
+			}
+		]
+	}
+}

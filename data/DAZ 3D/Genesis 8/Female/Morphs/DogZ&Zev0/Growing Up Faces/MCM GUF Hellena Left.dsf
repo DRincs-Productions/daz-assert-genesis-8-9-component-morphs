@@ -1,0 +1,100 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/Growing%20Up%20Faces/MCM%20GUF%20Hellena%20Left.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2019-06-14T01:25:38Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "MCM GUF Hellena Left",
+			"name" : "MCM GUF Hellena Left",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.2509804, 0 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "MCM GUF Hellena Left",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Growing Up Faces",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#MCM%20GUF%20Hellena%20Left?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#ECTRLEyesClosedL?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#MCM%20GUF%20Hellena%20Left?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/Growing%20Up%20Faces/GUF%20Helena.dsf#GUF%20Helena?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 24,
+					"values" : [
+						[ 605, 0.008019924, -0.04699707, -0.001360893 ],
+						[ 607, 0.01111937, -0.06201172, 0.004399776 ],
+						[ 610, 0.007029533, -0.04600525, 0.008599758 ],
+						[ 616, -0.003170252, -0.02201843, 0.01850986 ],
+						[ 707, 0.00387001, -0.02198792, -0.0008106232 ],
+						[ 708, 0.003849983, -0.02302551, -0.002390385 ],
+						[ 760, 0.001199245, -0.007003784, -0.00121069 ],
+						[ 1489, -0.0008101463, -0.01101685, 0.01288795 ],
+						[ 1491, 0.003929138, -0.02600098, 0.00442934 ],
+						[ 1492, 0.004899979, -0.0269928, 0.001619339 ],
+						[ 1493, 0.002949238, -0.01800537, -0.0007996559 ],
+						[ 1495, 0.0001792908, -0.00100708, -0.0001711845 ],
+						[ 2336, 0.0007796288, -0.005004883, -0.0007605553 ],
+						[ 2342, -0.002940178, -0.022995, 0.02049923 ],
+						[ 2345, 0.00660944, -0.04301453, 0.007919312 ],
+						[ 2346, 0.009719849, -0.05400085, 0.003469467 ],
+						[ 2347, 0.003519535, -0.02101135, -0.0007996559 ],
+						[ 2362, 0.0007600784, -0.005020142, -0.0006904602 ],
+						[ 2364, 0.001539707, -0.009002686, -0.0008406639 ],
+						[ 2365, 0.002489567, -0.01499939, -0.00150013 ],
+						[ 2366, 0.0006198883, -0.004013062, -0.0004010201 ],
+						[ 2368, 0.0002598763, -0.001998901, -0.0002303123 ],
+						[ 5226, -0.007240295, 0.03201294, 0.006110191 ],
+						[ 5233, -0.002990007, 0.01298523, 0.002389431 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "MCM GUF Hellena Left-1",
+				"url" : "#MCM%20GUF%20Hellena%20Left"
+			}
+		]
+	}
+}

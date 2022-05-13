@@ -1,0 +1,91 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Glamorous%20Legs/Z%20GLL%20Legs%20Shape%2002.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-07-20T14:16:28Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Z GLL Legs Shape 02",
+			"name" : "Z GLL Legs Shape 02",
+			"parent" : "/data/Daz%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Glamorous%20Legs/Z%20GLL%20PNGs.png",
+				"colors" : [ [ 0.7843137, 0.6078431, 0.8078431 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Z GLL Legs Shape 02",
+				"label" : "Z GLL Legs Shape 02",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls/Legs/Z Glamorous Legs",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMThighsTone.dsf#PBMThighsTone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20GLL%20Legs%20Shape%2002?value" },
+						{ "op" : "push", "val" : -0.9349594 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMThighsSize.dsf#PBMThighsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20GLL%20Legs%20Shape%2002?value" },
+						{ "op" : "push", "val" : 0.5487804 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMShinsSize.dsf#PBMShinsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20GLL%20Legs%20Shape%2002?value" },
+						{ "op" : "push", "val" : -0.09756094 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMKneeBonesSize.dsf#PBMKneeBonesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20GLL%20Legs%20Shape%2002?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCalvesSize.dsf#PBMCalvesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20GLL%20Legs%20Shape%2002?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Z GLL Legs Shape 02-1",
+				"url" : "#Z%20GLL%20Legs%20Shape%2002"
+			}
+		]
+	}
+}

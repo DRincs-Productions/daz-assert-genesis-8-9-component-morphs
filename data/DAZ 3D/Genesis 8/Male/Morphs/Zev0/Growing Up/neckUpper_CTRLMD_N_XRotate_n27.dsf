@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/Zev0/Growing%20Up/neckUpper_CTRLMD_N_XRotate_n27.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2015-11-30T20:48:42Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_XRotate_n27",
+			"name" : "CTRLMD_N_XRotate_n27",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#neck_2",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_XRotate_n27",
+				"label" : "CTRLMD_N_XRotate_n27",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "neck_2:#CTRLMD_N_XRotate_n27?value",
+					"operations" : [
+						{ "op" : "push", "url" : "neck_2:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#neck_2?rotation/x" },
+						{ "op" : "push", "val" : -0.03703704 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_XRotate_n27-1",
+				"url" : "#CTRLMD_N_XRotate_n27"
+			}
+		]
+	}
+}           

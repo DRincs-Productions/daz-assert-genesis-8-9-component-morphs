@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%203/Female/Morphs/Zev0/Growing%20Up/chestLower_CTRLMD_N_ZRotate_n20.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-07-01T02:09:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_ZRotate_n20",
+			"name" : "CTRLMD_N_ZRotate_n20",
+			"parent" : "/data/DAZ%203D/Genesis%203/Female/Genesis3Female.dsf#chest",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_ZRotate_n20",
+				"label" : "CTRLMD_N_ZRotate_n20",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "chest:#CTRLMD_N_ZRotate_n20?value",
+					"operations" : [
+						{ "op" : "push", "url" : "chest:/data/DAZ%203D/Genesis%203/Female/Genesis3Female.dsf#chest?rotation/z" },
+						{ "op" : "push", "val" : -0.05 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_ZRotate_n20-1",
+				"url" : "#CTRLMD_N_ZRotate_n20"
+			}
+		]
+	}
+}

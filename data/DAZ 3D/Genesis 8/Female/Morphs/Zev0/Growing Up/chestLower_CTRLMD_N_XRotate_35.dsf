@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Growing%20Up/chestLower_CTRLMD_N_XRotate_35.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2015-11-30T12:46:45Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_XRotate_35",
+			"name" : "CTRLMD_N_XRotate_35",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#chest",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_XRotate_35",
+				"label" : "CTRLMD_N_XRotate_35",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "chest:#CTRLMD_N_XRotate_35?value",
+					"operations" : [
+						{ "op" : "push", "url" : "chest:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#chest?rotation/x" },
+						{ "op" : "push", "val" : 0.02857143 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_XRotate_35-1",
+				"url" : "#CTRLMD_N_XRotate_35"
+			}
+		]
+	}
+}

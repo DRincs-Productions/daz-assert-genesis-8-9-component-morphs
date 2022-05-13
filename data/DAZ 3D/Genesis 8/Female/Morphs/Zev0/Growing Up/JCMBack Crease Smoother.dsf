@@ -1,0 +1,107 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Growing%20Up/JCMBack%20Crease%20Smoother.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-30T19:26:00Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "JCMBack Crease Smoother",
+			"name" : "JCMBack Crease Smoother",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.4588235, 0.227451, 0.3490196 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "JCMBack Crease Smoother",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Growing Up",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:#JCMBack%20Crease%20Smoother?value",
+					"operations" : [
+						{ "op" : "push", "url" : "abdomen2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#abdomen2?rotation/x" },
+						{ "op" : "push", "val" : -0.25 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:#JCMBack%20Crease%20Smoother?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Zev0/Growing%20Up/Youth%20Morph.dsf#Youth%20Morph?value" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 31,
+					"values" : [
+						[ 32, 0.0005017157, -0.2468491, -0.08096313 ],
+						[ 943, 0.05806452, -0.3046722, -0.07424736 ],
+						[ 2741, 0.004160643, 0.009536743, -0.00155735 ],
+						[ 2745, 0.09741664, -0.2379456, -0.006735325 ],
+						[ 3197, 0.003110388, -0.1185837, -0.1656394 ],
+						[ 3198, 0.0114876, -0.0333786, -0.02492523 ],
+						[ 3692, 0.004101753, 0.00151062, 0.004176617 ],
+						[ 3700, 0.03680062, -0.03435516, 0.04893589 ],
+						[ 3702, 0.008366585, -0.1106186, -0.03368616 ],
+						[ 4581, 0.003044605, 0.01509094, 0.0008597374 ],
+						[ 4582, 0.01091623, -0.004234314, 0.04102468 ],
+						[ 4583, 0.05270529, 0.0009689331, 0.06752491 ],
+						[ 4620, 0.1060026, 0.01262665, 0.1445971 ],
+						[ 4630, 0.01749659, 0.02632904, 0.04367018 ],
+						[ 4635, 0.04141521, 0.07299805, 0.01712847 ],
+						[ 4636, -0.000302746, 0.1330719, 0.005707264 ],
+						[ 4637, 0.04500991, 0.06072235, 0.05272579 ],
+						[ 7453, -0.05876005, -0.3028412, -0.07359076 ],
+						[ 9251, -0.004116774, 0.009490967, -0.001543522 ],
+						[ 9255, -0.09800839, -0.2379456, -0.006678581 ],
+						[ 9702, -0.01125044, -0.03217316, -0.02412987 ],
+						[ 10182, -0.004096746, 0.001533508, 0.004173756 ],
+						[ 10190, -0.03690052, -0.03430939, 0.04881907 ],
+						[ 10192, -0.008378983, -0.1106186, -0.03368282 ],
+						[ 11056, -0.003043175, 0.01503754, 0.0008487701 ],
+						[ 11057, -0.0108757, -0.004234314, 0.04095316 ],
+						[ 11058, -0.05263424, 0.0009994507, 0.06756973 ],
+						[ 11093, -0.1063795, 0.01235199, 0.1446562 ],
+						[ 11102, -0.01753044, 0.02629089, 0.04354858 ],
+						[ 11107, -0.04143095, 0.0729599, 0.01709509 ],
+						[ 11108, -0.04613173, 0.06072998, 0.05264235 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "JCMBack Crease Smoother-1",
+				"url" : "#JCMBack%20Crease%20Smoother"
+			}
+		]
+	}
+}

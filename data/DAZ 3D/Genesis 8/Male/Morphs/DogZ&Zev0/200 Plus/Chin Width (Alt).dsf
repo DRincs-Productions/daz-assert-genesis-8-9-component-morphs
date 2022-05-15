@@ -1,0 +1,311 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Chin%20Width%20%28Alt%29.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Chin Width",
+			"name" : "Chin Width (Alt)",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Chin Width (Alt)",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Face",
+			"group" : "/Cheeks and Jaw/Real World/200 Plus/Chin",
+			"formulas" : [
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : 0.08778024 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.01605225 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.002286911 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : 0.1351047 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.01899719 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.00412941 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialLower?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.0878129 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialLower?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.0163269 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialLower?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.002446175 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialLower?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.1350913 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialLower?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.01876831 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialLower:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialLower?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.004160881 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -5.296245e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.02250671 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.0007801056 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -3.585714e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.02101135 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Width?value" },
+						{ "op" : "push", "val" : -0.0007362366 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 106,
+					"values" : [
+						[ 36, 0, -0.01901245, -0.0005712509 ],
+						[ 37, 0, -0.01901245, -0.0003805161 ],
+						[ 38, 0, -0.001998901, 0 ],
+						[ 64, 0, -0.01100159, -0.0002498627 ],
+						[ 757, 0.02305937, -0.005996704, -0.0006599426 ],
+						[ 759, 0.004769802, 0, -0.0002603531 ],
+						[ 760, 0.00895977, 0, -0.0007686615 ],
+						[ 762, 0.01226974, 0, -0.001050949 ],
+						[ 1553, 0.009749889, -0.005004883, 0.0002994537 ],
+						[ 1554, 0.3056099, -0.05500793, -0.003469467 ],
+						[ 1555, 0.1460302, -0.02900696, -0.003549576 ],
+						[ 1556, 0.5538101, -0.08500671, -0.002339363 ],
+						[ 1558, 0.5336101, -0.07398987, -0.001659393 ],
+						[ 1559, 0.43262, -0.06999207, -0.001080513 ],
+						[ 1560, 0.1178598, -0.01498413, -0.003670216 ],
+						[ 1579, 0.07008404, -0.004989624, -0.0003995895 ],
+						[ 1581, 0.1437201, -0.02201843, -0.004739761 ],
+						[ 1583, 0.05887985, -0.009017944, -0.002980232 ],
+						[ 2190, 0.2984459, -0.03399658, -0.001199722 ],
+						[ 2191, 0.324799, -0.0329895, -0.001420021 ],
+						[ 2239, 0.2075381, -0.01800537, -0.001029968 ],
+						[ 2243, 0.05800986, -0.01098633, -0.002389908 ],
+						[ 2247, 0.1686101, -0.0309906, -0.004479885 ],
+						[ 2248, 0.3208001, -0.05601501, -0.004079819 ],
+						[ 2249, 0.5077801, -0.07199097, -0.002879143 ],
+						[ 2291, 0.2240899, -0.03500366, -0.003879547 ],
+						[ 2292, 0.27663, -0.03500366, -0.001629829 ],
+						[ 2311, 0.6032801, -0.07800293, -0.002079964 ],
+						[ 2312, 0.44991, -0.05299377, -0.001719475 ],
+						[ 2313, 0.1885399, -0.01899719, -0.0008401871 ],
+						[ 2371, 0.03405988, -0.006988525, -3.957748e-05 ],
+						[ 2372, 0.03990006, -0.003997803, -0.001410961 ],
+						[ 2376, 0.03516006, -0.006988525, -4.053116e-05 ],
+						[ 2377, 0.013964, -0.002990723, -9.536743e-06 ],
+						[ 2378, 0.2352502, -0.04000854, -0.002409935 ],
+						[ 2379, 0.01215994, -0.003005981, -1.955032e-05 ],
+						[ 2381, 0.001460075, 1.525879e-05, 0 ],
+						[ 5102, 0.07375002, -0.007995605, -0.003410339 ],
+						[ 5103, 0.03508997, -0.003005981, -0.002289772 ],
+						[ 5106, 0.00249207, -0.00100708, 0 ],
+						[ 5108, 0.02427995, -0.00100708, -0.0001602173 ],
+						[ 5111, 0.05832005, -0.005996704, -0.0002498627 ],
+						[ 5112, 0.07841015, -0.01000977, -0.002090454 ],
+						[ 5561, 0.0162499, -0.001998901, -0.0009703636 ],
+						[ 5566, 0.002279997, 0, -0.0001401901 ],
+						[ 5724, 0.001590133, 0, -0.0001296997 ],
+						[ 5725, 0.01671982, -0.0009918213, -0.001130104 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 5773, 0.004979849, -1.525879e-05, -0.0004196167 ],
+						[ 6117, 0.19576, -0.03399658, -0.0004000664 ],
+						[ 6118, 0.26072, -0.04000854, -0.0006990433 ],
+						[ 6120, 0.04210019, -0.0009918213, -0.002200127 ],
+						[ 6123, 0.07404995, -0.01100159, -0.0008301735 ],
+						[ 6125, 0.149581, -0.01901245, -0.0005302429 ],
+						[ 6127, 0.03131008, -1.525879e-05, -0.001729965 ],
+						[ 6130, 0, -0.007995605, -2.098083e-05 ],
+						[ 6943, -0.02305937, -0.005996704, -0.0006599426 ],
+						[ 6945, -0.004769802, 0, -0.0002603531 ],
+						[ 6946, -0.00895977, 0, -0.0007686615 ],
+						[ 6948, -0.01226974, 0, -0.001050949 ],
+						[ 7739, -0.009749889, -0.005004883, 0.0002994537 ],
+						[ 7740, -0.3056099, -0.05500793, -0.003469467 ],
+						[ 7741, -0.1460302, -0.02900696, -0.003549576 ],
+						[ 7742, -0.5538101, -0.08500671, -0.002339363 ],
+						[ 7744, -0.5336101, -0.07398987, -0.001659393 ],
+						[ 7745, -0.43262, -0.06999207, -0.001080513 ],
+						[ 7746, -0.1178598, -0.01498413, -0.003670216 ],
+						[ 7765, -0.07008404, -0.004989624, -0.0003995895 ],
+						[ 7767, -0.1437201, -0.02201843, -0.004739761 ],
+						[ 7769, -0.05887985, -0.009017944, -0.002980232 ],
+						[ 8376, -0.2984459, -0.03399658, -0.001199722 ],
+						[ 8377, -0.324799, -0.0329895, -0.001420021 ],
+						[ 8425, -0.2075381, -0.01800537, -0.001029968 ],
+						[ 8429, -0.05800986, -0.01098633, -0.002389908 ],
+						[ 8433, -0.1686101, -0.0309906, -0.004479885 ],
+						[ 8434, -0.3208001, -0.05601501, -0.004079819 ],
+						[ 8435, -0.5077801, -0.07199097, -0.002879143 ],
+						[ 8477, -0.2240899, -0.03500366, -0.003879547 ],
+						[ 8478, -0.27663, -0.03500366, -0.001629829 ],
+						[ 8497, -0.6032801, -0.07800293, -0.002079964 ],
+						[ 8498, -0.44991, -0.05299377, -0.001719475 ],
+						[ 8499, -0.1885399, -0.01899719, -0.0008401871 ],
+						[ 8557, -0.03405988, -0.006988525, -3.957748e-05 ],
+						[ 8558, -0.03990006, -0.003997803, -0.001410961 ],
+						[ 8562, -0.03516006, -0.006988525, -4.053116e-05 ],
+						[ 8563, -0.013964, -0.002990723, -9.536743e-06 ],
+						[ 8564, -0.2352502, -0.04000854, -0.002409935 ],
+						[ 8565, -0.01215994, -0.003005981, -1.955032e-05 ],
+						[ 8567, -0.001460075, 1.525879e-05, 0 ],
+						[ 11239, -0.07375002, -0.007995605, -0.003410339 ],
+						[ 11240, -0.03508997, -0.003005981, -0.002289772 ],
+						[ 11243, -0.00249207, -0.00100708, 0 ],
+						[ 11245, -0.02427995, -0.00100708, -0.0001602173 ],
+						[ 11247, -0.05832005, -0.005996704, -0.0002498627 ],
+						[ 11248, -0.07841015, -0.01000977, -0.002090454 ],
+						[ 11667, -0.0162499, -0.001998901, -0.0009703636 ],
+						[ 11672, -0.002279997, 0, -0.0001401901 ],
+						[ 11804, -0.001590133, 0, -0.0001296997 ],
+						[ 11805, -0.01671982, -0.0009918213, -0.001130104 ],
+						[ 11848, -0.004979849, -1.525879e-05, -0.0004196167 ],
+						[ 12179, -0.19576, -0.03399658, -0.0004000664 ],
+						[ 12180, -0.26072, -0.04000854, -0.0006990433 ],
+						[ 12182, -0.04210019, -0.0009918213, -0.002200127 ],
+						[ 12185, -0.07404995, -0.01100159, -0.0008301735 ],
+						[ 12187, -0.149581, -0.01901245, -0.0005302429 ],
+						[ 12189, -0.03131008, -1.525879e-05, -0.001729965 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Chin Width (Alt)",
+				"url" : "#Chin%20Width"
+			}
+		]
+	}
+}

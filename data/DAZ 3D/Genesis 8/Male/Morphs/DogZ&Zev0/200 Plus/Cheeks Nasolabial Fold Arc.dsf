@@ -1,0 +1,410 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Cheeks%20Nasolabial%20Fold%20Arc.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Cheeks Nasolabial Fold Arc",
+			"name" : "Cheeks Nasolabial Fold Arc",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Cheeks Nasolabial Fold Arc",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Face",
+			"group" : "/Cheeks and Jaw/Real World/200 Plus/Cheeks",
+			"formulas" : [
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.1595409 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.0917511 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.02303219 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.08853674 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.06124878 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.01450443 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.1595459 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.09182739 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.02304077 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.08832645 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.061203 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.01456738 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.1751621 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.2040405 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.04147434 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.1312325 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.1456451 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.02886677 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.1751952 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.2036285 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.04148293 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.1312575 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : 0.1468658 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rNasolabialMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rNasolabialMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Cheeks%20Nasolabial%20Fold%20Arc?value" },
+						{ "op" : "push", "val" : -0.02834415 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 157,
+					"values" : [
+						[ 807, 0.005979776, 0.001983643, -9.059906e-05 ],
+						[ 935, 0.01299, 0.003005981, -0.00164032 ],
+						[ 1545, 0.16275, 0.2420044, -0.04335022 ],
+						[ 1546, 0.2837799, 0.2630005, -0.05749893 ],
+						[ 1547, 0.01210999, 0.02301025, -0.003040314 ],
+						[ 1582, 0.00770998, 0.00201416, -2.002716e-05 ],
+						[ 1584, 0.07351017, 0.01899719, -0.005189419 ],
+						[ 1605, 0.0168699, 0.03300476, -0.004590988 ],
+						[ 2180, 0.006180048, 0.01100159, -0.001779556 ],
+						[ 2181, 0.005840063, 0.001983643, 0.0003404617 ],
+						[ 2182, 0.03894019, 0.01000977, -0.00135994 ],
+						[ 2233, 0.04891002, 0.08900452, -0.01365089 ],
+						[ 2235, 0.03137004, 0.03700256, -0.007180214 ],
+						[ 2237, 0.001899958, 0.001998901, -0.0003995895 ],
+						[ 2238, 0.02103996, 0.05300903, -0.006859779 ],
+						[ 2240, 0.04097033, 0.009994507, -0.004219532 ],
+						[ 2241, 0.03677988, 0.1179962, -0.01590061 ],
+						[ 2244, 0.001450062, 0, -0.0001602173 ],
+						[ 2246, 0.2377601, 0.1580048, -0.04175949 ],
+						[ 2260, 0.003389955, 0.01699829, -0.002090454 ],
+						[ 2261, 0.01321995, 0.03800964, -0.00481987 ],
+						[ 2265, 0.001619935, 0.002990723, -0.0003395081 ],
+						[ 2266, 0.001009941, 0.001998901, -0.0001783371 ],
+						[ 2267, 0.001160145, 0.001998901, -0.0003004074 ],
+						[ 2270, 0.01646996, 0.07400513, -0.009778976 ],
+						[ 2271, 0.06300998, 0.1399994, -0.02065086 ],
+						[ 2272, 0.09623981, 0.1430054, -0.02473068 ],
+						[ 2273, 0.05834007, 0.05899048, -0.01199913 ],
+						[ 2274, 0.0440197, 0.1389923, -0.02041912 ],
+						[ 2277, 0.10478, 0.2109985, -0.03443146 ],
+						[ 2297, 0.04338002, 0.02200317, -0.006249428 ],
+						[ 2298, 0.02052021, 0.005996704, -0.00219059 ],
+						[ 2299, 0.03457999, 0.02099609, -0.004950523 ],
+						[ 2301, 0.08919001, 0.151001, -0.02756977 ],
+						[ 2303, 0.18962, 0.2220001, -0.04557991 ],
+						[ 2304, 0.1161199, 0.04400635, -0.01241112 ],
+						[ 2305, 0.2164299, 0.1130066, -0.02957058 ],
+						[ 2306, 0.2067499, 0.1339874, -0.03133965 ],
+						[ 2307, 0.11183, 0.09901428, -0.02333069 ],
+						[ 2310, 0.3380997, 0.1949921, -0.05417919 ],
+						[ 2314, 0.1598597, 0.05899048, -0.02225018 ],
+						[ 2315, 0.23329, 0.0900116, -0.03028107 ],
+						[ 2317, 0.06023026, 0.02099609, -0.008469582 ],
+						[ 2429, 0.001099825, 0.0269928, -0.003429413 ],
+						[ 2430, 0.01137996, 0.06298828, -0.008969307 ],
+						[ 2431, 0.02401996, 0.06900024, -0.01117992 ],
+						[ 2432, 0.02221012, 0.03599548, -0.006809235 ],
+						[ 2433, 0.002109051, 0, -0.0002398491 ],
+						[ 3691, 0.02334011, 0.03199768, -0.005701065 ],
+						[ 3692, 0.03261983, 0.06599426, -0.009490967 ],
+						[ 3693, 0.01802003, 0.04100037, -0.005319595 ],
+						[ 3694, 0.001309991, 0.00201416, -0.0002498627 ],
+						[ 4999, -0.0003097057, 0.01400757, -0.001811981 ],
+						[ 5001, -0.0007002354, 0.001998901, -0.000169754 ],
+						[ 5007, 0.001959801, 0.003997803, -0.0007600784 ],
+						[ 5010, 0.003659964, 0.01799011, -0.002620697 ],
+						[ 5100, 0.1214399, 0.09901428, -0.02134991 ],
+						[ 5101, 0.00842011, 0.005020142, -0.001420021 ],
+						[ 5104, 0.01141, 0.003005981, 0.0003099442 ],
+						[ 5105, 0.07223964, 0.01901245, -0.003860474 ],
+						[ 5107, 0.23754, 0.09298706, -0.02847958 ],
+						[ 5109, 0.3496702, 0.1889954, -0.05148125 ],
+						[ 5113, 0.31356, 0.2489777, -0.05581951 ],
+						[ 5115, 0.1872401, 0.2139893, -0.04119873 ],
+						[ 5116, 0.006919861, 0.004013062, -0.001060486 ],
+						[ 5401, 0.01060987, 0.004989624, -0.001629829 ],
+						[ 5402, 0.005149841, 0.001998901, -0.0006990433 ],
+						[ 5448, 0.02134991, 0.01100159, -0.003469944 ],
+						[ 5715, 0.03379011, 0.01499939, -0.00522995 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 5801, 0.002519846, 0.0009918213, -0.0004301071 ],
+						[ 5802, 0.008069992, 0.003997803, -0.001330376 ],
+						[ 5804, 0.005249977, 0.001998901, -0.0007596016 ],
+						[ 5805, 0.01856017, 0.009002686, -0.002889633 ],
+						[ 5835, 0.01338005, 0.008010864, -0.002189636 ],
+						[ 5836, 0.02193987, 0.01300049, -0.00344944 ],
+						[ 5837, 0.01616001, 0.009002686, -0.002709389 ],
+						[ 6993, -0.005979776, 0.001983643, -9.059906e-05 ],
+						[ 7121, -0.01299, 0.003005981, -0.00164032 ],
+						[ 7731, -0.16275, 0.2420044, -0.04335022 ],
+						[ 7732, -0.2837799, 0.2630005, -0.05749893 ],
+						[ 7733, -0.01210999, 0.02301025, -0.003040314 ],
+						[ 7768, -0.00770998, 0.00201416, -2.002716e-05 ],
+						[ 7770, -0.07351017, 0.01899719, -0.005189419 ],
+						[ 7791, -0.0168699, 0.03300476, -0.004590988 ],
+						[ 8366, -0.006180048, 0.01100159, -0.001779556 ],
+						[ 8367, -0.005840063, 0.001983643, 0.0003404617 ],
+						[ 8368, -0.03894019, 0.01000977, -0.00135994 ],
+						[ 8419, -0.04891002, 0.08900452, -0.01365089 ],
+						[ 8421, -0.03137004, 0.03700256, -0.007180214 ],
+						[ 8423, -0.001899958, 0.001998901, -0.0003995895 ],
+						[ 8424, -0.02103996, 0.05300903, -0.006859779 ],
+						[ 8426, -0.04097033, 0.009994507, -0.004219532 ],
+						[ 8427, -0.03677988, 0.1179962, -0.01590061 ],
+						[ 8430, -0.001450062, 0, -0.0001602173 ],
+						[ 8432, -0.2377601, 0.1580048, -0.04175949 ],
+						[ 8446, -0.003389955, 0.01699829, -0.002090454 ],
+						[ 8447, -0.01321995, 0.03800964, -0.00481987 ],
+						[ 8451, -0.001619935, 0.002990723, -0.0003395081 ],
+						[ 8452, -0.001009941, 0.001998901, -0.0001783371 ],
+						[ 8453, -0.001160145, 0.001998901, -0.0003004074 ],
+						[ 8456, -0.01646996, 0.07400513, -0.009778976 ],
+						[ 8457, -0.06300998, 0.1399994, -0.02065086 ],
+						[ 8458, -0.09623981, 0.1430054, -0.02473068 ],
+						[ 8459, -0.05834007, 0.05899048, -0.01199913 ],
+						[ 8460, -0.0440197, 0.1389923, -0.02041912 ],
+						[ 8463, -0.10478, 0.2109985, -0.03443146 ],
+						[ 8483, -0.04338002, 0.02200317, -0.006249428 ],
+						[ 8484, -0.02052021, 0.005996704, -0.00219059 ],
+						[ 8485, -0.03457999, 0.02099609, -0.004950523 ],
+						[ 8487, -0.08919001, 0.151001, -0.02756977 ],
+						[ 8489, -0.18962, 0.2220001, -0.04557991 ],
+						[ 8490, -0.1161199, 0.04400635, -0.01241112 ],
+						[ 8491, -0.2164299, 0.1130066, -0.02957058 ],
+						[ 8492, -0.2067499, 0.1339874, -0.03133965 ],
+						[ 8493, -0.11183, 0.09901428, -0.02333069 ],
+						[ 8496, -0.3380997, 0.1949921, -0.05417919 ],
+						[ 8500, -0.1598597, 0.05799866, -0.02225018 ],
+						[ 8501, -0.23329, 0.0900116, -0.03028107 ],
+						[ 8503, -0.06023026, 0.02099609, -0.008469582 ],
+						[ 8615, -0.001099825, 0.0269928, -0.003429413 ],
+						[ 8616, -0.01137996, 0.06298828, -0.008969307 ],
+						[ 8617, -0.02401996, 0.06900024, -0.01117992 ],
+						[ 8618, -0.02221012, 0.03599548, -0.006809235 ],
+						[ 8619, -0.002109051, 0, -0.0002398491 ],
+						[ 9854, -0.02334011, 0.03199768, -0.005701065 ],
+						[ 9855, -0.03261983, 0.06599426, -0.009490967 ],
+						[ 9856, -0.01802003, 0.04100037, -0.005319595 ],
+						[ 9857, -0.001309991, 0.00201416, -0.0002498627 ],
+						[ 11142, 0.0003097057, 0.01400757, -0.001811981 ],
+						[ 11144, 0.0007002354, 0.001998901, -0.000169754 ],
+						[ 11150, -0.001959801, 0.003997803, -0.0007600784 ],
+						[ 11152, -0.003659964, 0.01799011, -0.002620697 ],
+						[ 11237, -0.1214399, 0.09901428, -0.02134991 ],
+						[ 11238, -0.00842011, 0.005020142, -0.001420021 ],
+						[ 11241, -0.01141, 0.003005981, 0.0003099442 ],
+						[ 11242, -0.07223964, 0.01901245, -0.003860474 ],
+						[ 11244, -0.23754, 0.09298706, -0.02847958 ],
+						[ 11246, -0.3496702, 0.1889954, -0.05148125 ],
+						[ 11249, -0.31356, 0.2479858, -0.05581951 ],
+						[ 11251, -0.1872401, 0.2139893, -0.04119873 ],
+						[ 11252, -0.006919861, 0.004013062, -0.001060486 ],
+						[ 11527, -0.01060987, 0.004989624, -0.001629829 ],
+						[ 11528, -0.005149841, 0.001998901, -0.0006990433 ],
+						[ 11562, -0.02134991, 0.01100159, -0.003469944 ],
+						[ 11796, -0.03379011, 0.01499939, -0.00522995 ],
+						[ 11876, -0.002519846, 0.0009918213, -0.0004301071 ],
+						[ 11877, -0.008069992, 0.003997803, -0.001330376 ],
+						[ 11879, -0.005249977, 0.001998901, -0.0007596016 ],
+						[ 11880, -0.01856017, 0.009002686, -0.002889633 ],
+						[ 11910, -0.01338005, 0.008010864, -0.002189636 ],
+						[ 11911, -0.02193987, 0.01300049, -0.00344944 ],
+						[ 11912, -0.01616001, 0.009002686, -0.002709389 ],
+						[ 12773, 0.003910065, 0.00201416, -0.0006599426 ],
+						[ 12779, 0.002419949, 0.0009918213, -0.0004091263 ],
+						[ 13402, -0.003910065, 0.00201416, -0.0006599426 ],
+						[ 13408, -0.002419949, 0.0009918213, -0.0004091263 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Cheeks Nasolabial Fold Arc-1",
+				"url" : "#Cheeks%20Nasolabial%20Fold%20Arc"
+			}
+		]
+	}
+}

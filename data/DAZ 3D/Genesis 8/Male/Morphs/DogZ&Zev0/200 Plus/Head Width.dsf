@@ -1,0 +1,50 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Head%20Width.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Head Width",
+			"name" : "Head Width",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Head Width",
+				"label" : "Head Width",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Head",
+			"group" : "/Real World/200 Plus"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Head Width-1",
+				"url" : "#Head%20Width"
+			}
+		]
+	}
+}

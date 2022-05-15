@@ -1,0 +1,241 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/200%20Plus/Lip%20Lower%20Center%20Height.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-02T19:27:09Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Lip Lower Center Height",
+			"name" : "Lip Lower Center Height",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Lip Lower Center Height",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Mouth",
+			"group" : "/Real World/200 Plus/Lips",
+			"formulas" : [
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.0003247261 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.001358032 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.0003080368 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 9.083748e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 0.0004577637 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 0.0001506805 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.0006073386 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.06199646 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 0.002390862 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.0213623 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 0.002039909 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.0003437996 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.001113892 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : -0.0003738403 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 7.462502e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 0.0003051758 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipLowerOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Lower%20Center%20Height?value" },
+						{ "op" : "push", "val" : 0.000128746 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 44,
+					"values" : [
+						[ 13, 0, -0.3399353, 0.0146389 ],
+						[ 14, 0, -0.3560028, 0.02438831 ],
+						[ 15, 0, -0.03097534, 0.002848625 ],
+						[ 22, 0, -0.2939911, -0.004119873 ],
+						[ 61, 0, -0.1650238, -0.01559067 ],
+						[ 62, 0, -0.06097412, -0.005998611 ],
+						[ 589, 0.007920027, -0.02996826, -0.003329277 ],
+						[ 590, -0.009837866, -0.2699738, 0.02507877 ],
+						[ 633, -0.00627479, -0.2799988, 0.02669239 ],
+						[ 634, 0.009019971, -0.03501892, -0.00345993 ],
+						[ 637, -0.0002229214, -0.02400208, 0.00236702 ],
+						[ 764, 0.003880143, -0.01499939, -0.001731873 ],
+						[ 765, -0.01343399, -0.2259674, 0.01786709 ],
+						[ 2332, -0.003133923, -0.05601501, 0.000374794 ],
+						[ 2333, -0.008818954, -0.1330109, 0.006090164 ],
+						[ 2435, 0.01622385, -0.1410065, 0.0107975 ],
+						[ 2436, 0.01538908, -0.1359863, 0.008049965 ],
+						[ 2437, 0.01159382, -0.1010132, 0.001569748 ],
+						[ 2438, 0.003168941, -0.04202271, -0.003680229 ],
+						[ 2439, 0.0003041625, -0.01200867, -0.00180912 ],
+						[ 4395, 0.0004760623, -0.00201416, 0.0001716614 ],
+						[ 5414, 0, 0.01400757, 0.001716614 ],
+						[ 6512, 0.002689958, -0.009979248, -0.0003299713 ],
+						[ 6513, -0.0007919073, -0.1960144, 0.01976967 ],
+						[ 6522, 0.01142699, -0.07601929, 0.007637024 ],
+						[ 6526, 0, -0.2439728, 0.02084255 ],
+						[ 7099, -0.007920027, -0.02996826, -0.003329277 ],
+						[ 7100, 0.009837955, -0.2699738, 0.02507877 ],
+						[ 7143, 0.006274939, -0.2799988, 0.02669239 ],
+						[ 7144, -0.009019971, -0.03501892, -0.00345993 ],
+						[ 7147, 0.0002229214, -0.02400208, 0.00236702 ],
+						[ 7274, -0.00387001, -0.01499939, -0.001731873 ],
+						[ 7275, 0.01343399, -0.2259674, 0.01786709 ],
+						[ 8842, 0.003133923, -0.05601501, 0.000374794 ],
+						[ 8843, 0.008818954, -0.1329956, 0.006090164 ],
+						[ 8945, -0.01622385, -0.1410065, 0.0107975 ],
+						[ 8946, -0.01538908, -0.1359863, 0.008049965 ],
+						[ 8947, -0.01159382, -0.1009827, 0.001569748 ],
+						[ 8948, -0.003168881, -0.04200745, -0.003680229 ],
+						[ 8949, -0.0003041625, -0.01200867, -0.00180912 ],
+						[ 10878, -0.0004760623, -0.00201416, 0.0001716614 ],
+						[ 12894, -0.002689958, -0.009979248, -0.0003299713 ],
+						[ 12895, 0.0007919073, -0.1960144, 0.01976967 ],
+						[ 12904, -0.0114271, -0.07601929, 0.007637024 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Lip Lower Center Height-1",
+				"url" : "#Lip%20Lower%20Center%20Height"
+			}
+		]
+	}
+}

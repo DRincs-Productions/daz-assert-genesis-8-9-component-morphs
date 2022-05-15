@@ -1,0 +1,544 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Chin%20Valley%20Height.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Chin Valley Height",
+			"name" : "Chin Valley Height",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Chin Valley Height",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Face",
+			"group" : "/Cheeks and Jaw/Real World/200 Plus/Chin",
+			"formulas" : [
+				{
+					"output" : "lowerJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lowerJaw?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.001688139 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lowerJaw?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 0.02642822 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lowerJaw?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 0.03193153 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lowerJaw?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -2.032561e-07 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lowerJaw?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 0.0003967285 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lowerJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lowerJaw?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -9.536743e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 0.003498554 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.04187012 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.01775074 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 0.0008212328 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.008789062 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.001596451 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipLowerMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 1.058565e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipLowerMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.06889343 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipLowerMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.02916813 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipLowerMiddle?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.0001339251 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipLowerMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.02864075 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipLowerMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.01279354 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipLowerInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.003493428 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipLowerInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.04177856 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipLowerInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.01773071 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipLowerInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.0007987022 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipLowerInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.008651733 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipLowerInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipLowerInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.00154686 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -7.402216e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.299469 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.1501017 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : 5.736318e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.3663483 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.1837587 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -2.599135e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.08325195 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.03547859 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -4.615012e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.1321106 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Height?value" },
+						{ "op" : "push", "val" : -0.06434441 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 195,
+					"values" : [
+						[ 13, 0, -0.02799988, -0.007810593 ],
+						[ 22, 0, -0.08898926, -0.04172039 ],
+						[ 36, 0, -0.03900146, -0.02204132 ],
+						[ 38, 0, -0.3509979, -0.1855507 ],
+						[ 61, 0, -0.2029877, -0.1081209 ],
+						[ 62, 0, -0.3349915, -0.1797104 ],
+						[ 64, 0, -0.196991, -0.1128912 ],
+						[ 565, 0.0003199577, -0.003997803, -0.008199692 ],
+						[ 569, 0.003169894, -0.03999329, -0.01835918 ],
+						[ 570, 0.004171014, -0.05000305, -0.01600075 ],
+						[ 613, 0.001446009, -0.01701355, -0.002599716 ],
+						[ 614, 0.0008000135, -0.01000977, -0.002680779 ],
+						[ 743, 0.00270009, -0.03399658, -0.02305984 ],
+						[ 744, 0.008679867, -0.1040039, -0.04508972 ],
+						[ 745, 0.01061612, -0.1150055, -0.05051899 ],
+						[ 759, 0.01094007, -0.1399994, -0.06501961 ],
+						[ 761, 0.02623999, -0.2640076, -0.1282902 ],
+						[ 762, 0.002409697, -0.0289917, -0.01929092 ],
+						[ 810, 0.001339912, -0.01599121, -0.0132513 ],
+						[ 1556, 0.00391984, -0.04798889, -0.009208679 ],
+						[ 1558, 0.001470089, -0.01399231, -0.001568794 ],
+						[ 1579, 0.04567295, -0.4149933, -0.1911192 ],
+						[ 1580, 0.008180141, -0.1040039, -0.05076981 ],
+						[ 2183, 0.04128301, -0.3809967, -0.1957884 ],
+						[ 2184, 0.02754509, -0.2490082, -0.1293001 ],
+						[ 2185, 0.03881991, -0.3619995, -0.1751299 ],
+						[ 2190, 0.0003339648, -0.002990723, -0.0002202988 ],
+						[ 2191, 0.007260978, -0.07899475, -0.02899075 ],
+						[ 2239, 0.026317, -0.246994, -0.09537983 ],
+						[ 2248, 0.00132966, -0.01699829, -0.002328873 ],
+						[ 2249, 0.01180005, -0.1409912, -0.04663849 ],
+						[ 2286, 0.001549959, -0.01799011, -0.001111031 ],
+						[ 2287, 0.004440069, -0.05499268, -0.01923847 ],
+						[ 2288, 0.01506996, -0.154007, -0.06974983 ],
+						[ 2289, 0.03960013, -0.3390045, -0.167511 ],
+						[ 2290, 0.05322003, -0.4360046, -0.2174311 ],
+						[ 2291, 0.006799936, -0.08700562, -0.03696918 ],
+						[ 2292, 0.02611995, -0.2810059, -0.10707 ],
+						[ 2311, 0.008709908, -0.09300232, -0.01939011 ],
+						[ 2312, 0.02699983, -0.272995, -0.09185886 ],
+						[ 2313, 0.05333996, -0.4419861, -0.1890297 ],
+						[ 5102, 0.001210213, -0.01400757, -0.005899429 ],
+						[ 5106, 0.0497191, -0.4539948, -0.2316399 ],
+						[ 5108, 0.06955004, -0.4820099, -0.23423 ],
+						[ 5110, 0, -0.4140015, -0.2181196 ],
+						[ 5111, 0.03869998, -0.3739929, -0.1684694 ],
+						[ 5112, 0.01004982, -0.1290131, -0.06103992 ],
+						[ 5392, 0.002879858, -0.03700256, -0.01947021 ],
+						[ 5405, 0.003951997, -0.05999756, -0.01885033 ],
+						[ 5406, 0.004402041, -0.05499268, -0.02078915 ],
+						[ 5408, 0.0004600286, -0.006011963, -0.007519722 ],
+						[ 5550, 0.02391902, -0.2230072, -0.106081 ],
+						[ 5551, 0.02744591, -0.2620087, -0.114089 ],
+						[ 5552, 0.0009719729, -0.01199341, -0.00096035 ],
+						[ 5553, 0.001095057, -0.01298523, -0.001130104 ],
+						[ 5554, 0.0004419088, -0.004989624, 0.0003700256 ],
+						[ 5555, 0.0002689958, -0.002990723, 0.000289917 ],
+						[ 5556, 0.009609938, -0.1230011, -0.05078983 ],
+						[ 5557, 0.0008900166, -0.01100159, -0.004910469 ],
+						[ 5558, 0.0007200241, -0.009002686, -0.005120277 ],
+						[ 5634, 3.10012e-08, -0.00201416, -0.000869751 ],
+						[ 5636, -1.70591e-07, -0.05999756, -0.01903057 ],
+						[ 5637, 4.28833e-07, -0.1940155, -0.09159946 ],
+						[ 5641, 0.013383, -0.1990051, -0.09770966 ],
+						[ 5642, 0.005322024, -0.1019897, -0.04143047 ],
+						[ 5643, 0.001884997, -0.04701233, -0.01261044 ],
+						[ 5644, 0.0007530078, -0.009002686, -0.001849174 ],
+						[ 5660, 2.33555e-07, -0.05700684, -0.01669121 ],
+						[ 5723, 0.02955997, -0.2830048, -0.1297998 ],
+						[ 5724, 0.006640077, -0.08599854, -0.04149961 ],
+						[ 5725, 0.0001296997, -0.001998901, -0.0002198219 ],
+						[ 5726, 0.03602803, -0.3049927, -0.1478405 ],
+						[ 5727, 0.02020904, -0.2389832, -0.1221209 ],
+						[ 5728, -2.38575e-07, -0.2549896, -0.1266518 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 5753, 0.01694098, -0.1640167, -0.07971096 ],
+						[ 5756, 0.001991004, -0.02400208, -0.004240036 ],
+						[ 5757, 0.006142974, -0.07600403, -0.02691936 ],
+						[ 5758, 0.00543195, -0.06799316, -0.02572918 ],
+						[ 5759, 0.01391602, -0.1439972, -0.06287098 ],
+						[ 5761, 0.02168697, -0.2160034, -0.09739971 ],
+						[ 5764, 0.01322997, -0.1529999, -0.06609917 ],
+						[ 5768, 0.004119992, -0.05201721, -0.0293808 ],
+						[ 5769, 0.008390069, -0.1069946, -0.04850006 ],
+						[ 5873, 0.005071819, -0.06300354, -0.0212307 ],
+						[ 5874, 4.04924e-07, -0.1589966, -0.07531929 ],
+						[ 5875, 0.01334301, -0.1590118, -0.07763004 ],
+						[ 5876, 0.02057803, -0.1880035, -0.09384918 ],
+						[ 6751, -0.0003199577, -0.003997803, -0.008199692 ],
+						[ 6755, -0.003169894, -0.03999329, -0.01835918 ],
+						[ 6756, -0.004171014, -0.05000305, -0.01600075 ],
+						[ 6799, -0.001446009, -0.01701355, -0.002599716 ],
+						[ 6800, -0.0008000135, -0.01000977, -0.002680779 ],
+						[ 6929, -0.00270009, -0.03399658, -0.02305984 ],
+						[ 6930, -0.008679867, -0.1040039, -0.04508972 ],
+						[ 6931, -0.01061612, -0.1150055, -0.05051899 ],
+						[ 6945, -0.01094007, -0.1399994, -0.06501961 ],
+						[ 6947, -0.02623999, -0.2640076, -0.1282902 ],
+						[ 6948, -0.002409697, -0.0289917, -0.01929092 ],
+						[ 6996, -0.001339912, -0.01599121, -0.0132513 ],
+						[ 7742, -0.00391984, -0.04798889, -0.009208679 ],
+						[ 7744, -0.001470089, -0.01399231, -0.001568794 ],
+						[ 7765, -0.04567295, -0.4149933, -0.1911192 ],
+						[ 7766, -0.008180141, -0.1040039, -0.05076981 ],
+						[ 8369, -0.04128301, -0.3809967, -0.1957884 ],
+						[ 8370, -0.02754509, -0.2490082, -0.1293001 ],
+						[ 8371, -0.03881991, -0.3619995, -0.1751299 ],
+						[ 8376, -0.0003339648, -0.002990723, -0.0002202988 ],
+						[ 8377, -0.007260978, -0.07899475, -0.02899075 ],
+						[ 8425, -0.026317, -0.246994, -0.09537983 ],
+						[ 8434, -0.00132966, -0.01699829, -0.002328873 ],
+						[ 8435, -0.01180005, -0.1409912, -0.04663849 ],
+						[ 8472, -0.001549959, -0.01799011, -0.001111031 ],
+						[ 8473, -0.004440069, -0.05499268, -0.01923847 ],
+						[ 8474, -0.01506996, -0.154007, -0.06974983 ],
+						[ 8475, -0.03960013, -0.3390045, -0.167511 ],
+						[ 8476, -0.05322003, -0.4360046, -0.2174311 ],
+						[ 8477, -0.006799936, -0.08700562, -0.03696918 ],
+						[ 8478, -0.02611995, -0.2810059, -0.10707 ],
+						[ 8497, -0.008709908, -0.09300232, -0.01939011 ],
+						[ 8498, -0.02699983, -0.272995, -0.09185886 ],
+						[ 8499, -0.05333996, -0.4419861, -0.1890297 ],
+						[ 11239, -0.001210213, -0.01400757, -0.005899429 ],
+						[ 11243, -0.0497191, -0.4539948, -0.2316399 ],
+						[ 11245, -0.06955004, -0.4820099, -0.23423 ],
+						[ 11247, -0.03869998, -0.3739929, -0.1684694 ],
+						[ 11248, -0.01004982, -0.1290131, -0.06103992 ],
+						[ 11518, -0.002879858, -0.03700256, -0.01947021 ],
+						[ 11531, -0.003951997, -0.05999756, -0.01885033 ],
+						[ 11532, -0.004402041, -0.05499268, -0.02078915 ],
+						[ 11534, -0.0004600286, -0.006011963, -0.007519722 ],
+						[ 11656, -0.02391902, -0.2230072, -0.106081 ],
+						[ 11657, -0.02744693, -0.2620087, -0.114089 ],
+						[ 11658, -0.0009729862, -0.01199341, -0.00096035 ],
+						[ 11659, -0.001095057, -0.01298523, -0.001130104 ],
+						[ 11660, -0.0004419088, -0.004989624, 0.0003700256 ],
+						[ 11661, -0.0002689958, -0.002990723, 0.000289917 ],
+						[ 11662, -0.009609938, -0.1230011, -0.05078983 ],
+						[ 11663, -0.0008900166, -0.01100159, -0.004910469 ],
+						[ 11664, -0.0007200241, -0.009002686, -0.005129814 ],
+						[ 11740, -0.013383, -0.1990051, -0.09770966 ],
+						[ 11741, -0.005322024, -0.1019897, -0.04143047 ],
+						[ 11742, -0.001884997, -0.04701233, -0.01261044 ],
+						[ 11743, -0.0007530078, -0.009002686, -0.001849174 ],
+						[ 11803, -0.02955997, -0.2830048, -0.1297998 ],
+						[ 11804, -0.006640077, -0.08599854, -0.04149961 ],
+						[ 11805, -0.0001296997, -0.001998901, -0.0002198219 ],
+						[ 11806, -0.03602904, -0.3049927, -0.1478405 ],
+						[ 11807, -0.02020904, -0.2389832, -0.1221209 ],
+						[ 11828, -0.01694098, -0.1640167, -0.07971096 ],
+						[ 11831, -0.001991004, -0.02400208, -0.004240036 ],
+						[ 11832, -0.006143987, -0.07600403, -0.02691936 ],
+						[ 11833, -0.00543195, -0.06799316, -0.02572918 ],
+						[ 11834, -0.01391602, -0.1439972, -0.06287098 ],
+						[ 11836, -0.02168697, -0.2160034, -0.09739971 ],
+						[ 11839, -0.01322997, -0.1529999, -0.06609917 ],
+						[ 11843, -0.004119992, -0.05201721, -0.0293808 ],
+						[ 11844, -0.008390069, -0.1069946, -0.04850006 ],
+						[ 11942, -0.005070865, -0.06300354, -0.0212307 ],
+						[ 11943, -0.01334101, -0.1590118, -0.07763004 ],
+						[ 11944, -0.02057701, -0.1880035, -0.09384918 ],
+						[ 12657, 0.002949029, -0.03601074, -0.007539749 ],
+						[ 12665, 0.0004451014, -0.03401184, -0.008581161 ],
+						[ 12669, 0.002795964, -0.04400635, -0.01197052 ],
+						[ 12676, 0.00179103, -0.02099609, -0.00344944 ],
+						[ 12681, 9.313226e-10, -0.01600647, -0.00453186 ],
+						[ 12707, 0.004571021, -0.05799866, -0.02350903 ],
+						[ 12715, 0.003179908, -0.03900146, -0.01087952 ],
+						[ 12719, 0.005212009, -0.06500244, -0.02462959 ],
+						[ 12721, 0.0001879334, -0.001998901, 0.0002002716 ],
+						[ 12726, 0.002234995, -0.02900696, -0.0134697 ],
+						[ 12731, 0.001019955, -0.01199341, -0.001339912 ],
+						[ 12739, 0.0003299713, -0.003997803, -0.005400181 ],
+						[ 12741, 0.005239964, -0.06700134, -0.03257084 ],
+						[ 12743, 0.0001100302, -0.0009765625, -0.001970291 ],
+						[ 12747, 0.005030036, -0.06401062, -0.02986908 ],
+						[ 12751, 0.002130032, -0.0269928, -0.01429081 ],
+						[ 12754, 0.002580047, -0.0329895, -0.02229118 ],
+						[ 13286, -0.002949029, -0.03601074, -0.007539749 ],
+						[ 13294, -0.0004450008, -0.03401184, -0.008581161 ],
+						[ 13298, -0.002795964, -0.04400635, -0.01197052 ],
+						[ 13305, -0.00179103, -0.02099609, -0.00344944 ],
+						[ 13310, -9.313226e-10, -0.01600647, -0.00453186 ],
+						[ 13336, -0.004571021, -0.05799866, -0.02350903 ],
+						[ 13344, -0.003179908, -0.03900146, -0.01087952 ],
+						[ 13348, -0.005212009, -0.06500244, -0.02462959 ],
+						[ 13350, -0.0001879334, -0.001998901, 0.0002002716 ],
+						[ 13355, -0.002234995, -0.02900696, -0.0134697 ],
+						[ 13360, -0.001019955, -0.01199341, -0.001339912 ],
+						[ 13368, -0.0003299713, -0.003997803, -0.005400181 ],
+						[ 13370, -0.005239964, -0.06700134, -0.03257084 ],
+						[ 13372, -0.0001100302, -0.0009765625, -0.001970291 ],
+						[ 13376, -0.005030036, -0.06401062, -0.02986908 ],
+						[ 13380, -0.002130032, -0.0269928, -0.01429081 ],
+						[ 13383, -0.002580047, -0.0329895, -0.02229118 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Chin Valley Height-1",
+				"url" : "#Chin%20Valley%20Height"
+			}
+		]
+	}
+}

@@ -1,0 +1,492 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/200%20Plus/Lip%20Upper%20Corners%20Pout.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-02T19:27:09Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Lip Upper Corners Pout",
+			"name" : "Lip Upper Corners Pout",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Lip Upper Corners Pout",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Mouth",
+			"group" : "/Real World/200 Plus/Lips",
+			"formulas" : [
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.01614523 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.01780701 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.00278759 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.02946997 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.03102112 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.004188538 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.01607251 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.01792908 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.002762794 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.02692366 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.03224182 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipNasolabialCrease:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipNasolabialCrease?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.004607201 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.09405899 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.0664978 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.02089882 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.1364377 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.02845764 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.06644344 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.01244915 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.007965088 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.004227638 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.01038003 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.001159668 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.009111404 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.0130074 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.008087158 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.00417614 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.01066864 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.001190186 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.009102821 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.09449387 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.06643677 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.02087116 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : -0.1363153 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.02825928 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperOuter:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rLipUpperOuter?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Lip%20Upper%20Corners%20Pout?value" },
+						{ "op" : "push", "val" : 0.06644058 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 143,
+					"values" : [
+						[ 8, 0, 0.009994507, 0.0005893707 ],
+						[ 19, 0, 0.06602478, 0.002539635 ],
+						[ 20, 0, 0.07400513, 0.002877235 ],
+						[ 21, 0, 0.06602478, 0.002621651 ],
+						[ 586, 0.1098499, 0.1299896, 0.001161575 ],
+						[ 587, 0.1736004, 0.1309967, 0.008608818 ],
+						[ 588, 0.1585202, 0.05397034, 0.01728344 ],
+						[ 622, 0.00404048, 0.00201416, 0.0001897812 ],
+						[ 625, 0.01676011, -0.006011963, -7.963181e-05 ],
+						[ 626, 0.05144978, -0.008026123, 0.007159233 ],
+						[ 627, 0.011718, 0.04101562, 0.002148628 ],
+						[ 628, 0.04592943, -0.008026123, 0.009226799 ],
+						[ 629, 0.1325998, -0.02394104, 0.05675983 ],
+						[ 630, 0.009289742, 0.003997803, 0.0005092621 ],
+						[ 636, 0.02412009, -0.006011963, 0.0005378723 ],
+						[ 639, 0.001369953, 0.001983643, 0.0001506805 ],
+						[ 640, 0.01739001, 0.007995605, 0.0009489059 ],
+						[ 641, 0.001169562, 3.051758e-05, 2.861023e-05 ],
+						[ 642, 0.006229877, 0.003005981, 0.0002403259 ],
+						[ 714, 0.00747025, 0.01301575, 0.0009908676 ],
+						[ 715, 0.01682007, 0.02598572, 0.001997948 ],
+						[ 716, 0.01256004, 0.05099487, 0.002503395 ],
+						[ 717, 0.02072197, 0.03199768, 0.002396584 ],
+						[ 718, 0.05386972, 0.07197571, 0.001416206 ],
+						[ 719, 0.01191708, 0.04898071, 0.002382278 ],
+						[ 720, 0.02377129, 0.03501892, 0.002607346 ],
+						[ 721, 0.05672991, 0.07801819, 0.007000923 ],
+						[ 722, 0.08404982, 0.1100159, -0.007427216 ],
+						[ 723, 0.1035405, 0.1300201, -0.000995636 ],
+						[ 724, 0.1057194, 0.1100311, 0.0174818 ],
+						[ 725, 0.2077298, 0.08702087, 0.09078217 ],
+						[ 726, 0.001490355, 0.001998901, 8.010864e-05 ],
+						[ 727, 0.02043986, -0.001037598, 0.0001096725 ],
+						[ 728, 0.0528698, -0.007003784, 0.007527351 ],
+						[ 729, 0.1622007, 0.02200317, 0.04458046 ],
+						[ 730, 0.1939099, 0.1210327, 0.05263805 ],
+						[ 731, 0.009799957, 0.006011963, 0.0004587173 ],
+						[ 732, 0.1632001, 0.1060028, 0.0537529 ],
+						[ 733, 0.1414299, 0.1400146, 0.02101135 ],
+						[ 738, 0.002900362, 0.00302124, 0.0002288818 ],
+						[ 768, 0.02264023, 0.01205444, 0.001101494 ],
+						[ 849, 0.09539938, 0.02999878, 0.006519318 ],
+						[ 850, 0.04244971, -0.01994324, 0.0187521 ],
+						[ 2330, 0.001299858, -0.0009918213, -2.0504e-05 ],
+						[ 2337, 0.0005629957, 0.00100708, 0.0001029968 ],
+						[ 2338, 0.004858106, 0.009994507, 0.0007314682 ],
+						[ 2433, 0.008010149, -0.004043579, -7.915497e-05 ],
+						[ 2446, 0.04991007, 0.05496216, -0.008159637 ],
+						[ 2447, 0.1003599, 0.08403015, -0.03257084 ],
+						[ 2448, 0.02742982, 0.022995, -0.002269745 ],
+						[ 2449, 0.0439198, 0.05102539, 0.0009698868 ],
+						[ 2453, 0.003169537, 0.001983643, -0.001667976 ],
+						[ 5253, 0.002945989, 0.008987427, 0.0006093979 ],
+						[ 5255, 0, 0.04899597, 0.002018929 ],
+						[ 5259, 0.005514026, 0.03297424, 0.001607895 ],
+						[ 5420, 0.001630187, 0, 4.863739e-05 ],
+						[ 5421, 0.03997004, 0.0289917, 0.002606392 ],
+						[ 5422, 0.04592037, 0.03500366, 0.003128052 ],
+						[ 5423, 0.04551005, 0.03399658, 0.00304985 ],
+						[ 5427, 0.01317024, 0.007980347, 0.0007686615 ],
+						[ 5704, 0.001289964, -1.525879e-05, 3.910065e-05 ],
+						[ 6510, 0.01771998, 0.003967285, 0.0004496574 ],
+						[ 6511, 0.01976013, 0.009963989, 0.0009202957 ],
+						[ 6514, 0.08064008, -0.0639801, 0.03650856 ],
+						[ 6515, 0.009768039, -0.008026123, 0.03063488 ],
+						[ 6516, 0.03427994, -0.02101135, 0.0417099 ],
+						[ 6517, 0.09582114, -0.065979, 0.07333946 ],
+						[ 6518, 0.09908986, -0.03599548, 0.06672287 ],
+						[ 6519, 0.05422997, -0.03297424, 0.05958843 ],
+						[ 6520, 0.01601505, -0.003997803, 0.02058887 ],
+						[ 6521, 0.03270328, -0.01000977, 0.0331707 ],
+						[ 6523, 0.003139973, 0.001022339, 0.0001602173 ],
+						[ 6524, 0, 0.003997803, 0.02360153 ],
+						[ 6527, 0.01840997, -0.00100708, 0.000289917 ],
+						[ 7096, -0.1098499, 0.1299744, 0.001161575 ],
+						[ 7097, -0.1736004, 0.1309967, 0.008608818 ],
+						[ 7098, -0.1585202, 0.05397034, 0.01728153 ],
+						[ 7132, -0.00404048, 0.001998901, 0.0001897812 ],
+						[ 7135, -0.01676011, -0.006011963, -7.963181e-05 ],
+						[ 7136, -0.05144954, -0.008010864, 0.00716114 ],
+						[ 7137, -0.011718, 0.04101562, 0.002148628 ],
+						[ 7138, -0.04592943, -0.008026123, 0.009226799 ],
+						[ 7139, -0.1325998, -0.02397156, 0.05675983 ],
+						[ 7140, -0.00928998, 0.003997803, 0.0005083084 ],
+						[ 7146, -0.02412009, -0.006011963, 0.0005378723 ],
+						[ 7149, -0.001369953, 0.001983643, 0.0001506805 ],
+						[ 7150, -0.01739001, 0.007995605, 0.0009489059 ],
+						[ 7151, -0.001169562, 3.051758e-05, 2.861023e-05 ],
+						[ 7152, -0.006229877, 0.003005981, 0.0002403259 ],
+						[ 7224, -0.00747025, 0.01301575, 0.0009908676 ],
+						[ 7225, -0.01682007, 0.02598572, 0.001997948 ],
+						[ 7226, -0.01256004, 0.05099487, 0.002503395 ],
+						[ 7227, -0.02072197, 0.03199768, 0.002399445 ],
+						[ 7228, -0.05386972, 0.07197571, 0.001416206 ],
+						[ 7229, -0.011917, 0.04898071, 0.002382278 ],
+						[ 7230, -0.02377111, 0.03501892, 0.002607346 ],
+						[ 7231, -0.05672991, 0.07801819, 0.007000923 ],
+						[ 7232, -0.08404982, 0.1100159, -0.007427216 ],
+						[ 7233, -0.1035405, 0.1300201, -0.0009975433 ],
+						[ 7234, -0.1057197, 0.1100311, 0.0174818 ],
+						[ 7235, -0.2077298, 0.08702087, 0.09078217 ],
+						[ 7236, -0.001490355, 0.00201416, 8.010864e-05 ],
+						[ 7237, -0.02043986, -0.001037598, 0.0001096725 ],
+						[ 7238, -0.0528698, -0.007003784, 0.007527351 ],
+						[ 7239, -0.1622005, 0.02200317, 0.04458046 ],
+						[ 7240, -0.1939096, 0.1210022, 0.05263805 ],
+						[ 7241, -0.009799957, 0.006011963, 0.0004587173 ],
+						[ 7242, -0.1632001, 0.1060028, 0.0537529 ],
+						[ 7243, -0.1414299, 0.1399994, 0.02102375 ],
+						[ 7248, -0.002900362, 0.00302124, 0.0002288818 ],
+						[ 7278, -0.02264047, 0.01200867, 0.001101494 ],
+						[ 7359, -0.09540033, 0.02998352, 0.006518364 ],
+						[ 7360, -0.04244971, -0.01994324, 0.0187521 ],
+						[ 8840, -0.001299858, -0.0009918213, -2.0504e-05 ],
+						[ 8847, -0.0005629361, 0.00100708, 0.0001029968 ],
+						[ 8848, -0.004858047, 0.009994507, 0.0007314682 ],
+						[ 8943, -0.008009911, -0.004043579, -7.867813e-05 ],
+						[ 8956, -0.04991007, 0.05496216, -0.008151054 ],
+						[ 8957, -0.1003599, 0.08406067, -0.03257084 ],
+						[ 8958, -0.02742982, 0.022995, -0.002269745 ],
+						[ 8959, -0.0439198, 0.05101013, 0.0009679794 ],
+						[ 8963, -0.003169537, 0.001983643, -0.00166893 ],
+						[ 11721, -0.002945989, 0.008987427, 0.0006093979 ],
+						[ 11722, -0.0004269928, 0.00100708, 7.915497e-05 ],
+						[ 11726, -0.005514026, 0.03297424, 0.001607895 ],
+						[ 11878, -0.001630187, 0, 5.149841e-05 ],
+						[ 11879, -0.03997004, 0.0289917, 0.002606392 ],
+						[ 11880, -0.04592037, 0.03500366, 0.003128052 ],
+						[ 11881, -0.04551005, 0.03399658, 0.00304985 ],
+						[ 11885, -0.01317024, 0.007980347, 0.0007686615 ],
+						[ 12152, -0.001289964, -1.525879e-05, 3.910065e-05 ],
+						[ 12892, -0.01772022, 0.003997803, 0.0004496574 ],
+						[ 12893, -0.01976013, 0.009994507, 0.0009202957 ],
+						[ 12896, -0.08064008, -0.0639801, 0.03650856 ],
+						[ 12897, -0.009768039, -0.008026123, 0.03063488 ],
+						[ 12898, -0.03427994, -0.02101135, 0.0417099 ],
+						[ 12899, -0.09582019, -0.065979, 0.07333946 ],
+						[ 12900, -0.09908986, -0.03599548, 0.06672287 ],
+						[ 12901, -0.05422997, -0.03297424, 0.05958843 ],
+						[ 12902, -0.01601505, -0.003997803, 0.02058887 ],
+						[ 12903, -0.03270328, -0.01000977, 0.0331707 ],
+						[ 12905, -0.003139973, 0.001022339, 0.0001602173 ],
+						[ 12907, -0.01840973, -0.001022339, 0.0002894402 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Lip Upper Corners Pout-1",
+				"url" : "#Lip%20Upper%20Corners%20Pout"
+			}
+		]
+	}
+}

@@ -1,0 +1,170 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/DogZ%26Zev0/200%20Plus/Lips%20Center%20Vertical%202.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-02T19:27:09Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Mouth Center Vertical",
+			"name" : "Lips Center Vertical 2",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Lips Center Vertical 2",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Mouth",
+			"group" : "/Real World/200 Plus/Lips",
+			"formulas" : [
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.0006073535 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.005935669 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : 0.0001659393 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.1734772 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipLowerMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipLowerMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : 0.02379704 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.0002703267 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.009597778 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.0003681183 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : -0.1201782 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipUpperMiddle:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#LipUpperMiddle?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Mouth%20Center%20Vertical?value" },
+						{ "op" : "push", "val" : 0.005264282 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16556,
+				"deltas" : {
+					"count" : 29,
+					"values" : [
+						[ 15, 0, -0.178009, 0.02951622 ],
+						[ 16, 0, -0.197998, 0.0108614 ],
+						[ 17, 0, -0.1060028, 0.005210876 ],
+						[ 18, 0, -0.1400146, 0.005821228 ],
+						[ 598, -0.000232935, -0.06298828, 0.002779961 ],
+						[ 632, -5.215406e-05, -0.001998901, 3.910065e-05 ],
+						[ 637, -0.0003449321, -0.09799194, 0.004109383 ],
+						[ 735, -0.0003019273, -0.1519928, 0.005507469 ],
+						[ 736, -0.0003659129, -0.07096863, 0.002548218 ],
+						[ 737, -0.0001419485, -0.03401184, 0.001952171 ],
+						[ 1436, -0.0001350343, -0.08201599, 0.004131317 ],
+						[ 6195, 0, -0.01902771, 0.001392365 ],
+						[ 6513, -0.0001229644, -0.01902771, 0.001030922 ],
+						[ 6515, -0.0002130568, -0.03102112, 0.0002269745 ],
+						[ 6520, -0.0001118183, -0.001998901, -4.959106e-05 ],
+						[ 6524, 0, -0.06997681, 0.001120567 ],
+						[ 6526, 0, -0.06500244, 0.01518059 ],
+						[ 7108, 0.000232935, -0.06298828, 0.002779961 ],
+						[ 7142, 5.215406e-05, -0.001998901, 3.910065e-05 ],
+						[ 7147, 0.0003449321, -0.09799194, 0.004109383 ],
+						[ 7245, 0.0003019571, -0.1519928, 0.005507469 ],
+						[ 7246, 0.0003659129, -0.07096863, 0.002548218 ],
+						[ 7247, 0.0001419485, -0.03401184, 0.001952171 ],
+						[ 7946, 0.0001350343, -0.08201599, 0.004131317 ],
+						[ 12895, 0.0001229644, -0.01902771, 0.001030922 ],
+						[ 12897, 0.0002130568, -0.03102112, 0.0002269745 ],
+						[ 12902, 0.0001118183, -0.001998901, -4.959106e-05 ],
+						[ 13614, -2.99979e-06, -0.004013062, -0.0001001358 ],
+						[ 14243, 2.99979e-06, -0.004013062, -0.0001001358 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Lips Center Vertical 2",
+				"url" : "#Mouth%20Center%20Vertical"
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Earlobe%20Width.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Earlobe Width",
+			"name" : "Earlobe Width",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Earlobe Width",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Ears",
+			"group" : "/Real World/200 Plus",
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 11,
+					"values" : [
+						[ 1988, 0.002399445, -0.00100708, -0.004430056 ],
+						[ 5298, 0.07362843, -0.1349945, -0.5682499 ],
+						[ 5302, 0.03260994, -0.01599121, -0.2233099 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 6170, -0.01857996, -0.03100586, 0.0386849 ],
+						[ 6253, -0.1226897, -0.2050018, 0.255371 ],
+						[ 8174, -0.002399445, -0.00100708, -0.004430056 ],
+						[ 11426, -0.07362843, -0.1349945, -0.5682499 ],
+						[ 11430, -0.03260994, -0.01599121, -0.2233099 ],
+						[ 12230, 0.01857996, -0.03100586, 0.0386849 ],
+						[ 12311, 0.1226897, -0.2050018, 0.255371 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Earlobe Width-1",
+				"url" : "#Earlobe%20Width"
+			}
+		]
+	}
+}

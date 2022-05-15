@@ -1,0 +1,144 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Chin%20Cleft.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Chin Cleft",
+			"name" : "Chin Cleft",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Chin Cleft",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Face",
+			"group" : "/Cheeks and Jaw/Real World/200 Plus/Chin",
+			"formulas" : [
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Cleft?value" },
+						{ "op" : "push", "val" : -5.465001e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Cleft?value" },
+						{ "op" : "push", "val" : 0.03346252 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Cleft?value" },
+						{ "op" : "push", "val" : -0.03000927 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Cleft?value" },
+						{ "op" : "push", "val" : -3.13542e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Cleft?value" },
+						{ "op" : "push", "val" : 0.05256653 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Cleft?value" },
+						{ "op" : "push", "val" : -0.1301041 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 35,
+					"values" : [
+						[ 36, 0, 0.1309967, -0.217741 ],
+						[ 37, 0, 0.2579956, -0.1667118 ],
+						[ 38, 0, -0.0249939, -0.1157312 ],
+						[ 64, 0, 0.02801514, -0.185832 ],
+						[ 71, 0, 0.06401062, -0.006040096 ],
+						[ 72, 0, 0.005996704, -0.00124979 ],
+						[ 1558, 0.0006500483, 0.01199341, 0.001331329 ],
+						[ 1579, 0.001006007, -0.01298523, -0.02452946 ],
+						[ 2190, -0.0006220341, 0.0900116, -0.07324982 ],
+						[ 2191, -0.03476703, 0.03500366, -0.08779144 ],
+						[ 2239, -0.01982504, 0.009002686, -0.05838966 ],
+						[ 2311, -0.001680136, 0.0009918213, -0.0008993149 ],
+						[ 2312, -0.001490116, 0.00100708, -0.0007600784 ],
+						[ 2376, 0.0001101494, 0.001998901, 0.0002193451 ],
+						[ 2377, 0.0005400181, 0.02201843, -0.003419876 ],
+						[ 5106, 0.000246048, -0.003005981, -0.0002603531 ],
+						[ 5110, 0, -0.01098633, -0.02226925 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 6117, 0.0001699924, 0.003005981, 0.0003399849 ],
+						[ 6118, 0.00184989, 0.03399658, 0.003768921 ],
+						[ 6125, 0.005195022, 0.09300232, -0.01626015 ],
+						[ 6130, 0, 0.2360077, -0.07637215 ],
+						[ 7744, -0.0006500483, 0.01199341, 0.001331329 ],
+						[ 7765, -0.001006007, -0.01298523, -0.02452946 ],
+						[ 8376, 0.0006220341, 0.0900116, -0.07324982 ],
+						[ 8377, 0.03476703, 0.03500366, -0.08779144 ],
+						[ 8425, 0.01982504, 0.009002686, -0.05838966 ],
+						[ 8497, 0.001680136, 0.0009918213, -0.0008993149 ],
+						[ 8498, 0.001490116, 0.00100708, -0.0007600784 ],
+						[ 8562, -0.0001101494, 0.001998901, 0.0002193451 ],
+						[ 8563, -0.0005400181, 0.02201843, -0.003419876 ],
+						[ 11243, -0.000246048, -0.003005981, -0.0002603531 ],
+						[ 12179, -0.0001699924, 0.003005981, 0.0003399849 ],
+						[ 12180, -0.00184989, 0.03399658, 0.003768921 ],
+						[ 12187, -0.005195022, 0.09300232, -0.01626015 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Chin Cleft-1",
+				"url" : "#Chin%20Cleft"
+			}
+		]
+	}
+}

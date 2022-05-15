@@ -1,0 +1,145 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Chin%20Valley%20Abrupt.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Chin Valley Abrupt",
+			"name" : "Chin Valley Abrupt",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Chin Valley Abrupt",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Face",
+			"group" : "/Cheeks and Jaw/Real World/200 Plus/Chin",
+			"formulas" : [
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Abrupt?value" },
+						{ "op" : "push", "val" : -1.731206e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Abrupt?value" },
+						{ "op" : "push", "val" : 0.01673889 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Abrupt?value" },
+						{ "op" : "push", "val" : -0.08321667 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Abrupt?value" },
+						{ "op" : "push", "val" : 2.852757e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Abrupt?value" },
+						{ "op" : "push", "val" : 0.02348328 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "LipBelow:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#LipBelow?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Chin%20Valley%20Abrupt?value" },
+						{ "op" : "push", "val" : -0.08322144 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 36,
+					"values" : [
+						[ 38, 0, 0.06900024, -0.06357098 ],
+						[ 61, 0, 0, -0.001720428 ],
+						[ 62, 0, 0.02700806, -0.03703022 ],
+						[ 759, 3.98159e-05, -0.01200867, -0.004131317 ],
+						[ 1579, 0.004395962, 0.04901123, -0.04908943 ],
+						[ 2183, -0.004361004, 0.01000977, -0.02497959 ],
+						[ 2185, 0.001099825, -0.0289917, 0.001619339 ],
+						[ 2239, 0.0009040236, 0.001998901, -0.0114584 ],
+						[ 2248, 0.0002698898, -0.00100708, -0.01866913 ],
+						[ 2249, 0.003190041, -0.005004883, 0.0006599426 ],
+						[ 2290, 0.002550006, 0, -0.002900124 ],
+						[ 2291, 0.01035023, -0.08599854, -0.03129864 ],
+						[ 2292, 0.005330086, -0.1279907, -0.04149914 ],
+						[ 2313, 0.001410127, -0.0009918213, -0.01471138 ],
+						[ 5106, -0.04462987, 0.01699829, -0.2324896 ],
+						[ 5108, -0.05054998, -0.03601074, -0.1884794 ],
+						[ 5110, 0, 0.05101013, -0.2450485 ],
+						[ 5111, 0.008939981, -0.2009888, -0.1381588 ],
+						[ 5112, 0.005779743, -0.1200104, -0.03277016 ],
+						[ 5728, 0, 0.006011963, -0.0004310608 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 6945, -3.98159e-05, -0.01101685, -0.004131317 ],
+						[ 7765, -0.004395962, 0.04901123, -0.04908943 ],
+						[ 8369, 0.004361004, 0.01000977, -0.02497959 ],
+						[ 8371, -0.001099825, -0.0289917, 0.001619339 ],
+						[ 8425, -0.0009040236, 0.001998901, -0.0114584 ],
+						[ 8434, -0.0002698898, -0.00100708, -0.01866913 ],
+						[ 8435, -0.003190041, -0.005004883, 0.0006599426 ],
+						[ 8476, -0.002550006, 0, -0.002900124 ],
+						[ 8477, -0.01035023, -0.08599854, -0.03129864 ],
+						[ 8478, -0.005330086, -0.1279907, -0.04149914 ],
+						[ 8499, -0.001410127, -0.0009918213, -0.01471138 ],
+						[ 11243, 0.04462987, 0.01699829, -0.2324896 ],
+						[ 11245, 0.05054998, -0.03601074, -0.1884794 ],
+						[ 11247, -0.008939981, -0.2009888, -0.1381588 ],
+						[ 11248, -0.005779743, -0.1200104, -0.03277016 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Chin Valley Abrupt-1",
+				"url" : "#Chin%20Valley%20Abrupt"
+			}
+		]
+	}
+}

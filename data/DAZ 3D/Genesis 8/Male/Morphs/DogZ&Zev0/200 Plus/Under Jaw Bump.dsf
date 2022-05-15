@@ -1,0 +1,220 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Under%20Jaw%20Bump.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-11T23:37:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Under Jaw Bump",
+			"name" : "Under Jaw Bump",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Under Jaw Bump",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Face",
+			"group" : "/Cheeks and Jaw/Real World/200 Plus/Jaw",
+			"formulas" : [
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -5.4501e-06 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -0.02711487 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : 0.001015663 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -3.134954e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -0.00328064 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Chin:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Chin?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : 3.71933e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#BelowJaw?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -3.072445e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#BelowJaw?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -0.1855316 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#BelowJaw?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -0.003897667 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#BelowJaw?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -1.254864e-05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#BelowJaw?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : -0.2813721 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "BelowJaw:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#BelowJaw?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Under%20Jaw%20Bump?value" },
+						{ "op" : "push", "val" : 0.01769543 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 63,
+					"values" : [
+						[ 39, 0, -0.3419952, 0.02533007 ],
+						[ 70, 0, -0.3269958, -0.01512003 ],
+						[ 71, 0, -0.1329956, 0.03914022 ],
+						[ 72, 0, -0.2779999, 0.04325008 ],
+						[ 1560, 0.008409977, 0.005020142, -0.00123024 ],
+						[ 1593, 0.02324986, -0.003997803, -0.009989977 ],
+						[ 1597, 0.01462996, -0.167984, -0.05053997 ],
+						[ 1598, 0.004594088, -0.2659912, -0.001840115 ],
+						[ 1599, 0.06896007, -0.08799744, -0.05795956 ],
+						[ 2371, 0.01329005, -0.1139984, -0.01471949 ],
+						[ 2372, 0.01225019, -0.001998901, -0.004331112 ],
+						[ 2373, 0.01120889, -0.243988, -0.02840996 ],
+						[ 2374, 0.03018999, -0.1380005, -0.05428028 ],
+						[ 2375, 0.08122969, -0.07400513, -0.05146027 ],
+						[ 2376, -0.005930066, -0.1269989, 0.0106988 ],
+						[ 2377, -0.01564008, -0.1179962, 0.02715015 ],
+						[ 2378, 0.008150339, 0.01199341, 0.0001597404 ],
+						[ 2379, 0.03356993, -0.1039886, -0.04614973 ],
+						[ 2380, -0.006806076, -0.2360077, 0.02287054 ],
+						[ 2381, 0.01282001, -0.177002, -0.01150036 ],
+						[ 5143, 0.05212998, -0.05200195, -0.004989624 ],
+						[ 5144, 0.008019924, -0.03199768, -0.01674986 ],
+						[ 5145, -0.000875175, -0.06498718, 0.004030228 ],
+						[ 5148, 0, -0.1019897, 0.01252031 ],
+						[ 5150, 0.01388025, -0.002990723, -0.005959988 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 6117, 0.009200096, -0.001983643, -0.003200531 ],
+						[ 6118, -0.002810121, -0.02001953, 0.002059937 ],
+						[ 6119, 0.04819012, -0.009002686, -0.0200696 ],
+						[ 6120, 0.05883002, -0.007995605, -0.02765989 ],
+						[ 6122, 0.01762009, -0.003005981, -0.007570267 ],
+						[ 6123, 0.0289402, -0.003997803, -0.01821995 ],
+						[ 6125, -0.00365001, -0.01200867, 0.001389503 ],
+						[ 6127, 0.07380009, -0.01800537, -0.02810907 ],
+						[ 6130, 0, -0.01300049, 0.00676918 ],
+						[ 7746, -0.008409977, 0.005020142, -0.00123024 ],
+						[ 7779, -0.02324986, -0.003997803, -0.009989977 ],
+						[ 7783, -0.01462996, -0.167984, -0.05053997 ],
+						[ 7784, -0.004594088, -0.2659912, -0.001840115 ],
+						[ 7785, -0.06896007, -0.08799744, -0.05795956 ],
+						[ 8557, -0.01329005, -0.1139984, -0.01471949 ],
+						[ 8558, -0.01225019, -0.001998901, -0.004331112 ],
+						[ 8559, -0.01120889, -0.243988, -0.02840996 ],
+						[ 8560, -0.03018999, -0.1380005, -0.05428028 ],
+						[ 8561, -0.08122969, -0.07400513, -0.05146027 ],
+						[ 8562, 0.005930066, -0.1269989, 0.0106988 ],
+						[ 8563, 0.01564008, -0.1179962, 0.02715015 ],
+						[ 8564, -0.008150339, 0.01199341, 0.0001597404 ],
+						[ 8565, -0.03356993, -0.1039886, -0.04614973 ],
+						[ 8566, 0.006806076, -0.2360077, 0.02287054 ],
+						[ 8567, -0.01282001, -0.177002, -0.01150036 ],
+						[ 11278, -0.05212998, -0.05200195, -0.004989624 ],
+						[ 11279, -0.008019924, -0.03199768, -0.01674986 ],
+						[ 11280, 0.000875175, -0.06498718, 0.004030228 ],
+						[ 11284, -0.01388025, -0.002990723, -0.005959988 ],
+						[ 12179, -0.009200096, -0.001983643, -0.003200531 ],
+						[ 12180, 0.002810121, -0.02001953, 0.002059937 ],
+						[ 12181, -0.04819012, -0.009002686, -0.0200696 ],
+						[ 12182, -0.05883002, -0.007995605, -0.02765989 ],
+						[ 12184, -0.01762009, -0.003005981, -0.007570267 ],
+						[ 12185, -0.0289402, -0.003997803, -0.01821995 ],
+						[ 12187, 0.00365001, -0.01200867, 0.001389503 ],
+						[ 12189, -0.07380009, -0.01800537, -0.02810907 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Under Jaw Bump-1",
+				"url" : "#Under%20Jaw%20Bump"
+			}
+		]
+	}
+}

@@ -1,0 +1,239 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/DogZ%26Zev0/200%20Plus/Lip%20Line%20Curves%20Inner.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zev0",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-14T18:44:16Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Mouth Line Curves Inner",
+			"name" : "Lip Line Curves Inner",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Lip Line Curves Inner",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Mouth",
+			"group" : "/Real World/200 Plus/Lips",
+			"formulas" : [
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : -0.005745769 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : 0.02424622 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : -0.0006170273 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : -0.002316117 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : 0.01371765 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "lLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#lLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : -0.0002746582 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?center_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : 0.005900741 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?center_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : 0.02436829 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?center_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : -0.0005722046 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?end_point/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : 0.002179861 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?end_point/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : 0.01345825 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "rLipUpperInner:/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#rLipUpperInner?end_point/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Mouth%20Line%20Curves%20Inner?value" },
+						{ "op" : "push", "val" : -0.0002784729 },
+						{ "op" : "mult" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 16384,
+				"deltas" : {
+					"count" : 82,
+					"values" : [
+						[ 15, 0, 0.01100159, 0.0216198 ],
+						[ 16, 0, 0.01800537, 0.003050804 ],
+						[ 17, 0, 0.02099609, -0.0004892349 ],
+						[ 18, 0, 0.02799988, -0.0006599426 ],
+						[ 576, -0.01031005, 0.03201294, -0.0007686615 ],
+						[ 577, -0.03062999, 0.1130066, -0.002720833 ],
+						[ 578, -0.006474972, 0.08799744, -0.002109528 ],
+						[ 611, -0.03559005, 0.1460114, -0.003490448 ],
+						[ 612, -0.02229995, 0.154007, -0.003689766 ],
+						[ 617, -0.00514102, 0.07499695, -0.001739502 ],
+						[ 618, -0.03080988, 0.1120148, -0.002698898 ],
+						[ 619, -0.01069999, 0.0329895, -0.0008010864 ],
+						[ 667, -0.0125401, 0.03900146, -0.0009298325 ],
+						[ 668, -0.02757001, 0.1120148, -0.002678871 ],
+						[ 701, -0.0006999969, 0.001998901, -5.054474e-05 ],
+						[ 704, -0.001139879, 0.003997803, -8.964539e-05 ],
+						[ 714, -0.01985216, 0.1300049, -0.003120422 ],
+						[ 715, -0.003703982, 0.06098938, -0.001449585 ],
+						[ 716, -0.008244932, 0.1040039, -0.002479553 ],
+						[ 717, -0.007759035, 0.08999634, -0.002139091 ],
+						[ 718, -0.001699924, 0.004989624, -0.0001296997 ],
+						[ 720, -0.02214003, 0.0690155, -0.00165081 ],
+						[ 1383, -0.003099948, 0.04899597, -0.001179695 ],
+						[ 4166, -0.02589297, 0.154007, -0.003689766 ],
+						[ 4167, -0.02451193, 0.1499939, -0.00357914 ],
+						[ 5730, 0, 0.007003784, -0.01139009 ],
+						[ 5878, -0.001526982, 0.02200317, -0.0005302429 ],
+						[ 5881, -0.001617998, 0.02101135, -0.0005102158 ],
+						[ 5882, -0.006879926, 0.03900146, -0.0009403229 ],
+						[ 5883, -0.01084995, 0.03399658, -0.0008306503 ],
+						[ 5884, -0.005180955, 0.0309906, -0.0007400513 ],
+						[ 5886, -0.001489997, 0.004989624, -0.0001106262 ],
+						[ 5889, -0.007613957, 0.02497864, -0.0005903244 ],
+						[ 5892, -0.0002219975, 0.005004883, -0.0001296997 ],
+						[ 6184, -0.009299994, 0.0289917, -0.0006914139 ],
+						[ 6185, -0.0004919767, 0.008010864, -0.0002002716 ],
+						[ 6187, -0.0002079904, 0.003997803, -0.0001001358 ],
+						[ 6188, -0.01594996, 0.05300903, -0.001279831 ],
+						[ 6191, -0.01134026, 0.0349884, -0.0008506775 ],
+						[ 6192, -0.000872016, 0.01499939, -0.0003995895 ],
+						[ 6193, -0.004109979, 0.03300476, -0.0007801056 ],
+						[ 6194, -0.003167927, 0.0249939, -0.0005903244 ],
+						[ 6197, -0.00270009, 0.007995605, -0.0001993179 ],
+						[ 6198, 0, 0.00201416, 0.01180077 ],
+						[ 6762, 0.01031005, 0.03201294, -0.0007686615 ],
+						[ 6763, 0.03062999, 0.1130066, -0.002720833 ],
+						[ 6764, 0.006474972, 0.08799744, -0.002109528 ],
+						[ 6797, 0.03559005, 0.1460114, -0.003490448 ],
+						[ 6798, 0.02229995, 0.154007, -0.003689766 ],
+						[ 6803, 0.00514102, 0.07499695, -0.001739502 ],
+						[ 6804, 0.03080988, 0.1120148, -0.002698898 ],
+						[ 6805, 0.01069999, 0.0329895, -0.0008010864 ],
+						[ 6853, 0.0125401, 0.03900146, -0.0009298325 ],
+						[ 6854, 0.02757001, 0.1120148, -0.002678871 ],
+						[ 6887, 0.0006999969, 0.001998901, -5.054474e-05 ],
+						[ 6890, 0.001139879, 0.003997803, -8.010864e-05 ],
+						[ 6900, 0.01985216, 0.1300049, -0.003120422 ],
+						[ 6901, 0.003703982, 0.06098938, -0.001449585 ],
+						[ 6902, 0.008244932, 0.1040039, -0.002479553 ],
+						[ 6903, 0.007759035, 0.08999634, -0.002139091 ],
+						[ 6904, 0.001699924, 0.004989624, -0.0001296997 ],
+						[ 6906, 0.02214003, 0.0690155, -0.00165081 ],
+						[ 7569, 0.003099948, 0.04899597, -0.001179695 ],
+						[ 10325, 0.02589297, 0.154007, -0.003689766 ],
+						[ 10326, 0.02451193, 0.1499939, -0.00357914 ],
+						[ 11946, 0.001526982, 0.02200317, -0.0005302429 ],
+						[ 11949, 0.001617998, 0.02101135, -0.0005102158 ],
+						[ 11950, 0.006879926, 0.03900146, -0.0009403229 ],
+						[ 11951, 0.01084995, 0.03399658, -0.0008306503 ],
+						[ 11952, 0.005180955, 0.0309906, -0.0007400513 ],
+						[ 11954, 0.001489997, 0.004989624, -0.0001106262 ],
+						[ 11957, 0.007613957, 0.02497864, -0.0005903244 ],
+						[ 11958, 0.0002219975, 0.005004883, -0.0001296997 ],
+						[ 12244, 0.009299994, 0.0289917, -0.0006914139 ],
+						[ 12245, 0.0004919767, 0.008010864, -0.0002002716 ],
+						[ 12247, 0.0002079904, 0.003997803, -0.0001001358 ],
+						[ 12248, 0.01594996, 0.05300903, -0.001279831 ],
+						[ 12251, 0.01134026, 0.0349884, -0.0008506775 ],
+						[ 12252, 0.000872016, 0.01499939, -0.0003995895 ],
+						[ 12253, 0.004109979, 0.03300476, -0.0007801056 ],
+						[ 12254, 0.003167927, 0.0249939, -0.0005903244 ],
+						[ 12256, 0.00270009, 0.007995605, -0.0001993179 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Lip Line Curves Inner",
+				"url" : "#Mouth%20Line%20Curves%20Inner"
+			}
+		]
+	}
+}

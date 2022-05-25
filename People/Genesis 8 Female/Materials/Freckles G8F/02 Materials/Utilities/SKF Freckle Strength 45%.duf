@@ -1,0 +1,122 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Geo%20Shells/Freckles%20G8F/02%20Materials/Utilities/Freckle%20Strength%2045%25.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "annabird927",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-20T15:17:29Z"
+	},
+	"material_library" : [
+		{
+			"id" : "Face",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Lips",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Face",
+				"groups" : [ "Face" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Lips",
+				"groups" : [ "Lips" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 0.45 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 0.45 ] ]
+			}
+		]
+	}
+}

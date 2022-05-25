@@ -1,0 +1,199 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Geo%20Shells/Freckles%20G8F/02%20Materials/Full%20Face/Mask%2001.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "annabird927",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-20T13:53:51Z"
+	},
+	"image_library" : [
+		{
+			"id" : "FW_Freckles_FullBodyFaceMask03.png-1",
+			"name" : "FW_Freckles_FullBodyFaceMask03.png",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/ForbiddenWhispers/ExtremeCloseUp/FrecklesGen8Female/FaceandLips/FW_Freckles_FullBodyFaceMask03.png",
+					"label" : "FW_Freckles_FullBodyFaceMask03.png"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Face",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Lips",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Face",
+				"groups" : [ "Face" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Lips",
+				"groups" : [ "Lips" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/ForbiddenWhispers/ExtremeCloseUp/FrecklesGen8Female/FaceandLips/FW_Freckles_FullBodyFaceMask03.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/ForbiddenWhispers/ExtremeCloseUp/FrecklesGen8Female/FaceandLips/FW_Freckles_FullBodyFaceMask03.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,3 +1,5 @@
+[![Git Anti Virus Scan](https://github.com/DRincs-Productions/daz-assert-character-tool/actions/workflows/antivirus.yml/badge.svg)](https://github.com/DRincs-Productions/daz-assert-character-tool/actions/workflows/antivirus.yml)
+
 ## Request new material
 If you need new assert or found out about the new best assert which should replace the existing one: you can request it [here](https://github.com/DRincs-Productions/daz-assert-posing/issues/new/choose).   
 Also you might find this collection of bookmarks useful: [raindrop](https://raindrop.io/drincs/pose-24692149). 

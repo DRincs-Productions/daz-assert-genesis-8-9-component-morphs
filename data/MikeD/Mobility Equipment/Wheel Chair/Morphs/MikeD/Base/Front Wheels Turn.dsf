@@ -1,0 +1,71 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Morphs/MikeD/Base/Front%20Wheels%20Turn.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-05T10:56:33Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Front Wheels Turn",
+			"name" : "Front Wheels Turn",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Wheel_Chair_MD",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0.7529412 ], [ 0.5019608, 0.5019608, 0.7529412 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Front Wheels Turn",
+				"label" : "Front Wheels Turn",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Movement",
+			"formulas" : [
+				{
+					"output" : "Whell_Axis_FL:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Whell_Axis_FL?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Front%20Wheels%20Turn?value" },
+						{ "op" : "push", "val" : [ -1, -180 ] },
+						{ "op" : "push", "val" : [ 1, 180 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Wheel_Axis_FR:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Wheel_Axis_FR?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Front%20Wheels%20Turn?value" },
+						{ "op" : "push", "val" : [ -1, -180 ] },
+						{ "op" : "push", "val" : [ 1, 180 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_linear" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Front Wheels Turn-1",
+				"url" : "#Front%20Wheels%20Turn"
+			}
+		]
+	}
+}            

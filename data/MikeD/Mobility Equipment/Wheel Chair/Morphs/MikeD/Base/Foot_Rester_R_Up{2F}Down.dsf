@@ -1,0 +1,83 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Morphs/MikeD/Base/Foot_Rester_R_Up%7B2F%7DDown.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2017-06-05T10:56:33Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Up/Down",
+			"name" : "Up/Down",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Foot_Rester_R",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.2509804, 0.5019608 ], [ 0.5019608, 0.5019608, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Up/Down",
+				"label" : "Up/Down",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/General",
+			"formulas" : [
+				{
+					"output" : "Foot_Rester_R:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Foot_Rester_R?translation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Foot_Rester_R:#Up%2FDown?value" },
+						{ "op" : "push", "val" : -0.3 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Foot_Rester_R:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Foot_Rester_R?translation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Foot_Rester_R:#Up%2FDown?value" },
+						{ "op" : "push", "val" : 8 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Foot_Rester_R:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Foot_Rester_R?translation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Foot_Rester_R:#Up%2FDown?value" },
+						{ "op" : "push", "val" : -3.2 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Foot_Rester_R:#Up%2FDown?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Morphs/MikeD/Base/Foot%20Resters%20Up%7B2F%7DDown.dsf#Foot%20Resters%20Up%2FDown?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Up/Down-1",
+				"url" : "#Up%2FDown"
+			}
+		]
+	}
+}   

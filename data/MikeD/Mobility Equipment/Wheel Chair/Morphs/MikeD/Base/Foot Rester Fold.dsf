@@ -1,0 +1,67 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Morphs/MikeD/Base/Foot%20Rester%20Fold.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-05T10:56:33Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Foot Rester Fold",
+			"name" : "Foot Rester Fold",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Wheel_Chair_MD",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 1, 0.5019608, 0.2509804 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Foot Rester Fold",
+				"label" : "Foot Rester Fold",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Movement",
+			"formulas" : [
+				{
+					"output" : "Foot_Rester_L:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Foot_Rester_L?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Foot%20Rester%20Fold?value" },
+						{ "op" : "push", "val" : -82 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Foot_Rester_R:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Foot_Rester_R?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Foot%20Rester%20Fold?value" },
+						{ "op" : "push", "val" : 82 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Foot Rester Fold-1",
+				"url" : "#Foot%20Rester%20Fold"
+			}
+		]
+	}
+}          

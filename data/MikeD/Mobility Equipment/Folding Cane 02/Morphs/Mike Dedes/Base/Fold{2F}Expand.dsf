@@ -1,0 +1,87 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Folding%20Cane%2002/Morphs/Mike%20Dedes/Base/Fold%7B2F%7DExpand.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-02T21:32:47Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Fold/Expand",
+			"name" : "Fold/Expand",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Folding%20Cane%2002/Folding_Cane_02.dsf#Folding_Cane_02",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0.5019608 ], [ 0.5019608, 0, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Fold/Expand",
+				"label" : "Fold/Expand",
+				"value" : 0,
+				"min" : -0.1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 1
+			},
+			"group" : "/General/Transforms",
+			"formulas" : [
+				{
+					"output" : "Body_Up:/data/MikeD/Mobility%20Equipment/Folding%20Cane%2002/Folding_Cane_02.dsf#Body_Up?translation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Folding_Cane_02:#Fold%2FExpand?value" },
+						{ "op" : "push", "val" : [ -0.03, -1.6 ] },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.66, 0 ] },
+						{ "op" : "push", "val" : [ 1, 19 ] },
+						{ "op" : "push", "val" : 4 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Body_Middle:/data/MikeD/Mobility%20Equipment/Folding%20Cane%2002/Folding_Cane_02.dsf#Body_Middle?translation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Folding_Cane_02:#Fold%2FExpand?value" },
+						{ "op" : "push", "val" : [ -0.06, -1.6 ] },
+						{ "op" : "push", "val" : [ -0.03, 0 ] },
+						{ "op" : "push", "val" : [ 0.33, 0 ] },
+						{ "op" : "push", "val" : [ 0.66, 19 ] },
+						{ "op" : "push", "val" : 4 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Body_Bottom:/data/MikeD/Mobility%20Equipment/Folding%20Cane%2002/Folding_Cane_02.dsf#Body_Bottom?translation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Folding_Cane_02:#Fold%2FExpand?value" },
+						{ "op" : "push", "val" : [ -0.1, -1.6 ] },
+						{ "op" : "push", "val" : [ -0.06, 0 ] },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.33, 14.5 ] },
+						{ "op" : "push", "val" : 4 },
+						{ "op" : "spline_linear" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Fold/Expand-1",
+				"url" : "#Fold%2FExpand"
+			}
+		]
+	}
+}  

@@ -1,0 +1,59 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Aluminum%20Crutch/Morphs/MikeD/Base/Handle%20Rotate.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-06T21:27:29Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Handle Rotate",
+			"name" : "Handle Rotate",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Aluminum%20Crutch/Aluminum_Crutch.dsf#Aluminum_Crutch",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0.5019608 ], [ 0.5019608, 0, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Handle Rotate",
+				"label" : "Handle Rotate",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Movement",
+			"formulas" : [
+				{
+					"output" : "Handle:/data/MikeD/Mobility%20Equipment/Aluminum%20Crutch/Aluminum_Crutch.dsf#Handle?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Aluminum_Crutch:#Handle%20Rotate?value" },
+						{ "op" : "push", "val" : 20 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Handle Rotate-1",
+				"url" : "#Handle%20Rotate"
+			}
+		]
+	}
+}    

@@ -1,0 +1,49 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Folding%20Walker/Morphs/Mike%20Dedes/Base/Up%7B2F%7DDown%20All%20Legs.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-02T18:55:02Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Up/Down All Legs",
+			"name" : "Up/Down All Legs",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Folding%20Walker/Folding_Walker.dsf#Folding_Walker",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.2509804, 0.5019608 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Up/Down All Legs",
+				"label" : "Up/Down All Legs",
+				"value" : 0,
+				"min" : -0.4,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Movement"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Up/Down All Legs-1",
+				"url" : "#Up%2FDown%20All%20Legs"
+			}
+		]
+	}
+}       

@@ -1,0 +1,81 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Folding%20Walker/Morphs/Mike%20Dedes/Base/Fold%20Right%20Side.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-02T18:55:02Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Fold Right Side",
+			"name" : "Fold Right Side",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Folding%20Walker/Folding_Walker.dsf#Folding_Walker",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0.5019608 ], [ 0.5019608, 0, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Fold Right Side",
+				"label" : "Fold Right Side",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Movement",
+			"formulas" : [
+				{
+					"output" : "R_Side:/data/MikeD/Mobility%20Equipment/Folding%20Walker/Folding_Walker.dsf#R_Side?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Folding_Walker:#Fold%20Right%20Side?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, -90 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Fold_Lever_R:/data/MikeD/Mobility%20Equipment/Folding%20Walker/Folding_Walker.dsf#Fold_Lever_R?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Folding_Walker:#Fold%20Right%20Side?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 120 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Fold_Axis_R:/data/MikeD/Mobility%20Equipment/Folding%20Walker/Folding_Walker.dsf#Fold_Axis_R?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Folding_Walker:#Fold%20Right%20Side?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 37 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_linear" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Fold Right Side-1",
+				"url" : "#Fold%20Right%20Side"
+			}
+		]
+	}
+}    

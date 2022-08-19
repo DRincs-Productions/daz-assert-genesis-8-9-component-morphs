@@ -1,0 +1,86 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Morphs/MikeD/Base/Brakes%20On%7B2F%7DOff.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "MikeD",
+			"email" : "",
+			"website" : "www.mikededes.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-06-05T10:56:33Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Brakes On/Off",
+			"name" : "Brakes On/Off",
+			"parent" : "/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Wheel_Chair_MD",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "bool",
+				"name" : "Brakes On/Off",
+				"label" : "Brakes On/Off",
+				"value" : false
+			},
+			"group" : "/Actor/Movement",
+			"formulas" : [
+				{
+					"output" : "Brake_R:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Brake_R?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Brakes%20On%2FOff?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 9 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_constant" }
+					]
+				},
+				{
+					"output" : "Brake_Lever_R:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Brake_Lever_R?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Brakes%20On%2FOff?value" },
+						{ "op" : "push", "val" : [ 0, 20 ] },
+						{ "op" : "push", "val" : [ 1, -20 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_constant" }
+					]
+				},
+				{
+					"output" : "Brake_L:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Brake_L?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Brakes%20On%2FOff?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 9 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_constant" }
+					]
+				},
+				{
+					"output" : "Brake_Lever_L:/data/MikeD/Mobility%20Equipment/Wheel%20Chair/Wheel_Chair_MD.dsf#Brake_Lever_L?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Wheel_Chair_MD:#Brakes%20On%2FOff?value" },
+						{ "op" : "push", "val" : [ 0, 20 ] },
+						{ "op" : "push", "val" : [ 1, -20 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_constant" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Brakes On/Off-1",
+				"url" : "#Brakes%20On%2FOff"
+			}
+		]
+	}
+}  

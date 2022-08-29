@@ -1,0 +1,6 @@
+// DAZ Studio version 4.8.0.18 filetype DAZ Script
+
+// Create a file info object, using the path of the current script
+var oFileInfo = new DzFileInfo( getScriptFileName() );
+// Prompt the operating system to do whatever it does with the given file type; same path/name as script
+App.showURL( String("file:///%1/%2.pdf").arg( oFileInfo.path() ).arg( oFileInfo.baseName() ) ); 

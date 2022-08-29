@@ -1,0 +1,1782 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/genesis%208%20Male/anatomy/Gauged%20Ears/Materials/Iray/Tunnels%20Shape%20DoubleDots.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Arien",
+			"email" : "",
+			"website" : "www.arien-graphics.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-10-18T20:17:55Z"
+	},
+	"image_library" : [
+		{
+			"id" : "d3dapt-plugs03-spec.jpg-1",
+			"name" : "d3dapt-plugs03-spec.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-spec.jpg",
+					"label" : "d3dapt-plugs03-spec.jpg"
+				}
+			]
+		},
+		{
+			"id" : "d3dapt-plugs03-bmp.jpg",
+			"name" : "d3dapt-plugs03-bmp.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-bmp.jpg",
+					"label" : "d3dapt-plugs03-bmp.jpg"
+				}
+			]
+		},
+		{
+			"id" : "d3dapt-plugs03-nml.jpg",
+			"name" : "d3dapt-plugs03-nml.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-nml.jpg",
+					"label" : "d3dapt-plugs03-nml.jpg"
+				}
+			]
+		},
+		{
+			"id" : "d3dapt-plugs03-disp.tif",
+			"name" : "d3dapt-plugs03-disp.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-disp.tif",
+					"label" : "d3dapt-plugs03-disp.tif"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Tunnels",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"value" : true
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Weight",
+								"type" : "float",
+								"label" : "Glossy Weight",
+								"visible" : false,
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Layered Weight",
+								"type" : "float",
+								"label" : "Glossy Layered Weight",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Share Glossy Inputs",
+								"type" : "bool",
+								"label" : "Share Glossy Inputs",
+								"value" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Color",
+								"type" : "float_color",
+								"label" : "Glossy Color",
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Color Effect",
+								"type" : "enum",
+								"label" : "Glossy Color Effect",
+								"value" : 0,
+								"enum_values" : [ "Scatter Only", "Scatter & Transmit", "Scatter & Transmit Intensity" ]
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Reflectivity",
+								"type" : "float",
+								"label" : "Glossy Reflectivity",
+								"value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Specular",
+								"type" : "float_color",
+								"label" : "Glossy Specular",
+								"visible" : false,
+								"value" : [ 0.2313726, 0.2313726, 0.2313726 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Roughness",
+								"type" : "float",
+								"label" : "Glossy Roughness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossiness",
+								"type" : "float",
+								"label" : "Glossiness",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Anisotropy",
+								"type" : "float",
+								"label" : "Glossy Anisotropy",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Reflection",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Backscattering Weight",
+								"type" : "float",
+								"label" : "Backscattering Weight",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Backscattering",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Backscattering Color",
+								"type" : "float_color",
+								"label" : "Backscattering Color",
+								"visible" : false,
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Backscattering",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Backscattering Roughness",
+								"type" : "float",
+								"label" : "Backscattering Roughness",
+								"visible" : false,
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Backscattering",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Backscattering Glossiness",
+								"type" : "float",
+								"label" : "Backscattering Glossiness",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Backscattering",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Backscattering Anisotropy",
+								"type" : "float",
+								"label" : "Backscattering Anisotropy",
+								"visible" : false,
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Backscattering",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Index",
+								"type" : "float",
+								"label" : "Refraction Index",
+								"value" : 1.5,
+								"min" : 1,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Base/Glossy/Refraction",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Weight",
+								"type" : "float",
+								"label" : "Refraction Weight",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Refraction",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Color",
+								"type" : "float_color",
+								"label" : "Refraction Color",
+								"visible" : false,
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Refraction",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Roughness",
+								"type" : "float",
+								"label" : "Refraction Roughness",
+								"visible" : false,
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Refraction",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Glossiness",
+								"type" : "float",
+								"label" : "Refraction Glossiness",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Refraction",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Abbe",
+								"type" : "float",
+								"label" : "Abbe",
+								"visible" : false,
+								"value" : 0,
+								"min" : 0,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Base/Glossy/Refraction",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Glossy Anisotropy Rotations",
+								"type" : "float",
+								"label" : "Glossy Anisotropy Rotations",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Glossy/Anisotropy",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 1 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bump Strength",
+								"type" : "float",
+								"label" : "Base Bump",
+								"value" : 1,
+								"min" : 0,
+								"max" : 50,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Base/Bump",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Normal Map",
+								"type" : "float",
+								"label" : "Normal Map",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Base/Bump",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Strength",
+								"type" : "float",
+								"label" : "Displacement Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Minimum Displacement",
+								"type" : "float",
+								"label" : "Minimum Displacement",
+								"value" : -0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Maximum Displacement",
+								"type" : "float",
+								"label" : "Maximum Displacement",
+								"value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "SubD Displacement Level",
+								"type" : "int",
+								"label" : "SubD Displacement Level",
+								"value" : 0,
+								"min" : 0,
+								"max" : 12,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Horizontal Tiles",
+								"type" : "float",
+								"label" : "Horizontal Tiles",
+								"value" : 1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Horizontal Offset",
+								"type" : "float",
+								"label" : "Horizontal Offset",
+								"value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Vertical Tiles",
+								"type" : "float",
+								"label" : "Vertical Tiles",
+								"value" : 1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Vertical Offset",
+								"type" : "float",
+								"label" : "Vertical Offset",
+								"value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Round Corners Radius",
+								"type" : "float",
+								"label" : "Round Corners Radius",
+								"value" : 0,
+								"min" : 0,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Round Corners Across Materials",
+								"type" : "bool",
+								"label" : "Round Corners Across Materials",
+								"value" : true
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8Male",
+				"url" : "name://@selection/Genesis8Male:",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			},
+			{
+				"id" : "G8MGaugedEars_766",
+				"url" : "name://@selection/G8MGaugedEars_766:",
+				"parent" : "#Genesis8Male",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Tunnels-1",
+				"url" : "#Tunnels",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Tunnels" ],
+				"uv_set" : "/data/DAZ%203D/G8M%20Gauged%20Ears/Genesis%208%20Male%20Gauged%20Ears/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-spec.jpg" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Share%20Glossy%20Inputs/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/value",
+				"keys" : [ [ 0, [ 1, 0.972549, 0.9333333 ] ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-spec.jpg" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/value",
+				"keys" : [ [ 0, [ 0.2313726, 0.2313726, 0.2313726 ] ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Specular/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0.35 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Index/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Refraction%20Glossiness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Abbe/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 25 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-bmp.jpg" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-nml.jpg" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3dapt-plugs03-disp.tif" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.04 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.04 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 4 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?uv_set",
+				"keys" : [ [ 0, "/data/DAZ%203D/G8M%20Gauged%20Ears/Genesis%208%20Male%20Gauged%20Ears/UV%20Sets/DAZ%203D/Base/default.dsf#default" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Tunnels:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			}
+		]
+	}
+}

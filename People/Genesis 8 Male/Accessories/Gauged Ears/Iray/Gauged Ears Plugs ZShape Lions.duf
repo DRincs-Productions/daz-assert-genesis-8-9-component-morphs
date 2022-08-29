@@ -1,0 +1,509 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Anatomy/Gauged%20Ears/Materials/Iray/Plugs%20ZShape%20Lions.duf",
+		"type" : "preset_hierarchical_material",
+		"contributor" : {
+			"author" : "Arien",
+			"email" : "",
+			"website" : "www.arien-graphics.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-10-31T07:57:44Z"
+	},
+	"image_library" : [
+		{
+			"id" : "d3daptm-plugslions-nml.jpg",
+			"name" : "d3daptm-plugslions-nml.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/GaugesMale/d3daptm-plugslions-nml.jpg",
+					"label" : "d3daptm-plugslions-nml.jpg"
+				}
+			]
+		},
+		{
+			"id" : "d3daptm-plugslions-disp.tif",
+			"name" : "d3daptm-plugslions-disp.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/GaugesMale/d3daptm-plugslions-disp.tif",
+					"label" : "d3daptm-plugslions-disp.tif"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Plugs",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"value" : true
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Normal Map",
+								"type" : "float",
+								"label" : "Normal Map",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Base/Bump",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Strength",
+								"type" : "float",
+								"label" : "Displacement Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Minimum Displacement",
+								"type" : "float",
+								"label" : "Minimum Displacement",
+								"value" : -0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Maximum Displacement",
+								"type" : "float",
+								"label" : "Maximum Displacement",
+								"value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "SubD Displacement Level",
+								"type" : "int",
+								"label" : "SubD Displacement Level",
+								"value" : 0,
+								"min" : 0,
+								"max" : 12,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Geometry/Displacement",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Horizontal Tiles",
+								"type" : "float",
+								"label" : "Horizontal Tiles",
+								"value" : 1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Horizontal Offset",
+								"type" : "float",
+								"label" : "Horizontal Offset",
+								"value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Vertical Tiles",
+								"type" : "float",
+								"label" : "Vertical Tiles",
+								"value" : 1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Vertical Offset",
+								"type" : "float",
+								"label" : "Vertical Offset",
+								"value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Tiling",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Round Corners Radius",
+								"type" : "float",
+								"label" : "Round Corners Radius",
+								"value" : 0,
+								"min" : 0,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Round Corners Across Materials",
+								"type" : "bool",
+								"label" : "Round Corners Across Materials",
+								"value" : true
+							},
+							"group" : "/Geometry/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8Male",
+				"url" : "name://@selection/Genesis8Male:",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			},
+			{
+				"id" : "G8MGaugedEars_766",
+				"url" : "name://@selection/G8MGaugedEars_766:",
+				"parent" : "#Genesis8Male",
+				"geometries" : [
+					{
+						"id" : "geometry-1",
+						"url" : "name://@selection#geometries/geometry:"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Plugs-1",
+				"url" : "#Plugs",
+				"geometry" : "#geometry-1",
+				"groups" : [ "Plugs" ],
+				"uv_set" : "/data/DAZ%203D/G8M%20Gauged%20Ears/Genesis%208%20Male%20Gauged%20Ears/UV%20Sets/DAZ%203D/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3daptm-plugslions-nml.jpg" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Arien/GaugesMale/d3daptm-plugslions-disp.tif" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 5 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?uv_set",
+				"keys" : [ [ 0, "/data/DAZ%203D/G8M%20Gauged%20Ears/Genesis%208%20Male%20Gauged%20Ears/UV%20Sets/DAZ%203D/Base/default.dsf#default" ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "G8MGaugedEars_766#materials/Plugs:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			}
+		]
+	}
+}

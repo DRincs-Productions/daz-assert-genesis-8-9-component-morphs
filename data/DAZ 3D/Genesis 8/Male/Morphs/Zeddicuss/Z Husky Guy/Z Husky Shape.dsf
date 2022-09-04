@@ -1,0 +1,220 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Male/Morphs/Zeddicuss/Z%20Husky%20Guy/Z%20Husky%20Shape.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zeddicuss",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-05-20T15:37:26Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Z Husky Shape",
+			"name" : "Z Husky Shape",
+			"parent" : "/data/DAZ%203D/Genesis%208/Male/Genesis8Male.dsf#Genesis8Male",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Male/Morphs/Zeddicuss/Z%20Husky%20Guy/Z%20Husky%20Shape.png",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Z Husky Shape",
+				"label" : "Z Husky Shape",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/CTRLBodybuilder.dsf#CTRLBodybuilder?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.2227723 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/Zeddicuss/Z%20Husky%20Guy/Z%20Belly%20Out%20Morph.dsf#Z%20Belly%20Out%20Morph?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.7 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMWaistWidth.dsf#PBMWaistWidth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -0.3554502 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMUpperArmsSize.dsf#PBMUpperArmsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.2128713 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMThighsSize.dsf#PBMThighsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -0.4218009 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMStomachLowerDepth.dsf#PBMStomachLowerDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.6919431 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMStomachDepth.dsf#PBMStomachDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.3838862 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMRectusWidth.dsf#PBMRectusWidth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.4383886 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMRectusOuterDetail.dsf#PBMRectusOuterDetail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.5592417 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMLoveHandles.dsf#PBMLoveHandles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.7440759 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMKneeBonesSize.dsf#PBMKneeBonesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.6777251 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/PBMCalvesSize.dsf#PBMCalvesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -0.421801 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/FBMPortly.dsf#FBMPortly?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.2326733 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/FBMHeavy.dsf#FBMHeavy?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.3019802 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/FBMBodyTone.dsf#FBMBodyTone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.3762376 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/FBMBodySize.dsf#FBMBodySize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.3094059 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/FBMBodybuilderSize.dsf#FBMBodybuilderSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : 0.06435645 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Body/FBMBodybuilderDetails.dsf#FBMBodybuilderDetails?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -0.2227723 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Head/PHMEyelashesLengthUpper.dsf#PHMEyelashesLengthUpper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Head/PHMEyelashesLengthLower.dsf#PHMEyelashesLengthLower?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Male:/data/DAZ%203D/Genesis%208/Male/Morphs/DAZ%203D/Head/PHMEyelashesCurl.dsf#PHMEyelashesCurl?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Male:#Z%20Husky%20Shape?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Z Husky Shape-1",
+				"url" : "#Z%20Husky%20Shape"
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+// DAZ Studio version 4.12.1.40 filetype DAZ Script
+
+(function () {
+	var actionMgr = MainWindow.getActionMgr();
+	var action = null;
+
+	/* SubDLevel value meaning
+		0 = OFF
+		1 to 5 = ON
+	*/
+	var subDRenderLevel = 1; // <<< set your desired value
+	var limits = false;
+
+	var nodes = Scene.getSelectedNodeList();
+	var n = nodes.length;
+	for (var i = 0; i < n; i++) {
+		var oObject = nodes[i].getObject();
+		if (oObject) {
+			if ((oShape = oObject.getCurrentShape())) {
+				if ((oProp = oShape.findProperty("lodlevel")) 
+					&& oProp.getNumItems() == 1 && (action = actionMgr.findAction("DzSubDRenderAction"))) {
+					action.trigger();
+				}
+
+				if ((oProp = oShape.findProperty("SubDRenderLevel"))) {
+					oProp.setValue(subDRenderLevel);
+					oProp.setIsClamped(false);
+					MessageBox.information( qsTr("Successfully changed SubD Render Level."), qsTr("SubD Render Level Change"), qsTr("&OK") );
+				}
+			}
+		}
+	}
+})();

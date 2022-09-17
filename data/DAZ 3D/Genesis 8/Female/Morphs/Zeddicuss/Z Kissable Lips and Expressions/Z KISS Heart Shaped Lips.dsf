@@ -1,0 +1,91 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Kissable%20Lips%20and%20Expressions/Z%20KISS%20Heart%20Shaped%20Lips.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "risa.kb3",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-09-28T13:17:27Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Z KISS Heart Shaped Lips",
+			"name" : "Z KISS Heart Shaped Lips",
+			"parent" : "/data/Daz%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Kissable%20Lips%20and%20Expressions/Z Logo.png",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Z KISS Heart Shaped Lips",
+				"label" : "Z KISS Heart Shaped Lips",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls/Head/Mouth/Lips/Zeddicuss",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/Daz%203D/Genesis%208/Female/Morphs/DAZ%203D/Head/PHMLipWidthUpper.dsf#PHMLipWidthUpper?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20KISS%20Heart%20Shaped%20Lips?value" },
+						{ "op" : "push", "val" : 0.3821138 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/Daz%203D/Genesis%208/Female/Morphs/DAZ%203D/Head/PHMLipUpperCurves.dsf#PHMLipUpperCurves?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20KISS%20Heart%20Shaped%20Lips?value" },
+						{ "op" : "push", "val" : -0.7235773 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/Daz%203D/Genesis%208/Female/Morphs/DAZ%203D/Head/PHMLipTopPeak.dsf#PHMLipTopPeak?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20KISS%20Heart%20Shaped%20Lips?value" },
+						{ "op" : "push", "val" : 0.6097561 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/Daz%203D/Genesis%208/Female/Morphs/DAZ%203D/Head/PHMLipsSquare.dsf#PHMLipsSquare?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20KISS%20Heart%20Shaped%20Lips?value" },
+						{ "op" : "push", "val" : 0.2845528 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/Daz%203D/Genesis%208/Female/Morphs/DAZ%203D/Head/PHMLipsContourHD.dsf#PHMLipsContourHD?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20KISS%20Heart%20Shaped%20Lips?value" },
+						{ "op" : "push", "val" : 0.4065041 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Z KISS Heart Shaped Lips-1",
+				"url" : "#Z%20KISS%20Heart%20Shaped%20Lips"
+			}
+		]
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Zeddicuss/Z%20Kissable%20Lips%20and%20Expressions/Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zeddicuss",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-09-28T17:54:15Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Z KISS 06 Genesis 8.1 Female Lower Half",
+			"name" : "Z KISS 06 Genesis 8.1 Female Lower Half",
+			"parent" : "/data/Daz%203D/Genesis%208/Female%208_1/Genesis8_1Female.dsf#Genesis8_1Female",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Zeddicuss/Z%20Kissable%20Lips%20and%20Expressions/Z%20KISS%2006%20Genesis%208.1%20Female.png",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Z KISS 06 Genesis 8.1 Female Lower Half",
+				"label" : "Z KISS 06 Genesis 8.1 Female Lower Half",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls/Head/Expressions 8.1/Z Kissable Lips and Expressions/Lower Half",
+			"formulas" : [
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_jnt_JawForward.dsf#facs_jnt_JawForward?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.06857143 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_jnt_JawOpen.dsf#facs_jnt_JawOpen?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.08 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthFunnel_div2.dsf#facs_bs_MouthFunnel_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.1987952 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthLeft_div2.dsf#facs_bs_MouthLeft_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.3953488 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthLowerDownLeft_div2.dsf#facs_bs_MouthLowerDownLeft_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.6445783 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthPressRight_div2.dsf#facs_bs_MouthPressRight_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.5348837 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthPucker_div2.dsf#facs_bs_MouthPucker_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.4186046 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthRollLower_div2.dsf#facs_bs_MouthRollLower_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthShrugUpper_div2.dsf#facs_bs_MouthShrugUpper_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.2790698 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8_1Female:/data/Daz%203D/Genesis%208/Female%208_1/Morphs/Daz%203D/FACS/facs_bs_MouthStretchRight_div2.dsf#facs_bs_MouthStretchRight_div2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8_1Female:#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half?value" },
+						{ "op" : "push", "val" : 0.2228916 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Z KISS 06 Genesis 8.1 Female Lower Half-1",
+				"url" : "#Z%20KISS%2006%20Genesis%208.1%20Female%20Lower%20Half"
+			}
+		]
+	}
+}

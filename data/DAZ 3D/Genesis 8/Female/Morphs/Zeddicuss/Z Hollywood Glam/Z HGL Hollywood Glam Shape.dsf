@@ -1,0 +1,236 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Daz%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Hollywood%20Glam/Z%20HGL%20Hollywood%20Glam%20Shape.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zeddicuss",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-12-02T11:12:30Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Z HGL Hollywood Glam Shape",
+			"name" : "Z HGL Hollywood Glam Shape",
+			"parent" : "/data/Daz%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Daz%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Hollywood%20Glam/Z%20HGL%20Hollywood%20Glam%20Shape.png",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Z HGL Hollywood Glam Shape",
+				"label" : "Z HGL Hollywood Glam Shape",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/CTRLGluteCrease.dsf#CTRLGluteCrease?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMWaistWidth.dsf#PBMWaistWidth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : -0.45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMTorsoLength.dsf#PBMTorsoLength?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.25 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMThighsTone.dsf#PBMThighsTone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.0930233 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMThighsSize.dsf#PBMThighsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.4069767 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMShinsSize.dsf#PBMShinsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : -0.2887324 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMSacralDimples.dsf#PBMSacralDimples?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMNavelHorizontal.dsf#PBMNavelHorizontal?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.744186 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMKneeBonesSize.dsf#PBMKneeBonesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.3943661 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMIliacLine.dsf#PBMIliacLine?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.06976745 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMHipSize.dsf#PBMHipSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.7456396 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMHipBoneSize.dsf#PBMHipBoneSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : -0.2732558 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMGlutesUpperDepth.dsf#PBMGlutesUpperDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.6619718 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMGlutesSize.dsf#PBMGlutesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.2063953 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMGlutesLowerDepth.dsf#PBMGlutesLowerDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.255814 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCollarboneDetail.dsf#PBMCollarboneDetail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCalvesSize.dsf#PBMCalvesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.8720931 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMBreastsSize.dsf#PBMBreastsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMBreastsShape04.dsf#PBMBreastsShape04?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.372093 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/FBMVoluptuous.dsf#FBMVoluptuous?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.22 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/FBMFitnessDetails.dsf#FBMFitnessDetails?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.4825581 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/CTRLBreastsNatural.dsf#CTRLBreastsNatural?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : -0.25 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/Daz%203D/Genesis%208/Female/Morphs/DAZ%203D/Base/PBMNavel.dsf#PBMNavel?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20HGL%20Hollywood%20Glam%20Shape?value" },
+						{ "op" : "push", "val" : 0.7267442 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Z HGL Hollywood Glam Shape-1",
+				"url" : "#Z%20HGL%20Hollywood%20Glam%20Shape"
+			}
+		]
+	}
+}

@@ -1,0 +1,388 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Petite%20Belle/Z%20PBE%20Petite%20Belle%20Shape.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Zeddicuss",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-03-02T13:48:54Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Z PBE Petite Belle Shape",
+			"name" : "Z PBE Petite Belle Shape",
+			"parent" : "/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#Genesis8Female",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Female/Morphs/Zeddicuss/Z%20Petite%20Belle/Z%20PBE%20Petite%20Belle%20Shape.png",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Z PBE Petite Belle Shape",
+				"label" : "Z PBE Petite Belle Shape",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/People/Real World",
+			"formulas" : [
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/SCLShldrsWidth.dsf#SCLShldrsWidth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.2596685 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/SCLShldrsScale.dsf#SCLShldrsScale?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.3149171 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/SCLArmsLength.dsf#SCLArmsLength?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.2486188 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/CTRLGluteCrease.dsf#CTRLGluteCrease?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base/SCLPropagatingHand.dsf#SCLHandPropagating?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.06946981 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMWaistWidth.dsf#PBMWaistWidth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.8232044 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMUpperArmsSize.dsf#PBMUpperArmsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.09392262 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMTorsoLength.dsf#PBMTorsoLength?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.1933702 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMThighsTone.dsf#PBMThighsTone?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.6162791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMThighsSize.dsf#PBMThighsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.3343023 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMStomachSoften.dsf#PBMStomachSoften?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.378453 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMStomachDepth.dsf#PBMStomachDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.3922652 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMSternumDepth.dsf#PBMSternumDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.2296512 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMShouldersSize.dsf#PBMShouldersSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.06353593 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMShinsSize.dsf#PBMShinsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMScapulaSize.dsf#PBMScapulaSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.1823204 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMScapulaDepth.dsf#PBMScapulaDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.7955801 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMSacralDimples.dsf#PBMSacralDimples?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.5359116 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMRibcageSize.dsf#PBMRibcageSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMRectusWidth.dsf#PBMRectusWidth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.5 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMNavelSize.dsf#PBMNavelSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.5524862 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMNavelOut.dsf#PBMNavelOut?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.4143646 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMNavelHorizontal.dsf#PBMNavelHorizontal?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.7900553 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMLoveHandles.dsf#PBMLoveHandles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.09668505 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMLegsLength.dsf#PBMLegsLength?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.06976742 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMKneeBonesSize.dsf#PBMKneeBonesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.2674419 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMHipSize.dsf#PBMHipSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.1878453 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMHipBoneSize.dsf#PBMHipBoneSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.2265193 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMGlutesSize.dsf#PBMGlutesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.4944751 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMGlutesLowerDepth.dsf#PBMGlutesLowerDepth?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.4254143 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMForearmsSize.dsf#PBMForearmsSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.1933702 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCostalAnglePointed.dsf#PBMCostalAnglePointed?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.4244186 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCostalAngleArched.dsf#PBMCostalAngleArched?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.01162791 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCollarboneDetail.dsf#PBMCollarboneDetail?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.7790698 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/PBMCalvesSize.dsf#PBMCalvesSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : -0.2906977 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/FBMVoluptuous.dsf#FBMVoluptuous?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.1860465 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/FBMHeight.dsf#FBMHeight?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.4651163 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/FBMFitnessSize.dsf#FBMFitnessSize?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.1569767 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/FBMFitnessDetails.dsf#FBMFitnessDetails?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.5755814 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/CTRLBreastsNatural.dsf#CTRLBreastsNatural?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.7747092 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Body/CTRLBreastsImplants.dsf#CTRLBreastsImplants?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.2369186 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base/PBMNavel.dsf#PBMNavel?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Genesis8Female:#Z%20PBE%20Petite%20Belle%20Shape?value" },
+						{ "op" : "push", "val" : 0.5745856 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Z PBE Petite Belle Shape-1",
+				"url" : "#Z%20PBE%20Petite%20Belle%20Shape"
+			}
+		]
+	}
+}

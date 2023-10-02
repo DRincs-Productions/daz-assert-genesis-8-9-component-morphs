@@ -1,0 +1,1156 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Puggy/PUG%20Blood%20and%20Wound%20Pack%20for%20Genesis%208%20and%208.1/PUG%20G8M%20Cheek%20Bone%20Cut%20R%2002/PUG%20G8M%20Cheek%20Bone%20Cut%20R%2002.dsf",
+		"type" : "prop",
+		"contributor" : {
+			"author" : "Puggy",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-09-01T15:36:37Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "geometry",
+			"name" : "geometry",
+			"type" : "polygon_mesh",
+			"vertices" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polygon_groups" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"polylist" : {
+				"count" : 0,
+				"values" : [
+				]
+			},
+			"extra" : [
+				{
+					"type" : "studio/geometry/shell"
+				},
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"visible" : false,
+								"value" : 0,
+								"min" : 0,
+								"max" : 3,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"visible" : false,
+								"value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"visible" : false,
+								"value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDNormalSmoothing",
+								"type" : "enum",
+								"label" : "SubDivision Normals",
+								"visible" : false,
+								"value" : 0,
+								"enum_values" : [ "Smoothed", "Preserve Cage" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "PUG Nose Bleed L",
+			"name" : "PUG G8M Cheek Bone Cut R 02",
+			"type" : "node",
+			"label" : "PUG G8M Cheek Bone Cut R 02",
+			"rotation_order" : "XYZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 103.876,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"extra" : [
+				{
+					"type" : "studio/node/shell"
+				},
+				{
+					"type" : "studio_node_channels",
+					"version" : 4,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Local Transform",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Ignore Local Transform",
+								"type" : "bool",
+								"label" : "Ignore Local Transform",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/General/Transforms"
+						},
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Constraints"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : false
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Display/Simulation"
+						},
+						{
+							"channel" : {
+								"id" : "Shell Node",
+								"type" : "node",
+								"label" : "Shell Node"
+							},
+							"group" : "/Shell"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rPinky2_vis",
+								"type" : "bool",
+								"label" : "rPinky2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rPinky3_vis",
+								"type" : "bool",
+								"label" : "rPinky3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lThumb1_vis",
+								"type" : "bool",
+								"label" : "lThumb1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lThumb2_vis",
+								"type" : "bool",
+								"label" : "lThumb2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Chest_vis",
+								"type" : "bool",
+								"label" : "Chest",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rHand_vis",
+								"type" : "bool",
+								"label" : "rHand",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lThumb3_vis",
+								"type" : "bool",
+								"label" : "lThumb3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rThigh_vis",
+								"type" : "bool",
+								"label" : "rThigh",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rMid1_vis",
+								"type" : "bool",
+								"label" : "rMid1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lHand_vis",
+								"type" : "bool",
+								"label" : "lHand",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rMid2_vis",
+								"type" : "bool",
+								"label" : "rMid2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_AbdomenUpper_vis",
+								"type" : "bool",
+								"label" : "AbdomenUpper",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rMid3_vis",
+								"type" : "bool",
+								"label" : "rMid3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rRing1_vis",
+								"type" : "bool",
+								"label" : "rRing1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lIndex1_vis",
+								"type" : "bool",
+								"label" : "lIndex1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rRing2_vis",
+								"type" : "bool",
+								"label" : "rRing2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lIndex2_vis",
+								"type" : "bool",
+								"label" : "lIndex2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Head_vis",
+								"type" : "bool",
+								"label" : "Head",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rRing3_vis",
+								"type" : "bool",
+								"label" : "rRing3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lIndex3_vis",
+								"type" : "bool",
+								"label" : "lIndex3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rShin_vis",
+								"type" : "bool",
+								"label" : "rShin",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lMid1_vis",
+								"type" : "bool",
+								"label" : "lMid1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rToe_vis",
+								"type" : "bool",
+								"label" : "rToe",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lMid2_vis",
+								"type" : "bool",
+								"label" : "lMid2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lCollar_vis",
+								"type" : "bool",
+								"label" : "lCollar",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rThumb1_vis",
+								"type" : "bool",
+								"label" : "rThumb1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lMid3_vis",
+								"type" : "bool",
+								"label" : "lMid3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rThumb2_vis",
+								"type" : "bool",
+								"label" : "rThumb2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rThumb3_vis",
+								"type" : "bool",
+								"label" : "rThumb3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rShoulder_vis",
+								"type" : "bool",
+								"label" : "rShoulder",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lShin_vis",
+								"type" : "bool",
+								"label" : "lShin",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rEye_vis",
+								"type" : "bool",
+								"label" : "rEye",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_NeckUpper_vis",
+								"type" : "bool",
+								"label" : "NeckUpper",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Abdomen_vis",
+								"type" : "bool",
+								"label" : "Abdomen",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rIndex1_vis",
+								"type" : "bool",
+								"label" : "rIndex1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rIndex2_vis",
+								"type" : "bool",
+								"label" : "rIndex2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lToe_vis",
+								"type" : "bool",
+								"label" : "lToe",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rIndex3_vis",
+								"type" : "bool",
+								"label" : "rIndex3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rCollar_vis",
+								"type" : "bool",
+								"label" : "rCollar",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lEye_vis",
+								"type" : "bool",
+								"label" : "lEye",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lShoulder_vis",
+								"type" : "bool",
+								"label" : "lShoulder",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Neck_vis",
+								"type" : "bool",
+								"label" : "Neck",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rPectoral_vis",
+								"type" : "bool",
+								"label" : "rPectoral",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_UpperJaw_vis",
+								"type" : "bool",
+								"label" : "UpperJaw",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_LowerJaw_vis",
+								"type" : "bool",
+								"label" : "LowerJaw",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lPinky1_vis",
+								"type" : "bool",
+								"label" : "lPinky1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lPinky2_vis",
+								"type" : "bool",
+								"label" : "lPinky2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lForearm_vis",
+								"type" : "bool",
+								"label" : "lForearm",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lThigh_vis",
+								"type" : "bool",
+								"label" : "lThigh",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lPinky3_vis",
+								"type" : "bool",
+								"label" : "lPinky3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rFoot_vis",
+								"type" : "bool",
+								"label" : "rFoot",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rForearm_vis",
+								"type" : "bool",
+								"label" : "rForearm",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Hip_vis",
+								"type" : "bool",
+								"label" : "Hip",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lRing1_vis",
+								"type" : "bool",
+								"label" : "lRing1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lFoot_vis",
+								"type" : "bool",
+								"label" : "lFoot",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_ChestUpper_vis",
+								"type" : "bool",
+								"label" : "ChestUpper",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lRing2_vis",
+								"type" : "bool",
+								"label" : "lRing2",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lPectoral_vis",
+								"type" : "bool",
+								"label" : "lPectoral",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_lRing3_vis",
+								"type" : "bool",
+								"label" : "lRing3",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_Tongue_vis",
+								"type" : "bool",
+								"label" : "Tongue",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "facet_group_rPinky1_vis",
+								"type" : "bool",
+								"label" : "rPinky1",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Face Groups"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Cornea_vis",
+								"type" : "bool",
+								"label" : "Cornea",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Legs_vis",
+								"type" : "bool",
+								"label" : "Legs",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Mouth_vis",
+								"type" : "bool",
+								"label" : "Mouth",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Pupils_vis",
+								"type" : "bool",
+								"label" : "Pupils",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Teeth_vis",
+								"type" : "bool",
+								"label" : "Teeth",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Arms_vis",
+								"type" : "bool",
+								"label" : "Arms",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Fingernails_vis",
+								"type" : "bool",
+								"label" : "Fingernails",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_EyeMoisture_vis",
+								"type" : "bool",
+								"label" : "EyeMoisture",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Sclera_vis",
+								"type" : "bool",
+								"label" : "Sclera",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Face_vis",
+								"type" : "bool",
+								"label" : "Face",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Ears_vis",
+								"type" : "bool",
+								"label" : "Ears",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_EyeSocket_vis",
+								"type" : "bool",
+								"label" : "EyeSocket",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Toenails_vis",
+								"type" : "bool",
+								"label" : "Toenails",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Irises_vis",
+								"type" : "bool",
+								"label" : "Irises",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Torso_vis",
+								"type" : "bool",
+								"label" : "Torso",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						},
+						{
+							"channel" : {
+								"id" : "material_group_Lips_vis",
+								"type" : "bool",
+								"label" : "Lips",
+								"value" : true
+							},
+							"group" : "/Shell/Visibility/Surfaces"
+						}
+					]
+				}
+			]
+		}
+	]
+}
